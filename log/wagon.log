@@ -1,0 +1,49 @@
+# Logfile created on 2013-06-30 15:45:43 -0700 by logger.rb/1.2.8
+Started GET "/" at 2013-06-30 15:45:57 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.713ms
+
+
+Started GET "/about" at 2013-06-30 15:46:04 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.2430000000000003ms
+
+
+Started GET "/contact" at 2013-06-30 15:46:05 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.261ms
+
+
+Started GET "/contact" at 2013-06-30 15:46:06 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 1.63ms
+
+
+Started GET "/about" at 2013-06-30 15:46:07 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 1.701ms
+
+
+Started GET "/" at 2013-06-30 15:46:07 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 1.552ms
+
+
