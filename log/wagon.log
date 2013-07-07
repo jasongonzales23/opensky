@@ -4101,3 +4101,259 @@ Page not found
 Completed 200 OK in 2.682ms
 
 
+* Reloaded "pages", "snippets" at 2013-07-07 15:32:00 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:32:03 -0700
+Started GET "/home" at 2013-07-07 15:32:03 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 8.199ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:32:03 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.069ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:32:21 -0700
+Started GET "/home" at 2013-07-07 15:32:23 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.874ms
+
+
+Started GET "/home" at 2013-07-07 15:32:23 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.3400000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:32:23 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:32:23 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.21ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:32:58 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:33:01 -0700
+Started GET "/home" at 2013-07-07 15:33:01 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.766000000000002ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:33:01 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.968ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:34:43 -0700
+Started GET "/home" at 2013-07-07 15:34:44 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.348999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:34:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.019ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:34:45 -0700
+Started GET "/home" at 2013-07-07 15:34:45 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:34:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.947ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:35:08 -0700
+Started GET "/home" at 2013-07-07 15:35:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.26ms
+
+
+Started GET "/home" at 2013-07-07 15:35:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.871ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:35:10 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:35:10 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.189ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:40:03 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:40:05 -0700
+Started GET "/home" at 2013-07-07 15:40:07 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 15:40:55 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:40:57 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:40:59 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:41:01 -0700
+Started GET "/home" at 2013-07-07 15:41:02 -0700
+Detecting locale EN
+Found page "Home" [/home]
+Started GET "/home" at 2013-07-07 15:41:07 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 15:41:21 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:41:23 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:41:51 -0700
+Started GET "/home" at 2013-07-07 15:41:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+Started GET "/home" at 2013-07-07 15:41:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 15:41:54 -0700
+Started GET "/home" at 2013-07-07 15:41:57 -0700
+Detecting locale EN
+Found page "Home" [/home]
+Started GET "/home" at 2013-07-07 15:42:15 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 15:42:50 -0700
+Started GET "/home" at 2013-07-07 15:42:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.53ms
+
+
+Started GET "/home" at 2013-07-07 15:42:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.891ms
+
+
+Started GET "/home" at 2013-07-07 15:42:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.493ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:42:53 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:42:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.247ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:43:18 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:43:21 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:03 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:06 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:16 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:18 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:22 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:25 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:54 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:44:56 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:45:10 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:45:12 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:45:40 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-07-07 15:45:41 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 15:45:43 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:46:34 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:46:37 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 15:46:53 -0700
+Started GET "/home" at 2013-07-07 15:46:55 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.223ms
+
+
+Started GET "/home" at 2013-07-07 15:46:55 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.994ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:46:55 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:46:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.287ms
+
+
+Started GET "/services.html" at 2013-07-07 15:46:59 -0700
+Detecting locale EN
+Found page "Services" [/services]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.409ms
+
+

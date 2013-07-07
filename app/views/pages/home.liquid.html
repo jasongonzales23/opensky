@@ -40,17 +40,17 @@ listed: true
         <div class='span4 feature first'>
           <div class='img_box'>
             <a href='services.html'>
-              <img src="{% editable_file 'service 1 image, must be 302 x 174px' %}{% endeditable_file %}">
-                <span class='circle'>
-                  <span class='plus'>&#43;</span>
-                </span>
-              </img>
+              {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_1 != '' %}{{ feature_1 | image_tag }}{% else %}{{ 'feature_1.jpg' | theme_image_tag }}{% endif %}
+              <span class='circle'>
+                <span class='plus'>&#43;</span>
+              </span>
             </a>
           </div>
           <div class='text'>
-            <h6>{% editable_short_text, "service 1 heading" %}July Special{% endeditable_short_text %}</h6>
+            <h6>{% editable_short_text, "featire 1 heading" %}July Special{% endeditable_short_text %}</h6>
             <p>
-              {% editable_long_text "service 1 description" %}
+              {% editable_long_text "feature 1 description" %}
               Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
               {% endeditable_long_text %}
             </p>
@@ -60,17 +60,17 @@ listed: true
         <div class='span4 feature'>
           <div class='img_box'>
             <a href='services.html'>
-              <img src="{% editable_file 'service 2 image, must be 302 x 174px' %}{% endeditable_file %}">
-                <span class='circle'>
-                  <span class='plus'>&#43;</span>
-                </span>
-              </img>
+              {% capture feature_2 %}{% editable_file 'feature 2 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_2 != '' %}{{ feature_2 | image_tag }}{% else %}{{ 'feature_2.jpg' | theme_image_tag }}{% endif %}
+              <span class='circle'>
+                <span class='plus'>&#43;</span>
+              </span>
             </a>
           </div>
           <div class='text'>
-            <h6>{% editable_short_text, "service 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}</h6>
+            <h6>{% editable_short_text, "feature 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}</h6>
             <p>
-              {% editable_long_text "service 2 description" %}
+              {% editable_long_text "feature 2 description" %}
               M: 10am - 7pm<br>
               T - F: 10am - 7pm<br>
               Sat - Sun: 10am - 6pm<br>
@@ -84,17 +84,17 @@ listed: true
         <div class='span4 feature last'>
           <div class='img_box'>
             <a href='services.html'>
-              <img src="{% editable_file 'service 3 image, must be 302 x 174px' %}{% endeditable_file %}">
-                <span class='circle'>
-                  <span class='plus'>&#43;</span>
-                </span>
-              </img>
+              {% capture feature_3 %}{% editable_file 'feature 3 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_3 != '' %}{{ feature_3 | image_tag }}{% else %}{{ 'feature_3.jpg' | theme_image_tag }}{% endif %}
+              <span class='circle'>
+                <span class='plus'>&#43;</span>
+              </span>
             </a>
           </div>
           <div class='text'>
-            <h6>{% editable_short_text, "service 3 heading" %}Gift Certificates{% endeditable_short_text %}</h6>
+            <h6>{% editable_short_text, "feature 3 heading" %}Gift Certificates{% endeditable_short_text %}</h6>
             <p>
-              {% editable_long_text "service 3 description" %}
+              {% editable_long_text "feature 3 description" %}
               A gift certificate is a great gift and a great way to show someone how much you care about them!
               {% endeditable_long_text %}
             </p>
@@ -105,14 +105,14 @@ listed: true
   </div>
 </div>
 <div id='features'>
-  <!- SERVICES -->
+  <!-- SERVICES -->
   <div class='container'>
     <div class='section_header'>
       <h3>Our Services</h3>
     </div>
     <div class='row feature'>
       <div class='span6'>
-        <img src="{{ 'showcase1.png' | theme_image_url }}">
+        <img src="{{ 'service-1.jpg' | theme_image_url }}">
       </div>
       <div class='span6 info'>
         <h3>
@@ -133,12 +133,12 @@ listed: true
         </p>
       </div>
       <div class='span6'>
-        <img class='pull-right' src="{{ 'showcase2.png' | theme_image_url }}">
+        <img class='pull-right' src="{{ 'service-2.jpg' | theme_image_url }}">
       </div>
     </div>
     <div class='row feature ss'>
       <div class='span6'>
-        <img src="{{ 'showcase3.png' | theme_image_url }}">
+        <img src="{{ 'service-3.jpg' | theme_image_url }}">
       </div>
       <div class='span6 info'>
         <h3>

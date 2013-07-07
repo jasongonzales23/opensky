@@ -34,26 +34,28 @@ listed: true
         .span4.feature.first
           .img_box
             %a(href="services.html")
-              %img(src="{% editable_file 'service 1 image, must be 302 x 174px' %}{% endeditable_file %}")
-                %span.circle
-                  %span.plus &#43;
+              {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_1 != '' %}{{ feature_1 | image_tag }}{% else %}{{ 'feature_1.jpg' | theme_image_tag }}{% endif %}
+              %span.circle
+                %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "service 1 heading" %}July Special{% endeditable_short_text %}
+            %h6 {% editable_short_text, "featire 1 heading" %}July Special{% endeditable_short_text %}
             %p
-              {% editable_long_text "service 1 description" %}
+              {% editable_long_text "feature 1 description" %}
               Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
               {% endeditable_long_text %}
         <!-- Showcase -->
         .span4.feature
           .img_box
             %a(href="services.html")
-              %img(src="{% editable_file 'service 2 image, must be 302 x 174px' %}{% endeditable_file %}")
-                %span.circle
-                  %span.plus &#43;
+              {% capture feature_2 %}{% editable_file 'feature 2 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_2 != '' %}{{ feature_2 | image_tag }}{% else %}{{ 'feature_2.jpg' | theme_image_tag }}{% endif %}
+              %span.circle
+                %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "service 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}
+            %h6 {% editable_short_text, "feature 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}
             %p
-              {% editable_long_text "service 2 description" %}
+              {% editable_long_text "feature 2 description" %}
               M: 10am - 7pm<br>
               T - F: 10am - 7pm<br>
               Sat - Sun: 10am - 6pm<br>
@@ -64,23 +66,24 @@ listed: true
         .span4.feature.last
           .img_box
             %a(href="services.html")
-              %img(src="{% editable_file 'service 3 image, must be 302 x 174px' %}{% endeditable_file %}")
-                %span.circle
-                  %span.plus &#43;
+              {% capture feature_3 %}{% editable_file 'feature 3 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+              {% if feature_3 != '' %}{{ feature_3 | image_tag }}{% else %}{{ 'feature_3.jpg' | theme_image_tag }}{% endif %}
+              %span.circle
+                %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "service 3 heading" %}Gift Certificates{% endeditable_short_text %}
+            %h6 {% editable_short_text, "feature 3 heading" %}Gift Certificates{% endeditable_short_text %}
             %p
-              {% editable_long_text "service 3 description" %}
+              {% editable_long_text "feature 3 description" %}
               A gift certificate is a great gift and a great way to show someone how much you care about them!
               {% endeditable_long_text %}
 #features
-  <!- SERVICES -->
+  <!-- SERVICES -->
   .container
     .section_header
       %h3 Our Services
     .row.feature
       .span6
-        %img(src="{{ 'showcase1.png' | theme_image_url }}")
+        %img(src="{{ 'service-1.jpg' | theme_image_url }}")
       .span6.info
         %h3
           -#%img(src="{{ 'features-ico1.png' | theme_image_url}}")
@@ -95,10 +98,10 @@ listed: true
         %p
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
       .span6
-        %img.pull-right(src="{{ 'showcase2.png' | theme_image_url }}")
+        %img.pull-right(src="{{ 'service-2.jpg' | theme_image_url }}")
     .row.feature.ss
       .span6
-        %img(src="{{ 'showcase3.png' | theme_image_url }}")
+        %img(src="{{ 'service-3.jpg' | theme_image_url }}")
       .span6.info
         %h3
           -#%img(src="{{ 'features-ico3.png' | theme_image_url }}")
