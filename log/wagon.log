@@ -47,3 +47,4057 @@ Found page "Home page" [/index]
 Completed 200 OK in 1.552ms
 
 
+Invalid page template (./app/views/pages/index.liquid.haml): Illegal nesting: content can't be both given on the same line as %a and nested within it.
+Illegal nesting: content can't be both given on the same line as %a and nested within it.
+	./app/views/pages/index.liquid.haml:26
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:394:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): Illegal nesting: content can't be both given on the same line as %a and nested within it.
+Illegal nesting: content can't be both given on the same line as %a and nested within it.
+	./app/views/pages/index.liquid.haml:26
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:394:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): Unbalanced brackets.
+Unbalanced brackets.
+	./app/views/pages/index.liquid.haml:24
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:748:in `balance'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:571:in `parse_old_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:536:in `parse_tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:333:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): The line was indented 3 levels deeper than the previous line.
+The line was indented 3 levels deeper than the previous line.
+	./app/views/pages/index.liquid.haml:25
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:129:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): The line was indented 2 levels deeper than the previous line.
+The line was indented 2 levels deeper than the previous line.
+	./app/views/pages/index.liquid.haml:29
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:129:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): The line was indented 2 levels deeper than the previous line.
+The line was indented 2 levels deeper than the previous line.
+	./app/views/pages/index.liquid.haml:29
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:129:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/index.liquid.haml): The line was indented 2 levels deeper than the previous line.
+The line was indented 2 levels deeper than the previous line.
+	./app/views/pages/index.liquid.haml:29
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/parser.rb:129:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-3.2.0.rc.2/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter.rb:91:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.1.0/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.1.0/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Started GET "/" at 2013-06-30 17:03:02 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.949000000000001ms
+
+
+* Reloaded "pages", "snippets" at 2013-06-30 17:37:30 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 17:37:51 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 17:56:21 -0700
+Started GET "/" at 2013-06-30 17:56:25 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 17:57:29 -0700
+Started GET "/" at 2013-06-30 17:57:33 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 17:58:30 -0700
+Started GET "/" at 2013-06-30 17:58:34 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 17:59:09 -0700
+Started GET "/" at 2013-06-30 17:59:11 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:00:49 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:00:54 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:00:59 -0700
+Started GET "/" at 2013-06-30 18:01:00 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:01:03 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:01:13 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:01:41 -0700
+Started GET "/" at 2013-06-30 18:01:42 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:01:55 -0700
+Started GET "/" at 2013-06-30 18:01:56 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:02:18 -0700
+Started GET "/" at 2013-06-30 18:02:19 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:02:31 -0700
+Started GET "/" at 2013-06-30 18:02:32 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:03:07 -0700
+Started GET "/" at 2013-06-30 18:03:08 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:03:30 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:04:18 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:05:02 -0700
+Started GET "/" at 2013-06-30 18:05:03 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:05:31 -0700
+Started GET "/" at 2013-06-30 18:05:32 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:05:49 -0700
+Started GET "/" at 2013-06-30 18:05:50 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:06:35 -0700
+Started GET "/" at 2013-06-30 18:06:36 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:07:07 -0700
+Started GET "/" at 2013-06-30 18:07:08 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:07:29 -0700
+Started GET "/" at 2013-06-30 18:07:30 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:08:24 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:09:04 -0700
+Started GET "/" at 2013-06-30 18:09:05 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:09:53 -0700
+Started GET "/" at 2013-06-30 18:09:54 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:10:13 -0700
+Started GET "/" at 2013-06-30 18:10:14 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:10:30 -0700
+Started GET "/" at 2013-06-30 18:10:33 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:11:28 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:13:11 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:13:26 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:13:32 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:13:59 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:13:59 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:14:03 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:14:04 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:14:37 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:14:55 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:15:06 -0700
+Started GET "/" at 2013-06-30 18:15:07 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+Started GET "/" at 2013-06-30 18:15:10 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:15:42 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:15:51 -0700
+Started GET "/" at 2013-06-30 18:15:53 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:16:00 -0700
+Started GET "/" at 2013-06-30 18:16:01 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:17:35 -0700
+Started GET "/" at 2013-06-30 18:17:36 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:18:27 -0700
+Started GET "/" at 2013-06-30 18:18:28 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:18:31 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:19:14 -0700
+Started GET "/" at 2013-06-30 18:19:15 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:19:24 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:19:32 -0700
+Started GET "/" at 2013-06-30 18:19:33 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+* Reloaded "pages", "snippets" at 2013-06-30 18:20:07 -0700
+Started GET "/" at 2013-06-30 18:20:08 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+* Reloaded "pages", "snippets" at 2013-06-30 18:20:54 -0700
+Started GET "/" at 2013-06-30 18:20:56 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+* Reloaded "pages", "snippets" at 2013-06-30 18:22:55 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:23:52 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 18:23:52 -0700
+Started GET "/" at 2013-06-30 18:23:54 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.204000000000001ms
+
+
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+ (500)
+unable to get an API token:  (500)
+ (500)
+unable to get an API token:  (500)
+ (500)
+unable to get an API token:  (500)
+[0;31;49m      target_klass_name => can't be blank
+[0m
+[0;31;49m      target_klass_name => can't be blank
+[0m
+[0;31;49m      target_klass_name => can't be blank
+[0m
+Started GET "/" at 2013-06-30 19:43:43 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.813ms
+
+
+Started GET "/home" at 2013-06-30 19:47:12 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.3340000000000005ms
+
+
+* Reloaded "pages", "snippets" at 2013-06-30 19:52:25 -0700
+* Reloaded "pages", "snippets" at 2013-06-30 19:52:30 -0700
+Started GET "/home" at 2013-06-30 19:52:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.3629999999999995ms
+
+
+* Reloaded "pages", "snippets" at 2013-06-30 19:53:11 -0700
+Started GET "/home" at 2013-06-30 19:53:13 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.053ms
+
+
+* Reloaded "pages", "snippets" at 2013-06-30 19:53:48 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %section and nested within it.
+* Reloaded "pages", "snippets" at 2013-06-30 19:53:57 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %section and nested within it.
+Started GET "/home" at 2013-06-30 19:54:18 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 19:54:29 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 19:54:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 19:55:25 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 19:55:27 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 19:55:44 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 19:56:29 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 19:56:46 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 19:56:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 19:57:37 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 19:58:45 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:02:36 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:02:38 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:02:41 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 20:02:42 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:02:43 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:03:06 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 20:03:07 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:03:08 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:03:52 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 20:03:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:03:54 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:04:38 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %strong and nested within it.
+Started GET "/home" at 2013-06-30 20:04:40 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:04:40 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %strong and nested within it.
+* Reloaded "pages", "snippets" at 2013-06-30 20:05:03 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %strong and nested within it.
+Started GET "/home" at 2013-06-30 20:05:05 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:05:06 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %strong and nested within it.
+* Reloaded "pages", "snippets" at 2013-06-30 20:05:18 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 20:05:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:05:20 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:06:05 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-06-30 20:06:06 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:06:07 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-06-30 20:08:50 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+Started GET "/home" at 2013-06-30 20:08:52 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:08:52 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:09:32 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:09:34 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:09:39 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+Started GET "/home" at 2013-06-30 20:09:40 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-06-30 20:09:41 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:10:10 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:10:13 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:10:29 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:10:31 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:12:41 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:12:43 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:26 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:29 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:49 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:51 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:55 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:13:57 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:14:42 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:14:44 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:15:18 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-06-30 20:15:20 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+Started GET "/home" at 2013-06-30 20:15:21 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-01 08:06:01 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:06:10 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:06:12 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:06:33 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:06:35 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:07:57 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h6 and nested within it.
+* Reloaded "pages", "snippets" at 2013-07-01 08:07:59 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h6 and nested within it.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:17 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h6 and nested within it.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:19 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h6 and nested within it.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:32 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:34 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:53 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:08:55 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:09:05 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+* Reloaded "pages", "snippets" at 2013-07-01 08:09:06 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): The line was indented 2 levels deeper than the previous line.
+Started GET "/" at 2013-07-04 08:43:38 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.867999999999999ms
+
+
+Started GET "/" at 2013-07-04 09:10:52 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.464ms
+
+
+Started GET "/" at 2013-07-04 09:10:56 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1740000000000004ms
+
+
+Started GET "/home" at 2013-07-04 09:12:15 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.336ms
+
+
+Started GET "/contact" at 2013-07-04 09:12:34 -0700
+Detecting locale EN
+Found page "Contact" [/contact]
+Started GET "/home" at 2013-07-04 15:44:55 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 8.951ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:45:22 -0700
+Started GET "/home" at 2013-07-04 15:45:24 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.436ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:45:24 -0700
+Started GET "/home" at 2013-07-04 15:45:24 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.755ms
+
+
+Started GET "/home" at 2013-07-04 15:45:27 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.706ms
+
+
+Started GET "/home" at 2013-07-04 15:45:48 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.239ms
+
+
+Started GET "/home" at 2013-07-04 15:45:48 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9450000000000003ms
+
+
+Started GET "/home" at 2013-07-04 15:45:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.431ms
+
+
+Started GET "/home" at 2013-07-04 15:45:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.814ms
+
+
+Started GET "/" at 2013-07-04 15:46:25 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.7039999999999997ms
+
+
+Started GET "/" at 2013-07-04 15:46:25 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.3440000000000003ms
+
+
+Started GET "/home" at 2013-07-04 15:46:40 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.365ms
+
+
+Started GET "/home" at 2013-07-04 15:48:50 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.871ms
+
+
+Started GET "/home" at 2013-07-04 15:48:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.286ms
+
+
+Started GET "/home" at 2013-07-04 15:48:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9160000000000004ms
+
+
+Started GET "/home" at 2013-07-04 15:48:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.109ms
+
+
+Started GET "/home" at 2013-07-04 15:48:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.316000000000001ms
+
+
+Started GET "/home" at 2013-07-04 15:48:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.404ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:51:48 -0700
+Started GET "/home" at 2013-07-04 15:51:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.453ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:51:51 -0700
+Started GET "/home" at 2013-07-04 15:51:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.4910000000000005ms
+
+
+Started GET "/home" at 2013-07-04 15:51:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.3040000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:52:02 -0700
+Started GET "/home" at 2013-07-04 15:52:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.007000000000001ms
+
+
+Started GET "/home" at 2013-07-04 15:52:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.276999999999999ms
+
+
+Started GET "/home" at 2013-07-04 15:52:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.399ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 15:52:05 -0700
+Started GET "/home" at 2013-07-04 15:52:23 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.034000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 15:52:23 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.915ms
+
+
+Started GET "/home" at 2013-07-04 15:52:46 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.212ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 15:52:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.529ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:25:11 -0700
+Started GET "/home" at 2013-07-04 16:25:15 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.275ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:25:15 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:25:15 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.414ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:26:33 -0700
+Started GET "/home" at 2013-07-04 16:26:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.022ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:26:36 -0700
+Started GET "/home" at 2013-07-04 16:26:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.662999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:26:37 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9499999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:28:11 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 16:28:14 -0700
+Started GET "/home" at 2013-07-04 16:28:14 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.23ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:28:14 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.184ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:29:07 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 16:29:10 -0700
+Started GET "/home" at 2013-07-04 16:29:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.176ms
+
+
+Started GET "/home" at 2013-07-04 16:29:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.438ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:29:10 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.481ms
+
+
+Started GET "/home" at 2013-07-04 16:29:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.598ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:29:11 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.599ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:30:28 -0700
+Started GET "/home" at 2013-07-04 16:30:30 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.421ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:30:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.393ms
+
+
+Started GET "/home" at 2013-07-04 16:30:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.383ms
+
+
+Started GET "/home" at 2013-07-04 16:30:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.088ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:30:31 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:30:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 25.12ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:32:51 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 16:32:53 -0700
+Started GET "/home" at 2013-07-04 16:32:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.34ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:32:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.155ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:33:50 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 16:33:52 -0700
+Started GET "/home" at 2013-07-04 16:33:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.367ms
+
+
+Started GET "/home" at 2013-07-04 16:33:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.494ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:33:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.887ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:35:33 -0700
+Started GET "/home" at 2013-07-04 16:35:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.173ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:35:36 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:35:36 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.225ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:36:28 -0700
+Started GET "/home" at 2013-07-04 16:36:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.1339999999999995ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:36:31 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:36:31 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.501999999999999ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 16:38:23 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 16:38:25 -0700
+Started GET "/home" at 2013-07-04 16:38:25 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.151ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 16:38:26 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.766ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:16:58 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h2 and nested within it.
+* Reloaded "pages", "snippets" at 2013-07-04 17:17:01 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: content can't be both given on the same line as %h2 and nested within it.
+Started GET "/home" at 2013-07-04 17:17:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-04 17:17:16 -0700
+Started GET "/home" at 2013-07-04 17:17:17 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.193ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:17:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.025ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:17:19 -0700
+Started GET "/home" at 2013-07-04 17:17:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.101999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:17:20 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.912ms
+
+
+Started GET "/home" at 2013-07-04 17:17:20 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.246ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:17:20 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.506ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:18:21 -0700
+Started GET "/home" at 2013-07-04 17:18:23 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.136ms
+
+
+Started GET "/home" at 2013-07-04 17:18:23 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.763ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:18:23 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:18:23 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.709ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:19:11 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:19:13 -0700
+Started GET "/home" at 2013-07-04 17:19:15 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9639999999999995ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:19:15 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9229999999999996ms
+
+
+Started GET "/home" at 2013-07-04 17:19:15 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.377ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:19:15 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.076ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:20:48 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:20:50 -0700
+Started GET "/home" at 2013-07-04 17:20:50 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 36.348ms
+
+
+Started GET "/home" at 2013-07-04 17:20:50 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 9.190999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:20:51 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.274ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:23:59 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:24:01 -0700
+Started GET "/home" at 2013-07-04 17:24:01 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.547ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:24:03 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.4559999999999995ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:33:16 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:33:19 -0700
+Started GET "/home" at 2013-07-04 17:33:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+Started GET "/home" at 2013-07-04 17:33:19 -0700
+  Rendered liquid page template
+Detecting locale EN
+Completed 200 OK in 32.109ms
+
+
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.747000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:33:20 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.712ms
+
+
+Started GET "/home" at 2013-07-04 17:38:12 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.741ms
+
+
+Started GET "/home" at 2013-07-04 17:38:12 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.44ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:38:13 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.494ms
+
+
+Started GET "/home" at 2013-07-04 17:38:25 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.197ms
+
+
+Started GET "/home" at 2013-07-04 17:38:25 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.294ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:38:25 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.3800000000000003ms
+
+
+Started GET "/home" at 2013-07-04 17:40:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.255ms
+
+
+Started GET "/home" at 2013-07-04 17:40:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.48ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:40:36 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.441ms
+
+
+Started GET "/home" at 2013-07-04 17:40:48 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.185ms
+
+
+Started GET "/home" at 2013-07-04 17:40:48 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.355ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:40:49 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.559ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-04 17:42:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.504ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:05 -0700
+Started GET "/home" at 2013-07-04 17:57:08 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.152ms
+
+
+Started GET "/home" at 2013-07-04 17:57:08 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.6319999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:08 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:57:08 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1809999999999996ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:35 -0700
+Started GET "/home" at 2013-07-04 17:57:38 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.3629999999999995ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:57:38 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.757ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:38 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:53 -0700
+* Reloaded "pages", "snippets" at 2013-07-04 17:57:56 -0700
+Started GET "/home" at 2013-07-04 17:57:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.19ms
+
+
+Started GET "/home" at 2013-07-04 17:57:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.869ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:57:57 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.6879999999999997ms
+
+
+Started GET "/home" at 2013-07-04 17:57:57 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.29ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-04 17:57:57 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.834ms
+
+
+Started GET "/" at 2013-07-06 20:49:18 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.491ms
+
+
+Started GET "/home" at 2013-07-06 20:49:22 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.664ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 20:49:22 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.548ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 20:50:44 -0700
+Started GET "/home" at 2013-07-06 20:50:45 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.044ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 20:50:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.022ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 20:50:47 -0700
+Started GET "/home" at 2013-07-06 20:50:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.086ms
+
+
+Started GET "/home" at 2013-07-06 20:50:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.392ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 20:50:47 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.81ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:50:21 -0700
+* Reloaded "pages", "snippets" at 2013-07-06 21:50:23 -0700
+Started GET "/home" at 2013-07-06 21:50:24 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.163ms
+
+
+Started GET "/home" at 2013-07-06 21:50:24 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.557ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:50:25 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.7399999999999998ms
+
+
+Started GET "/home" at 2013-07-06 21:50:25 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1679999999999997ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:50:25 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.491ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:51:31 -0700
+Started GET "/home" at 2013-07-06 21:51:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.915ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:51:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.988ms
+
+
+Started GET "/home" at 2013-07-06 21:51:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.3379999999999996ms
+
+
+Started GET "/home" at 2013-07-06 21:51:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.189ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:51:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.458ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:51:33 -0700
+Started GET "/home" at 2013-07-06 21:51:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.39ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:51:36 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.895ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:53:30 -0700
+Started GET "/home" at 2013-07-06 21:53:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.162ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:53:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.928ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:53:32 -0700
+Started GET "/home" at 2013-07-06 21:53:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9509999999999996ms
+
+
+Started GET "/home" at 2013-07-06 21:53:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.509ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:53:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.68ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-06 21:54:09 -0700
+* Reloaded "pages", "snippets" at 2013-07-06 21:54:11 -0700
+Started GET "/home" at 2013-07-06 21:54:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.105ms
+
+
+Started GET "/home" at 2013-07-06 21:54:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.497ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-06 21:54:11 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.646ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:56:16 -0700
+Started GET "/home" at 2013-07-07 12:56:20 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.158ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:56:20 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9499999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:56:20 -0700
+Started GET "/home" at 2013-07-07 12:56:21 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.076ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:56:21 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.983ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:57:10 -0700
+Started GET "/home" at 2013-07-07 12:57:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.834ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:57:11 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9589999999999996ms
+
+
+Started GET "/home" at 2013-07-07 12:57:12 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.261ms
+
+
+Started GET "/home" at 2013-07-07 12:57:12 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.848ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:57:12 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:57:12 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1830000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:57:46 -0700
+Started GET "/home" at 2013-07-07 12:57:48 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.612ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:57:48 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.057ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:57:49 -0700
+Started GET "/home" at 2013-07-07 12:57:49 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.046ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 12:57:49 -0700
+Started GET "/home" at 2013-07-07 12:57:49 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 61.481ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 12:57:49 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.89ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:12:52 -0700
+Started GET "/home" at 2013-07-07 13:12:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.146000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:12:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.549000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:12:54 -0700
+Started GET "/home" at 2013-07-07 13:12:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.921ms
+
+
+Started GET "/home" at 2013-07-07 13:12:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.568ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:12:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.139ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:13:30 -0700
+Started GET "/home" at 2013-07-07 13:13:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.132000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:13:31 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.915ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:13:32 -0700
+Started GET "/home" at 2013-07-07 13:13:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.19ms
+
+
+Started GET "/home" at 2013-07-07 13:13:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.555ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:13:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.7239999999999998ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:14:17 -0700
+Started GET "/home" at 2013-07-07 13:14:18 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.243ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:14:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.928ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:14:20 -0700
+Started GET "/home" at 2013-07-07 13:14:20 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 11.549999999999999ms
+
+
+Started GET "/home" at 2013-07-07 13:14:20 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.655ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:14:20 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.299ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:14:43 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:14:46 -0700
+Started GET "/home" at 2013-07-07 13:14:46 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.073ms
+
+
+Started GET "/home" at 2013-07-07 13:14:46 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.073ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:14:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.663ms
+
+
+Started GET "/home" at 2013-07-07 13:15:01 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 23.692ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:15:01 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.436ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:15:06 -0700
+Started GET "/home" at 2013-07-07 13:15:07 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.425ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:15:07 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.144ms
+
+
+Started GET "/home" at 2013-07-07 13:15:08 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1ms
+
+
+Started GET "/home" at 2013-07-07 13:15:08 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.679ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:15:09 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:15:09 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 47.016000000000005ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:15:29 -0700
+Started GET "/home" at 2013-07-07 13:15:30 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.095ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:15:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.8739999999999997ms
+
+
+Started GET "/home" at 2013-07-07 13:15:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.0799999999999996ms
+
+
+Started GET "/home" at 2013-07-07 13:15:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.1069999999999998ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:15:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.691ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:15:32 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:16:41 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:16:43 -0700
+Started GET "/home" at 2013-07-07 13:16:43 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.288ms
+
+
+Started GET "/home" at 2013-07-07 13:16:43 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.185ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:16:43 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.6380000000000003ms
+
+
+Started GET "/home" at 2013-07-07 13:16:44 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.831ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:16:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.44ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:17:30 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:17:32 -0700
+Started GET "/home" at 2013-07-07 13:17:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9389999999999996ms
+
+
+Started GET "/home" at 2013-07-07 13:17:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.7680000000000002ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:17:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.645ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:17:34 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:17:36 -0700
+Started GET "/home" at 2013-07-07 13:17:37 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.1450000000000005ms
+
+
+Started GET "/home" at 2013-07-07 13:17:37 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.231ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:17:37 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.6740000000000004ms
+
+
+Started GET "/home" at 2013-07-07 13:17:38 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.8539999999999996ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:17:38 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.4450000000000003ms
+
+
+Started GET "/" at 2013-07-07 13:31:08 -0700
+Detecting locale EN
+Found page "Home page" [/index]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.249ms
+
+
+Started GET "/home" at 2013-07-07 13:31:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.134ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:31:11 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.3800000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:41:40 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:41:43 -0700
+Started GET "/home" at 2013-07-07 13:41:43 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.369ms
+
+
+Started GET "/home" at 2013-07-07 13:41:43 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.47ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:41:43 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.699ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:42:51 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:42:53 -0700
+Started GET "/home" at 2013-07-07 13:42:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.994ms
+
+
+Started GET "/home" at 2013-07-07 13:42:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.124ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:42:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.66ms
+
+
+Started GET "/home" at 2013-07-07 13:42:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.114ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:42:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.432ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:43:47 -0700
+Started GET "/home" at 2013-07-07 13:43:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.36ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:43:48 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.932ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:43:49 -0700
+Started GET "/home" at 2013-07-07 13:43:49 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.093ms
+
+
+Started GET "/home" at 2013-07-07 13:43:49 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 19.664ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:43:49 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9290000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:44:31 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:44:33 -0700
+Started GET "/home" at 2013-07-07 13:44:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9659999999999997ms
+
+
+Started GET "/home" at 2013-07-07 13:44:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.451ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:44:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.649ms
+
+
+Started GET "/home" at 2013-07-07 13:44:36 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.972ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:44:36 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.474ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:45:23 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:45:25 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:45:35 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:45:38 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:46:27 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:46:29 -0700
+Started GET "/home" at 2013-07-07 13:46:35 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 13:47:09 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:47:11 -0700
+Started GET "/home" at 2013-07-07 13:47:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.122ms
+
+
+Started GET "/home" at 2013-07-07 13:47:11 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.7279999999999998ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:47:11 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.738ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:47:58 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:48:00 -0700
+Started GET "/home" at 2013-07-07 13:48:00 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.0600000000000005ms
+
+
+Started GET "/home" at 2013-07-07 13:48:00 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.428ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:48:00 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.656ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:49:30 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:49:32 -0700
+Started GET "/home" at 2013-07-07 13:49:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.797ms
+
+
+Started GET "/home" at 2013-07-07 13:49:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.591ms
+
+
+Started GET "/home" at 2013-07-07 13:49:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.2560000000000002ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:49:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.7590000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:49:44 -0700
+Started GET "/home" at 2013-07-07 13:49:45 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9659999999999997ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:49:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.126ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:49:47 -0700
+Started GET "/home" at 2013-07-07 13:49:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.205ms
+
+
+Started GET "/home" at 2013-07-07 13:49:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.2529999999999997ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:49:47 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.101999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:50:00 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:50:03 -0700
+Started GET "/home" at 2013-07-07 13:50:03 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.481ms
+
+
+Started GET "/home" at 2013-07-07 13:50:03 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.472ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:50:03 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.6519999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:17 -0700
+Started GET "/home" at 2013-07-07 13:52:18 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:19 -0700
+Started GET "/home" at 2013-07-07 13:52:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+Started GET "/home" at 2013-07-07 13:52:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:51 -0700
+Started GET "/home" at 2013-07-07 13:52:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.163ms
+
+
+Started GET "/home" at 2013-07-07 13:52:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.934ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:52:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.684ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:53 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:55 -0700
+Started GET "/home" at 2013-07-07 13:52:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.614ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:52:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.953ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:52:57 -0700
+Started GET "/home" at 2013-07-07 13:52:57 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.093ms
+
+
+Started GET "/home" at 2013-07-07 13:52:57 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.447ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:52:57 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.791ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:53:30 -0700
+Started GET "/home" at 2013-07-07 13:53:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.0920000000000005ms
+
+
+Started GET "/home" at 2013-07-07 13:53:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.584ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:53:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.72ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:53:33 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 13:56:58 -0700
+Started GET "/home" at 2013-07-07 13:57:00 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.388999999999999ms
+
+
+Started GET "/home" at 2013-07-07 13:57:00 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.516ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:57:00 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:00 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 15.062000000000001ms
+
+
+Started GET "/home" at 2013-07-07 13:57:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.946ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:04 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.434ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:57:13 -0700
+Started GET "/home" at 2013-07-07 13:57:14 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.3870000000000005ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:14 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.9589999999999996ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:57:16 -0700
+Started GET "/home" at 2013-07-07 13:57:16 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 29.839000000000002ms
+
+
+Started GET "/home" at 2013-07-07 13:57:16 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9189999999999996ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:16 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.733ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:57:52 -0700
+Started GET "/home" at 2013-07-07 13:57:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.352ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.009ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 13:57:55 -0700
+Started GET "/home" at 2013-07-07 13:57:55 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.972ms
+
+
+Started GET "/home" at 2013-07-07 13:57:55 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.417ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 13:57:55 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.685ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:02:39 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.226ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:03:02 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.44ms
+
+
+Started GET "/home" at 2013-07-07 14:03:08 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.831ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:03:08 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.471ms
+
+
+Started GET "/home" at 2013-07-07 14:03:28 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.321ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:03:28 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.155ms
+
+
+Started GET "/home" at 2013-07-07 14:03:29 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.568ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:03:29 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.729ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:04:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.561ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:07:25 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.424ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:07:37 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.521ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:08:16 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.497ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:10:07 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:10:29 -0700
+Started GET "/home" at 2013-07-07 14:10:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.985ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:10:32 -0700
+Started GET "/home" at 2013-07-07 14:10:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.611ms
+
+
+Started GET "/home" at 2013-07-07 14:10:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.301ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:10:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.661ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:11:59 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:12:01 -0700
+Started GET "/home" at 2013-07-07 14:12:01 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.0600000000000005ms
+
+
+Started GET "/home" at 2013-07-07 14:12:01 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.42ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:12:01 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.0669999999999997ms
+
+
+Started GET "/home" at 2013-07-07 14:12:02 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.0500000000000003ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:12:02 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.415ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:12:24 -0700
+Started GET "/home" at 2013-07-07 14:12:25 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.172000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:12:25 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.004ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:12:27 -0700
+Started GET "/home" at 2013-07-07 14:12:27 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.229ms
+
+
+Started GET "/home" at 2013-07-07 14:12:27 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.103ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:12:27 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.709ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:24:22 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:24:24 -0700
+Started GET "/home" at 2013-07-07 14:24:24 -0700
+Started GET "/home" at 2013-07-07 14:24:24 -0700
+Detecting locale EN
+Detecting locale EN
+Found page "Home" [/home]
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered snippet footer
+  Rendered liquid page template
+  Rendered liquid page template
+Completed 200 OK in 24.943ms
+
+
+Completed 200 OK in 24.295ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:25:26 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:25:28 -0700
+Started GET "/home" at 2013-07-07 14:25:29 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.04ms
+
+
+Started GET "/home" at 2013-07-07 14:25:29 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.119000000000001ms
+
+
+Started GET "/%7B%20if%20svc1img" at 2013-07-07 14:25:29 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 28.012ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:25:29 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.4090000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:25:49 -0700
+Started GET "/home" at 2013-07-07 14:25:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+Started GET "/home" at 2013-07-07 14:25:51 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 14:25:51 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:26:28 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:26:30 -0700
+Started GET "/home" at 2013-07-07 14:26:30 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 8.466ms
+
+
+Started GET "/home" at 2013-07-07 14:26:30 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 26.806ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:26:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.312ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:28:53 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:28:55 -0700
+Started GET "/home" at 2013-07-07 14:28:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.234ms
+
+
+Started GET "/home" at 2013-07-07 14:28:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.8409999999999997ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:28:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.7ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:18 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:20 -0700
+Started GET "/home" at 2013-07-07 14:47:21 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.962000000000001ms
+
+
+Started GET "/home" at 2013-07-07 14:47:21 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.852ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:47:21 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 12.49ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:47:21 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.5170000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:32 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:35 -0700
+Started GET "/home" at 2013-07-07 14:47:35 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 35.499ms
+
+
+Started GET "/home" at 2013-07-07 14:47:35 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 20.688000000000002ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:47:35 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 16.105ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:47:35 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.8289999999999997ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:39 -0700
+Started GET "/home" at 2013-07-07 14:47:42 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.0920000000000005ms
+
+
+Started GET "/home" at 2013-07-07 14:47:42 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.563ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:47:42 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.473999999999999ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:47:42 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:47:42 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 24.396ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:50:13 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:50:16 -0700
+Started GET "/home" at 2013-07-07 14:50:16 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.848ms
+
+
+Started GET "/home" at 2013-07-07 14:50:16 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.408ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:50:16 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 13.493ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:50:16 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.419ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:50:17 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.403ms
+
+
+Started GET "/home" at 2013-07-07 14:50:18 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.3600000000000003ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:50:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 34.991ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:50:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.0889999999999995ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:50:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.544ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:50:51 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:50:54 -0700
+Started GET "/home" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.163ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.527ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.629ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.8249999999999997ms
+
+
+Started GET "/home" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.5460000000000003ms
+
+
+Started GET "/home" at 2013-07-07 14:50:54 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.467ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:50:55 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.637ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:50:55 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.987ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:50:55 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.4290000000000003ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:52:14 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-07-07 14:52:16 -0700
+Detecting locale EN
+Found page "Home" [/home]
+* Reloaded "pages", "snippets" at 2013-07-07 14:52:16 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-07-07 14:52:54 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:52:56 -0700
+Started GET "/home" at 2013-07-07 14:52:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.447ms
+
+
+Started GET "/home" at 2013-07-07 14:52:56 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.151ms
+
+
+Started GET "/%3Cimg%20src=" at 2013-07-07 14:52:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 17.307ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:52:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.8100000000000005ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:52:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.384ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:53:44 -0700
+Started GET "/home" at 2013-07-07 14:53:46 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.269ms
+
+
+Started GET "/home" at 2013-07-07 14:53:46 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.894ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:53:46 -0700
+Started GET "/service-1.jpg" at 2013-07-07 14:53:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 41.109ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:53:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 8.540000000000001ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:53:46 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.4810000000000003ms
+
+
+Started GET "/home" at 2013-07-07 14:53:47 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.871ms
+
+
+Started GET "/service-1.jpg" at 2013-07-07 14:53:47 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 7.024ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:53:47 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 8.541ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:53:47 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.519ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:55:30 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:55:33 -0700
+Started GET "/home" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.968ms
+
+
+Started GET "/home" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.3790000000000004ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 11.953999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.443ms
+
+
+Started GET "/home" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.371ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 11.256ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:55:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.405ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:56:17 -0700
+Started GET "/home" at 2013-07-07 14:56:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.747999999999999ms
+
+
+Started GET "/home" at 2013-07-07 14:56:19 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.016ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:56:19 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.44ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:56:19 -0700
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:56:19 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.806ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:58:10 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:58:12 -0700
+Started GET "/home" at 2013-07-07 14:58:13 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.564ms
+
+
+Started GET "/home" at 2013-07-07 14:58:13 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.812ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:58:13 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.663ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:58:13 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.406ms
+
+
+Started GET "/home" at 2013-07-07 14:58:14 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.937ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:58:14 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.795ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:58:14 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.418ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:58:38 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 14:58:40 -0700
+Started GET "/home" at 2013-07-07 14:58:41 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.577999999999999ms
+
+
+Started GET "/home" at 2013-07-07 14:58:41 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.405ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:58:41 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.473999999999999ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:58:41 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.963ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:59:03 -0700
+Started GET "/home" at 2013-07-07 14:59:04 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.697ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:59:04 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 10.825ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:59:04 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.412ms
+
+
+Started GET "/home" at 2013-07-07 14:59:05 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.332ms
+
+
+Started GET "/home" at 2013-07-07 14:59:05 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.914ms
+
+
+Started GET "/img/glyphicons-halflings.png" at 2013-07-07 14:59:06 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.112ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 14:59:06 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.5799999999999996ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 14:59:06 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:09:19 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:09:21 -0700
+Started GET "/home" at 2013-07-07 15:09:22 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.552ms
+
+
+Started GET "/home" at 2013-07-07 15:09:22 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.665ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:09:22 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.857ms
+
+
+Started GET "/features.html" at 2013-07-07 15:11:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.424ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:14:40 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.992ms
+
+
+Started GET "/home" at 2013-07-07 15:15:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.283ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:15:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.533ms
+
+
+Started GET "/services.html" at 2013-07-07 15:15:56 -0700
+Detecting locale EN
+Found page "Services" [/services]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.725ms
+
+
+Started GET "/home" at 2013-07-07 15:17:02 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.215ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:17:29 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.885ms
+
+
+Started GET "/home" at 2013-07-07 15:18:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.522ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:18:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.442ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:18:35 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.532ms
+
+
+Started GET "/home" at 2013-07-07 15:19:52 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.348ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:19:52 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.471ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:19:56 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.568ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:20:35 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.973ms
+
+
+Started GET "/home" at 2013-07-07 15:21:10 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 6.5120000000000005ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:21:10 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.403ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:21:13 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.705ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:22:18 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.49ms
+
+
+Started GET "/home" at 2013-07-07 15:22:30 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 5.785ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:22:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.433ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:22:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.648ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:25:22 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:25:50 -0700
+* Reloaded "pages", "snippets" at 2013-07-07 15:25:52 -0700
+Started GET "/home" at 2013-07-07 15:25:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.067ms
+
+
+Started GET "/home" at 2013-07-07 15:25:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.6470000000000002ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:25:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.684ms
+
+
+Started GET "/home" at 2013-07-07 15:25:53 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.785ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:25:53 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.52ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:26:29 -0700
+Started GET "/home" at 2013-07-07 15:26:31 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 4.111ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:26:31 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.162ms
+
+
+* Reloaded "pages", "snippets" at 2013-07-07 15:26:32 -0700
+Started GET "/home" at 2013-07-07 15:26:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.9779999999999998ms
+
+
+Started GET "/home" at 2013-07-07 15:26:32 -0700
+Detecting locale EN
+Found page "Home" [/home]
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 3.439ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-07-07 15:26:32 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+  Rendered liquid page template
+Completed 200 OK in 2.682ms
+
+

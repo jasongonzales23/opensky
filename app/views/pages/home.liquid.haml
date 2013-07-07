@@ -1,0 +1,203 @@
+---
+title: Home
+published: true
+listed: true
+---
+{% extends 'index' %}
+{% block 'main' %}
+%section#feature_slider
+  %article.slide#showcasing( style="background: url({{'backgrounds/Hero-1.jpg' | theme_image_url }}) repeat-x top center;")
+    .info
+      %h2 Some really nice headline
+      %a(href="features.html") SEE OUR SERVICES
+  %article.slide#ideas(style="background: url({{ 'backgrounds/Hero-2.jpg' | theme_image_url }}) repeat-x top center;")
+    .info
+      %h2 Some really nice headline
+      %a(href="features.html") SEE OUR SERVICES
+  %article.slide#tour(style="background: url({{ 'backgrounds/Hero-3.jpg' | theme_image_url}}) repeat-x top center;")
+    .info
+      %h2 Some really nice headline
+      %a(href="features.html") SEE OUR SERVICES
+  %article.slide#responsive(style="background: url({{ 'backgrounds/Hero-4.jpg' | theme_image_url }}) repeat-x top center;")
+    .info
+      %h2 Some really nice headline
+      %a(href="features.html") SEE OUR SERVICES
+
+#showcase
+  .container
+    .section_header
+      -#%h3 
+    .row.feature_wrapper
+      <!-- Showcase Row -->
+      .features_op1_row
+        <!-- Showcase -->
+        .span4.feature.first
+          .img_box
+            %a(href="services.html")
+              %img(src="{% editable_file 'service 1 image, must be 302 x 174px' %}{% endeditable_file %}")
+                %span.circle
+                  %span.plus &#43;
+          .text
+            %h6 {% editable_short_text, "service 1 heading" %}July Special{% endeditable_short_text %}
+            %p
+              {% editable_long_text "service 1 description" %}
+              Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
+              {% endeditable_long_text %}
+        <!-- Showcase -->
+        .span4.feature
+          .img_box
+            %a(href="services.html")
+              %img(src="{% editable_file 'service 2 image, must be 302 x 174px' %}{% endeditable_file %}")
+                %span.circle
+                  %span.plus &#43;
+          .text
+            %h6 {% editable_short_text, "service 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}
+            %p
+              {% editable_long_text "service 2 description" %}
+              M: 10am - 7pm<br>
+              T - F: 10am - 7pm<br>
+              Sat - Sun: 10am - 6pm<br>
+              Other Times By Appointment Only<br>
+              ph: 614-555-1212
+              {% endeditable_long_text %}
+        <!-- Showcase -->
+        .span4.feature.last
+          .img_box
+            %a(href="services.html")
+              %img(src="{% editable_file 'service 3 image, must be 302 x 174px' %}{% endeditable_file %}")
+                %span.circle
+                  %span.plus &#43;
+          .text
+            %h6 {% editable_short_text, "service 3 heading" %}Gift Certificates{% endeditable_short_text %}
+            %p
+              {% editable_long_text "service 3 description" %}
+              A gift certificate is a great gift and a great way to show someone how much you care about them!
+              {% endeditable_long_text %}
+#features
+  <!- SERVICES -->
+  .container
+    .section_header
+      %h3 Our Services
+    .row.feature
+      .span6
+        %img(src="{{ 'showcase1.png' | theme_image_url }}")
+      .span6.info
+        %h3
+          -#%img(src="{{ 'features-ico1.png' | theme_image_url}}")
+          Massage
+        %p
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+    .row.feature.ss
+      .span6.info
+        %h3
+          -#%img(src="{{ 'features-ico2.png' | theme_image_url }}")
+          Facials
+        %p
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+      .span6
+        %img.pull-right(src="{{ 'showcase2.png' | theme_image_url }}")
+    .row.feature.ss
+      .span6
+        %img(src="{{ 'showcase3.png' | theme_image_url }}")
+      .span6.info
+        %h3
+          -#%img(src="{{ 'features-ico3.png' | theme_image_url }}")
+          Waxing &amp; Tinting
+        %p
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+
+
+{% comment %}
+<!-- Pricing Option -->
+#in_pricing
+  .container
+    .section_header
+      %h3 Pricing
+    .row.charts_wrapp
+      <!-- Plan Box -->
+      .span4
+        .plan
+          .wrapper
+            %h3 Lite
+            .price
+              %span.dollar $
+              %span.qty 35
+              %span.month /month
+            .features
+              %p
+                %strong 10
+                Shared Projects
+              %p
+                %strong 4
+                Team Members
+              %p
+                %strong 10
+                Storage
+            %a.order(href="pricing.html") ORDER NOW
+        <!-- Plan Box -->
+        .span4.pro
+          .plan
+            .wrapper
+              %img.ribbon(src="{{ 'badge.png' | theme_image_url }}")
+                %h3 Pro
+                .price
+                  %span.dollar $
+                  %span.qty 99
+                  %span.month /month
+                .features
+                  %p
+                    %strong 10
+                    Shared Projects
+                  %p
+                    %strong 10
+                    Team Members
+                  %p
+                    %strong 10
+                    Storage
+                  %p
+                    %strong 10
+                    Phone Support
+                %a.order(href="pricing.html") ORDER NOW
+        <!-- Plan Box -->
+        .span4.standard
+          .plan
+            .wrapper
+              %h3 Standard
+              .price
+                %span.dollar
+                %span.qty
+                %span.month
+              .features
+                %p
+                  %strong 10
+                  Shared Projects
+                %p
+                  %strong 10
+                  Team Members
+                %p
+                  %strong 10
+                  Storage
+              a.order(href="pricing.html") ORDER NOW
+        .start
+          %p Start your free, no-risk, 14 day trial!
+          %a(href="pricing.html") Start Now!
+
+#clients
+  .container
+    .section_header
+      %h3 Clients
+    .row
+      .span2.client
+        .img.client1
+      .span2.client
+        .img.client2
+      .span2.client
+        .img.client3
+      .span2.client
+        .img.client1
+      .span2.client
+        .img.client2
+      .span2.client
+        .img.client3
+{% endcomment %}
+{% endblock %}

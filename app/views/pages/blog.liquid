@@ -1,0 +1,52 @@
+---
+title: Blog
+published: true
+listed: true
+---
+{% extends 'index' %}
+{% block 'main' %}
+    <div id="blog">
+        <div class="container">
+            <div class="section_header">
+                <h3>Blog</h3>
+            {% comment %}
+                <input type="text" class="input-large search-query" placeholder="Search">
+            {% endcomment %}
+            </div>
+
+            <!-- Post Row -->
+            <div class="row post_row">
+                {% for post in contents.posts %}
+                <!-- Post -->
+                <div class="span4 post">
+                    <div class="img">
+                        <a href="/posts/{{post._slug}}">
+                          <img src="{{ 'blog1.png' | theme_image_url }}" alt="">
+                        </a>
+                    </div>
+                    <div class="text">
+                      <h5><a href="/posts/{{post._slug}}">{{ post.title }}</a></h5>
+                      <span class="date">{{ post.publish_date }}</span>
+                        <p>{{ post.post_short_description }}<p>
+                    </div>
+                    <a class="plus_wrapper" href="/posts/{{post._slug}}">
+                        <span>&#43;</span>
+                    </a>
+                  </div> <!-- end post -->
+                {% endfor %}
+              </div><!--end row-->
+              {% comment %}
+            <div class="pagination">
+                <ul>
+                    <li><a href="#">Prev</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">Next</a></li>
+                </ul>
+            </div>
+            {% endcomment %}
+        </div>
+    </div>
+    {% endblock %}

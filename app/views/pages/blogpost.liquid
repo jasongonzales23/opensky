@@ -1,0 +1,150 @@
+---
+title: blog post
+published: false
+listed: false
+---
+{% extends 'index' %}
+{% block 'main' %}
+    <div id="blog_post">
+        <div class="container">
+            <div class="section_header">
+                <h3>Blog Post</h3>
+
+                <input type="text" class="input-large search-query" placeholder="Search">
+            </div>
+
+            <div class="row">
+                <div class="span8">
+                  <img class="post_pic" src="{{ 'blog_post.jpg' | theme_image_url}}" />
+
+                    <div class="post_content">
+                        <h2>Clean Canvas beautiful responsive theme.</h2>
+                        <span class="date">Wed, 12 Dec.</span>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, injected generators on the  embarrassing hidden in the middle all the dictionary of  randomised words which don’t look even slightly distracted by these distribution of letters, as opposed to using ‘Content here, content here making it look like readable English. Many desktop publishing packages and web page editors.
+                        </p>
+
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are anything embarrassing hidden in the middle of text. All the Lorem Ipsum necessary, making this the first true generator on the Internet. It uses an dictionary of over 200 Latin words, combined with a handful of non-characteristic words There are many variations necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Ipsum available, injected generators on the  embarrassing hidden distribution of letters, as opposed to using ‘Content here, content here making it look like readable English. Many desktop publishing packages and web page editors.</p>
+
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, injected generators on the  embarrassing hidden in the middle all the dictionary of  randomised words which don’t look even slightly distracted by these distribution of letters, as opposed to using ‘Content here, content here making it look like readable English. Many desktop publishing packages and web page editors.</p>
+                        
+                        <div class="author_box">
+                            <div class="author">Alejandra Galvan</div>
+                            <div class="area">Creative Director</div>
+                        </div>
+                    </div>
+
+                    {% comment %}
+                    <div class="comments">
+                        <h4>Comments</h4>
+
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url}}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment reply_to">
+                            <div class="row">
+                                <div class="span1 offset1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span6">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new_comment">
+                        <h4>Add Comment</h4>
+                        <form>
+                            <div class="row">
+                                <div class="span4">
+                                    <input type="text" placeholder="Name" name="name" />
+                                </div>
+                                <div class="span4">
+                                    <input type="text" placeholder="Email" name="email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <textarea placeholder="Comments" rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <a href="#" class="btn send">Add comment</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                {% endcomment %}                
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}

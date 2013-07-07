@@ -1,0 +1,309 @@
+---
+title: Home
+published: true
+listed: true
+---
+{% extends 'index' %}
+{% block 'main' %}
+%section#feature_slider"
+  {% comment %}
+    <!-- 
+        Each slide is composed by <img> and .info
+        - .info's position is customized with css in index.css
+        - each <img> parallax effect is declared by the following params inside its class:
+        
+        example: class="asset left-472 sp600 t120 z3"
+        left-472 means left: -472px from the center
+        sp600 is speed transition
+        t120 is top to 120px
+        z3 is z-index to 3
+        Note: Maintain this order of params
+
+        For the backgrounds, you can combine from the bgs folder :D
+    -->
+    {% endcomment %}
+    %article.slide#showcasing( style="background: url({{'backgrounds/landscape.png' | theme_image_url }}) repeat-x top center;")
+      %img.asset.left-230.sp600.t0.z1(src="{{ 'mary.png' | theme_image_url }}")
+        .info
+            %h2 Some really nice headline
+    %article
+    %article.slide#ideas" style="background: url({{ 'backgrounds/aqua.jpg' | theme_image_url }}) repeat-x top center;">
+        <class="info">
+            <h2>We love to turn ideas into beautiful things.</h2>
+        </>
+        %img class="asset left-480 sp600 t260 z1" src="{{ 'slides/scene2/left.png' | theme_image_url }}" />
+        %img class="asset left-210 sp600 t213 z2" src="{{ 'slides/scene2/middle.png' | theme_image_url }}" />
+        %img class="asset left60 sp600 t260 z1" src="{{ 'slides/scene2/right.png' | theme_image_url }}" />
+    </article>
+    <article class="slide" id="tour" style="background: url({{ 'backgrounds/color-splash.jpg' | theme_image_url}}) repeat-x top center;">
+      %img class="asset left-472 sp650 t210 z3" src="{{ 'slides/scene3/ipad.png' | theme_image_url }}" />
+      %img class="asset left-365 sp600 t270 z4" src="{{ 'slides/scene3/iphone.png' | theme_image_url }}" />
+      %img class="asset left-350 sp450 t135 z2" src="{{ 'slides/scene3/desktop.png' | theme_image_url }}" />
+      %img class="asset left-185 sp550 t220 z1" src="{{ 'slides/scene3/macbook.png' | theme_image_url }}" />
+        <class="info">
+            <h2>Fully Responsive theme</h2>
+            <a href="features.html">TOUR THE PRODUCT</a>
+        </>
+    </article>
+    {% comment %}
+    <article class="slide" id="responsive" style="background: url({{ 'backgrounds/indigo.jpg' | theme_image_url }}) repeat-x top center;">
+      %img class="asset left-472 sp600 t120 z3" src="{{ 'slides/scene4/html5.png' | theme_image_url}}" />
+      %img class="asset left-190 sp500 t120 z2" src="{{ 'slides/scene4/css3.png' | theme_image_url }}" />
+        <class="info">
+            <h2>
+                Responsive <strong>HTML5 & CSS3</strong>
+                Theme
+            </h2>
+        </>
+    </article>
+    {% endcomment %}
+</section>
+
+<id="showcase">
+    <class="container">
+        <class="section_header">
+            <h3>My Services</h3>
+        </>
+        <class="row feature_wrapper">
+            <!-- Features Row -->
+            <class="features_op1_row">
+                <!-- Feature -->
+                <class="span4 feature first">
+                    <class="img_box">
+                        <a href="services.html">
+                          <img src="{% editable_file "service 1 image, must be 302 x 174px" %}{% endeditable_file %}">
+                            <span class="circle">
+                                <span class="plus">&#43;</span>
+                            </span>
+                        </a>
+                    <class="text">
+                      <h6>{% editable_short_text, "service 1 heading" %}1-on-1 Conversations{% endeditable_short_text %}</h6>
+                        <p>
+                        {% editable_long_text "service 1 description" %}{% endeditable_long_text %}
+                        </p>
+                    </>
+                </>
+                <!-- Feature -->
+                <class="span4 feature">
+                    <class="img_box">
+                        <a href="services.html">
+                          <img src="{% editable_file "service 2 image, must be 302 x 174px" %}{% endeditable_file %}">
+                            <span class="circle"> 
+                                <span class="plus">&#43;</span>
+                            </span>
+                        </a>
+                    </>
+                    <class="text">
+                        <h6>{% editable_short_text, "service 2 heading" %}1-on-1 Conversations{% endeditable_short_text %}</h6>
+                        <p>
+                        {% editable_long_text "service 2 description" %}{% endeditable_long_text %}
+                        </p>
+                    </>
+                </>
+                <!-- Feature -->
+                <class="span4 feature last">
+                    <class="img_box">
+                        <a href="services.html">
+                          <img src="{% editable_file "service 3 image, must be 302 x 174px" %}{% endeditable_file %}">
+                            <span class="circle"> 
+                                <span class="plus">&#43;</span>
+                            </span>
+                        </a>
+                    </>
+                    <class="text">
+                        <h6>{% editable_short_text, "service 3 heading" %}1-on-1 Conversations{% endeditable_short_text %}</h6>
+                        <p>
+                        {% editable_long_text "service 3 description" %}{% endeditable_long_text %}
+                        </p>
+                    </>
+                </>
+            </>
+        </>
+    </>
+</>
+{% comment %}
+<id="features">
+    <div class="container">
+        <div class="section_header">
+            <h3>Features</h3>
+        </div> 
+        <div class="row feature">
+            <div class="span6">
+              <img src="{{ 'showcase1.png' | theme_image_url }}" />
+            </div>
+            <div class="span6 info">
+                <h3>
+                  <img src="{{ 'features-ico1.png' | theme_image_url}}" />
+                    Beautiful on all devices
+                </h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                </p>
+            </div>
+        </div>
+        <div class="row feature ss">
+            <div class="span6 info">
+                <h3>
+                  <img src="{{ 'features-ico2.png' | theme_image_url }}" />
+                    Blog page included
+                </h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                </p>
+            </div>
+            <div class="span6">
+              <img src="{{ 'showcase2.png' | theme_image_url }}" class="pull-right" />
+            </div>
+        </div>
+        <div class="row feature ss">
+            <div class="span6">
+              <img src="{{ 'showcase3.png' | theme_image_url }}" />
+            </div>
+            <div class="span6 info">
+                <h3>
+                  <img src="{{ 'features-ico3.png' | theme_image_url }}" />
+                    Simple and clean coming soon page
+                </h3>
+                <p>
+                    There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Pricing Option -->
+<div id="in_pricing">
+    <div class="container">
+        <div class="section_header">
+            <h3>Pricing</h3>
+        </div>
+
+        <div class="row charts_wrapp">
+            <!-- Plan Box -->
+            <div class="span4">
+                <div class="plan">
+                    <div class="wrapper">
+                        <h3>Lite</h3>
+                        <div class="price">
+                            <span class="dollar">$</span> 
+                            <span class="qty">35</span> 
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="features">
+                            <p>
+                                <strong>10</strong>
+                                Shared Projects
+                            </p>
+                            <p>
+                                <strong>4</strong>
+                                Team Members
+                            </p>
+                            <p>
+                                <strong>10</strong>
+                                Storage
+                            </p>
+                        </div>
+                        <a class="order" href="pricing.html">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Plan Box -->
+            <div class="span4 pro">
+                <div class="plan">
+                    <div class="wrapper">
+                      <img class="ribbon" src="{{ 'badge.png' | theme_image_url }}">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="dollar">$</span> 
+                            <span class="qty">99</span> 
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="features">
+                            <p>
+                                <strong>10</strong>
+                                Shared Projects
+                            </p>
+                            <p>
+                                <strong>25</strong>
+                                Team Members
+                            </p>
+                            <p>
+                                <strong>Unlimited</strong>
+                                 Storage
+                            </p>
+                            <p>
+                                <strong>Plus </strong>
+                                Phone Support
+                            </p>
+                        </div>
+                        <a class="order" href="pricing.html">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Plan Box -->
+            <div class="span4 standar">
+                <div class="plan">
+                    <div class="wrapper">
+                        <h3>Standard</h3>
+                        <div class="price">
+                            <span class="dollar">$</span> 
+                            <span class="qty">65</span> 
+                            <span class="month">/month</span>
+                        </div>
+                        <div class="features">
+                            <p>
+                                <strong>10</strong>
+                                Shared Projects
+                            </p>
+                            <p>
+                                <strong>4</strong>
+                                Team Members
+                            </p>
+                            <p>
+                                <strong>10</strong>
+                                Storage
+                            </p>
+                        </div>
+                        <a class="order" href="pricing.html">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="start">
+            <p>Start your free, no-risk, 14 day trial! </p>
+            <a href="pricing.html">Start Now!</a>
+        </div>
+    </div>
+</div>
+
+<div id="clients">
+    <div class="container">
+        <div class="section_header">
+            <h3>Clients</h3>
+        </div>
+        <div class="row">
+            <div class="span2 client">
+                <div class="img client1"></div>
+            </div>
+            <div class="span2 client">
+                <div class="img client2"></div>
+            </div>
+            <div class="span2 client">
+                <div class="img client3"></div>
+            </div>
+            <div class="span2 client">
+                <div class="img client1"></div>
+            </div>
+            <div class="span2 client">
+                <div class="img client2"></div>
+            </div>
+            <div class="span2 client">
+                <div class="img client3"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endcomment %}
+{% endblock %}

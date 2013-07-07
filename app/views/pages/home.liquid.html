@@ -1,0 +1,287 @@
+title: Home
+published: true
+listed: true
+{% extends 'index' %}
+{% block 'main' %}
+<section id='feature_slider'>
+  <article class='slide' id='showcasing' style="background: url({{'backgrounds/Hero-1.jpg' | theme_image_url }}) repeat-x top center;">
+    <div class='info'>
+      <h2>Some really nice headline</h2>
+      <a href='features.html'>SEE OUR SERVICES</a>
+    </div>
+  </article>
+  <article class='slide' id='ideas' style="background: url({{ 'backgrounds/Hero-2.jpg' | theme_image_url }}) repeat-x top center;">
+    <div class='info'>
+      <h2>Some really nice headline</h2>
+      <a href='features.html'>SEE OUR SERVICES</a>
+    </div>
+  </article>
+  <article class='slide' id='tour' style="background: url({{ 'backgrounds/Hero-3.jpg' | theme_image_url}}) repeat-x top center;">
+    <div class='info'>
+      <h2>Some really nice headline</h2>
+      <a href='features.html'>SEE OUR SERVICES</a>
+    </div>
+  </article>
+  <article class='slide' id='responsive' style="background: url({{ 'backgrounds/Hero-4.jpg' | theme_image_url }}) repeat-x top center;">
+    <div class='info'>
+      <h2>Some really nice headline</h2>
+      <a href='features.html'>SEE OUR SERVICES</a>
+    </div>
+  </article>
+</section>
+<div id='showcase'>
+  <div class='container'>
+    <div class='section_header'>
+    </div>
+    <div class='row feature_wrapper'>
+      <!-- Showcase Row -->
+      <div class='features_op1_row'>
+        <!-- Showcase -->
+        <div class='span4 feature first'>
+          <div class='img_box'>
+            <a href='services.html'>
+              <img src="{% editable_file 'service 1 image, must be 302 x 174px' %}{% endeditable_file %}">
+                <span class='circle'>
+                  <span class='plus'>&#43;</span>
+                </span>
+              </img>
+            </a>
+          </div>
+          <div class='text'>
+            <h6>{% editable_short_text, "service 1 heading" %}July Special{% endeditable_short_text %}</h6>
+            <p>
+              {% editable_long_text "service 1 description" %}
+              Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
+              {% endeditable_long_text %}
+            </p>
+          </div>
+        </div>
+        <!-- Showcase -->
+        <div class='span4 feature'>
+          <div class='img_box'>
+            <a href='services.html'>
+              <img src="{% editable_file 'service 2 image, must be 302 x 174px' %}{% endeditable_file %}">
+                <span class='circle'>
+                  <span class='plus'>&#43;</span>
+                </span>
+              </img>
+            </a>
+          </div>
+          <div class='text'>
+            <h6>{% editable_short_text, "service 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}</h6>
+            <p>
+              {% editable_long_text "service 2 description" %}
+              M: 10am - 7pm<br>
+              T - F: 10am - 7pm<br>
+              Sat - Sun: 10am - 6pm<br>
+              Other Times By Appointment Only<br>
+              ph: 614-555-1212
+              {% endeditable_long_text %}
+            </p>
+          </div>
+        </div>
+        <!-- Showcase -->
+        <div class='span4 feature last'>
+          <div class='img_box'>
+            <a href='services.html'>
+              <img src="{% editable_file 'service 3 image, must be 302 x 174px' %}{% endeditable_file %}">
+                <span class='circle'>
+                  <span class='plus'>&#43;</span>
+                </span>
+              </img>
+            </a>
+          </div>
+          <div class='text'>
+            <h6>{% editable_short_text, "service 3 heading" %}Gift Certificates{% endeditable_short_text %}</h6>
+            <p>
+              {% editable_long_text "service 3 description" %}
+              A gift certificate is a great gift and a great way to show someone how much you care about them!
+              {% endeditable_long_text %}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='features'>
+  <!- SERVICES -->
+  <div class='container'>
+    <div class='section_header'>
+      <h3>Our Services</h3>
+    </div>
+    <div class='row feature'>
+      <div class='span6'>
+        <img src="{{ 'showcase1.png' | theme_image_url }}">
+      </div>
+      <div class='span6 info'>
+        <h3>
+          Massage
+        </h3>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+        </p>
+      </div>
+    </div>
+    <div class='row feature ss'>
+      <div class='span6 info'>
+        <h3>
+          Facials
+        </h3>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+        </p>
+      </div>
+      <div class='span6'>
+        <img class='pull-right' src="{{ 'showcase2.png' | theme_image_url }}">
+      </div>
+    </div>
+    <div class='row feature ss'>
+      <div class='span6'>
+        <img src="{{ 'showcase3.png' | theme_image_url }}">
+      </div>
+      <div class='span6 info'>
+        <h3>
+          Waxing &amp; Tinting
+        </h3>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+{% comment %}
+<!-- Pricing Option -->
+<div id='in_pricing'>
+  <div class='container'>
+    <div class='section_header'>
+      <h3>Pricing</h3>
+    </div>
+    <div class='row charts_wrapp'>
+      <!-- Plan Box -->
+      <div class='span4'>
+        <div class='plan'>
+          <div class='wrapper'>
+            <h3>Lite</h3>
+            <div class='price'>
+              <span class='dollar'>$</span>
+              <span class='qty'>35</span>
+              <span class='month'>/month</span>
+            </div>
+            <div class='features'>
+              <p>
+                <strong>10</strong>
+                Shared Projects
+              </p>
+              <p>
+                <strong>4</strong>
+                Team Members
+              </p>
+              <p>
+                <strong>10</strong>
+                Storage
+              </p>
+            </div>
+            <a class='order' href='pricing.html'>ORDER NOW</a>
+          </div>
+        </div>
+        <!-- Plan Box -->
+        <div class='span4 pro'>
+          <div class='plan'>
+            <div class='wrapper'>
+              <img class='ribbon' src="{{ 'badge.png' | theme_image_url }}">
+                <h3>Pro</h3>
+                <div class='price'>
+                  <span class='dollar'>$</span>
+                  <span class='qty'>99</span>
+                  <span class='month'>/month</span>
+                </div>
+                <div class='features'>
+                  <p>
+                    <strong>10</strong>
+                    Shared Projects
+                  </p>
+                  <p>
+                    <strong>10</strong>
+                    Team Members
+                  </p>
+                  <p>
+                    <strong>10</strong>
+                    Storage
+                  </p>
+                  <p>
+                    <strong>10</strong>
+                    Phone Support
+                  </p>
+                </div>
+                <a class='order' href='pricing.html'>ORDER NOW</a>
+              </img>
+            </div>
+          </div>
+        </div>
+        <!-- Plan Box -->
+        <div class='span4 standard'>
+          <div class='plan'>
+            <div class='wrapper'>
+              <h3>Standard</h3>
+              <div class='price'>
+                <span class='dollar'></span>
+                <span class='qty'></span>
+                <span class='month'></span>
+              </div>
+              <div class='features'>
+                <p>
+                  <strong>10</strong>
+                  Shared Projects
+                </p>
+                <p>
+                  <strong>10</strong>
+                  Team Members
+                </p>
+                <p>
+                  <strong>10</strong>
+                  Storage
+                </p>
+              </div>
+              a.order(href="pricing.html") ORDER NOW
+            </div>
+          </div>
+        </div>
+        <div class='start'>
+          <p>Start your free, no-risk, 14 day trial!</p>
+          <a href='pricing.html'>Start Now!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id='clients'>
+  <div class='container'>
+    <div class='section_header'>
+      <h3>Clients</h3>
+    </div>
+    <div class='row'>
+      <div class='span2 client'>
+        <div class='img client1'></div>
+      </div>
+      <div class='span2 client'>
+        <div class='img client2'></div>
+      </div>
+      <div class='span2 client'>
+        <div class='img client3'></div>
+      </div>
+      <div class='span2 client'>
+        <div class='img client1'></div>
+      </div>
+      <div class='span2 client'>
+        <div class='img client2'></div>
+      </div>
+      <div class='span2 client'>
+        <div class='img client3'></div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endcomment %}
+{% endblock %}

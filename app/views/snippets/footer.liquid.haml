@@ -1,2 +1,62 @@
-.footer
-  %p &copy; Company {{ now | localized_date: '%Y' }}
+%footer#footer
+  .container
+    .row.sections
+      .span4.recent_posts
+        %h3.footer_header
+          News & Events
+        .post
+          .date Summer Hours
+          %a.title(href = "blogpost.html")
+            {% editable_short_text "News & Events in footer" %}
+            July 3: 10am-7pm <br>
+            July 4: closed<br>
+            July 5: 10am-7pm<br>
+            July 6: 10am-6pm<br>
+            July 7: 12pm-6pm
+            {% endeditable_short_text %}
+        {% comment %}
+        .post
+          %a(href = "#")
+            %img.img-circle(src = "{{ 'recent_post1.png' | theme_image_url }}")
+          .date Wed, 12 Dec
+          %a.title(href = "blogpost.html")
+            Randomised words which don't look embarrasing hidden.
+        {% endcomment %}
+      .span4.testimonials
+        %h3.footer_header Contact Us
+        .wrapper
+          .quote
+            %p
+              {% editable_long_text "Contact Us info in footer" %}
+              Open Sky Day Spa<br>
+              1334 West Fifth Avenue<br>
+              Columbus, Ohio 43212<br>
+              614.486.4520<br>
+              <p>
+              appointments@openskydayspa.com
+              </p>
+              {%endeditable_long_text %}
+            %span
+          .author
+            %img(src = "{{ 'sheri-circle-sm.png' | theme_image_url }}")
+            .name Sheri Gunn
+            .info Good Lady
+      .span4.contact
+        %h3.footer_header Join Our Email List
+        %form
+          %p Link to form will be here, coming soon!
+    .row.credits
+      .span12
+        .row.social
+          .span12
+            %a.facebook(href = "#")
+              %span.socialicons.ico1
+              %span.socialicons_h.ico1h
+            %a.twitter(href = "#")
+              %span.socialicons.ico2
+              %span.socialicons_h.ico2h
+            %a.gplus(href="#")
+              %span.socialicons.ico3
+              %span.socialicons_h.ico3h
+        .row.copyright
+          .span12 © {{ today | date: "%Y" }} Open Sky Day Spa. All rights reserved.

@@ -1,0 +1,141 @@
+---
+title: Post template page
+content_type: posts
+---
+{% extends 'index' %}
+{% block 'main' %}
+    <div id="blog_post">
+        <div class="container">
+                {% comment %}
+            <div class="section_header">
+                <h3>Blog Post</h3>
+                <input type="text" class="input-large search-query" placeholder="Search">
+            </div>
+                {% endcomment %}
+
+            <div class="row">
+                <div class="span8">
+                  <img class="post_pic" src="{{ post.image.url }}" />
+
+                    <div class="post_content">
+                        <h2>{{post.title}}</h2>
+                        <span class="date">{{post.publish_date}}</span>
+                        <p>{{post.post_text | textile }}</p>
+                        <div class="author_box">
+                            <div class="author"></div>
+                            <div class="area"></div>
+                        </div>
+                    </div>
+
+                    {% comment %}
+                    <div class="comments">
+                        <h4>Comments</h4>
+
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url}}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment reply_to">
+                            <div class="row">
+                                <div class="span1 offset1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span6">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment">
+                            <div class="row">
+                                <div class="span1">
+                                  <img src="{{ 'user-display.png' | theme_image_url }}" class="img-circle author_pic" />
+                                </div>
+                                <div class="span7">
+                                    <div class="name">
+                                        Alejandra Galvan
+                                        <a href="#" class="reply">Reply</a>
+                                    </div>
+                                    <div class="date">
+                                        Oct 12, 2012
+                                    </div>
+                                    <div class="response">
+                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new_comment">
+                        <h4>Add Comment</h4>
+                        <form>
+                            <div class="row">
+                                <div class="span4">
+                                    <input type="text" placeholder="Name" name="name" />
+                                </div>
+                                <div class="span4">
+                                    <input type="text" placeholder="Email" name="email" />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <textarea placeholder="Comments" rows="7"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="span8">
+                                    <a href="#" class="btn send">Add comment</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                {% endcomment %}                
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}

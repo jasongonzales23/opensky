@@ -1,8 +1,7 @@
 development:
-  host: dev.example.com
-  email: john@doe.net
-  password: apassword
-  # api_key: <your api key here>
+  host: localhost:8080
+  email: jason.gonzales23@gmail.com
+  password: plaster23
 staging:
   host: staging.example.com
   email: john@doe.net
