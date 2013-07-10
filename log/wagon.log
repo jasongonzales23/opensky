@@ -4357,3 +4357,9 @@ Found page "Services" [/services]
 Completed 200 OK in 4.409ms
 
 
+[0;31;49m      target_klass_name => can't be blank
+[0m
+[0;31;49m      error => Missing required arguments: aws_access_key_id, aws_secret_access_key
+[0m
+[0;31;49m      error => Missing required arguments: aws_access_key_id, aws_secret_access_key
+[0m
