@@ -1,5 +1,5 @@
 development:
-  host: localhost:8080
+  host: localhost:3000
   email: jason.gonzales23@gmail.com
   password: plaster23
 staging:

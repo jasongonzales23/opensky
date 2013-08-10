@@ -4363,3 +4363,25 @@ Completed 200 OK in 4.409ms
 [0m
 [0;31;49m      error => Missing required arguments: aws_access_key_id, aws_secret_access_key
 [0m
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+      template => Liquid Syntax error ('Tag '{% 'logo.png' | theme_image_tag %}' was not properly terminated with regexp: /\%\}/ ' on 'index')
+      raw_template => Liquid Syntax error ('Tag '{% 'logo.png' | theme_image_tag %}' was not properly terminated with regexp: /\%\}/ ' on 'index')
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m

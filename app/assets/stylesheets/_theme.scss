@@ -33,7 +33,9 @@ header {
     margin-bottom: 35px;
 }
 .navbar.transparent.navbar-inverse .navbar-inner {
-    background: rgba(0,0,0,0.4);
+    background: rgba(191, 231, 241, 0.7); //#BFE7F1;
+    border-bottom: 1px solid #585858;
+    //background: rgba(0,0,0,0.4);
     border-bottom: 1px solid rgb(88, 88, 88);
 }
 .navbar.transparent.navbar-inverse .navbar-inner .container {

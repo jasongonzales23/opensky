@@ -28,7 +28,8 @@ published: true
             %span.icon-bar
             %span.icon-bar
           %a.brand(href = '/home')
-            %strong OPEN SKY DAY SPA
+            {{ 'logo.png' | theme_image_tag }}
+            -#%strong OPEN SKY DAY SPA
           .nav-collapse.collapse
             %ul.nav.pull-right
               {% nav site, no_wrapper: true, active_class: 'active', class: 'nav pull-right' %}

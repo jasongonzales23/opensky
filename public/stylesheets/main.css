@@ -3377,7 +3377,6 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   float: left;
   display: block;
-  padding: 10px 20px 10px;
   margin-left: -20px;
   font-size: 20px;
   font-weight: 200;
@@ -5764,7 +5763,8 @@ header {
   margin-bottom: 35px; }
 
 .navbar.transparent.navbar-inverse .navbar-inner {
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(191, 231, 241, 0.7);
+  border-bottom: 1px solid #585858;
   border-bottom: 1px solid #585858; }
 
 .navbar.transparent.navbar-inverse .navbar-inner .container {
@@ -6263,7 +6263,7 @@ header {
 .slide#showcasing .info a {
   color: #fff;
   font-weight: bold;
-  background-color: #1189d9;
+  background-color: #bfe7f1;
   padding: 13px 30px;
   font-size: 19px;
   border-radius: 5px;
@@ -6292,7 +6292,7 @@ header {
 .slide#ideas .info a {
   color: #fff;
   font-weight: bold;
-  background-color: #1189d9;
+  background-color: #bfe7f1;
   padding: 13px 30px;
   font-size: 19px;
   border-radius: 5px;
@@ -6321,7 +6321,7 @@ header {
 .slide#tour .info a {
   color: #fff;
   font-weight: bold;
-  background-color: #1189d9;
+  background-color: #bfe7f1;
   padding: 13px 30px;
   font-size: 19px;
   border-radius: 5px;
@@ -6353,7 +6353,7 @@ header {
 .slide#responsive .info a {
   color: #fff;
   font-weight: bold;
-  background-color: #1189d9;
+  background-color: #bfe7f1;
   padding: 13px 30px;
   font-size: 19px;
   border-radius: 5px;
