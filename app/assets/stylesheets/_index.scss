@@ -1,8 +1,8 @@
 /* Main Slider
 -------------------------------------------------- */
 #feature_slider {
-    height:720px;
-    height: 480px;
+    //height:720px;
+    height: 466px;
     background: #262626;
     z-index: 1;
     margin-bottom: 40px;
@@ -91,14 +91,14 @@
     z-index: 10;
 }
 .slide#showcasing .info h2 {
-    color: #fff;
+    color: $themecolorRed;
     font-size: 45px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
     line-height: 57px;
 }
 .slide#showcasing .info a {
-    color: #fff;
+    color: $themecolorRed;
     font-weight: bold;
     background-color: $themecolorBlue;
     padding: 13px 30px;
@@ -120,7 +120,7 @@
     z-index: 10;
 }
 .slide#ideas .info h2 {
-    color: #fff;
+    color: $themecolorRed;
     font-size: 45px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
@@ -128,7 +128,7 @@
 }
 
 .slide#ideas .info a {
-    color: #fff;
+    color: $themecolorRed;
     font-weight: bold;
     background-color: $themecolorBlue;
     padding: 13px 30px;
@@ -150,14 +150,14 @@
     z-index: 10;
 }
 .slide#tour .info h2 {
-    color: #fff;
+    color: $themecolorRed;
     font-size: 45px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
     line-height: 57px;
 }
 .slide#tour .info a {
-    color: #fff;
+    color: $themecolorRed;
     font-weight: bold;
     background-color: $themecolorBlue;
     padding: 13px 30px;
@@ -181,7 +181,7 @@
     z-index: 10;
 }
 .slide#responsive .info h2 {
-    color: #fff;
+    color: $themecolorRed;
     font-size: 45px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
@@ -192,7 +192,7 @@
 }
 
 .slide#responsive .info a {
-    color: #fff;
+    color: $themecolorRed;
     font-weight: bold;
     background-color: $themecolorBlue;
     padding: 13px 30px;
@@ -650,6 +650,9 @@
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
+    #showcase {
+      margin-top: 40px;
+    }
     #showcase .features_op1_row .feature {
         margin-bottom: 60px;
     }
