@@ -82,7 +82,7 @@
 /* Custom styles for each slide */
 
 /* Slide 1 */
-.slide#showcasing .info {
+.slide .info {
     position: absolute;
     top: 160px;
     left: 13%;
@@ -90,14 +90,14 @@
     display: none;
     z-index: 10;
 }
-.slide#showcasing .info h2 {
+.slide .info h2 {
     color: $themecolorRed;
     font-size: 45px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
     line-height: 57px;
 }
-.slide#showcasing .info a {
+.slide .info a {
     color: $themecolorRed;
     font-weight: bold;
     background-color: $themecolorBlue;

@@ -1,5 +1,5 @@
 ---
-title: Home page
+title: index
 published: true
 ---
 !!!
@@ -19,6 +19,7 @@ published: true
     / HTML5 shim, for IE6-8 support of HTML5 elements
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  {% inline_editor %}
   %body.pull_top
     .navbar.transparent.navbar-inverse.navbar-fixed-top
       .navbar-inner
@@ -29,20 +30,13 @@ published: true
             %span.icon-bar
           %a.brand(href = '/home')
             {{ 'logo.png' | theme_image_tag }}
-            -#%strong OPEN SKY DAY SPA
           .nav-collapse.collapse
             %ul.nav.pull-right
               {% nav site, no_wrapper: true, active_class: 'active', class: 'nav pull-right' %}
 
     {% block 'main' %}
     {% endblock %}
-    %hr
 
     {% include footer %}
-    / /container
-    /
-      Le javascript
-      \==================================================
-    / Placed at the end of the document so the pages load faster
     %script{:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"}
     {{ 'main.js' | javascript_tag }}

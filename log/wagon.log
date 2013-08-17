@@ -5003,3 +5003,1446 @@ Completed 200 OK in 2.599ms
 [0m
 [0;31;49m      local_path => is already taken
 [0m
+Started GET "/" at 2013-08-12 20:28:24 -0700
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 15.5ms
+
+
+Started GET "/home" at 2013-08-12 20:28:31 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.7ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:28:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 2.7ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 20:38:58 -0700
+* Reloaded "pages", "snippets" at 2013-08-12 20:39:01 -0700
+Started GET "/home" at 2013-08-12 20:39:02 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.4ms
+
+
+Started GET "/home" at 2013-08-12 20:39:02 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 30.3ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:39:02 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 3.8ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 20:39:47 -0700
+* Reloaded "pages", "snippets" at 2013-08-12 20:39:50 -0700
+Started GET "/home" at 2013-08-12 20:39:50 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Started GET "/home" at 2013-08-12 20:39:50 -0700
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Detecting locale EN
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Found page "Home" [home]
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Completed 200 OK in 17.8ms
+
+
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 8.7ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:39:50 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.5ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 20:39:50 -0700
+Started GET "/home" at 2013-08-12 20:39:52 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.3ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:39:52 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 3.4ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 20:39:54 -0700
+Started GET "/home" at 2013-08-12 20:39:54 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Started GET "/home" at 2013-08-12 20:39:54 -0700
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Detecting locale EN
+  Rendered liquid page template
+Found page "Home" [home]
+Completed 200 OK in 12.5ms
+
+
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 6.2ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:39:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 4.3ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 20:40:52 -0700
+* Reloaded "pages", "snippets" at 2013-08-12 20:40:54 -0700
+Started GET "/home" at 2013-08-12 20:40:54 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.3ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:40:54 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 3.3ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:41:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 28.3ms
+
+
+Started GET "/home" at 2013-08-12 20:41:45 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.2ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:41:45 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 3.6ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:42:08 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 2.8ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 20:42:30 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 3.3ms
+
+
+undefined method `permalink!' for {"url"=>"Sample 1"}:Hash
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_entry.rb:240:in `block (2 levels) in set_slug'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_entry.rb:229:in `block in set_slug'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_entry.rb:228:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_entry.rb:228:in `set_slug'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_type.rb:81:in `block in build_entry'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_type.rb:60:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/content_type.rb:60:in `build_entry'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:75:in `add'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:29:in `block (2 levels) in fetch_from_filesystem'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `each_with_index'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:28:in `block in fetch_from_filesystem'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:21:in `fetch_from_filesystem'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_entries_reader.rb:13:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Started GET "/locomotive" at 2013-08-12 20:58:33 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 4.1ms
+
+
+Started GET "/" at 2013-08-12 21:11:12 -0700
+Detecting locale EN
+Found page "Home page" [index]
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 4.1ms
+
+
+Started GET "/home" at 2013-08-12 21:11:19 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 4.9ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 21:11:19 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 2.7ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 21:12:04 -0700
+Started GET "/home" at 2013-08-12 21:12:05 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 37.0ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 21:12:05 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 5.3ms
+
+
+Started GET "/home" at 2013-08-12 21:12:07 -0700
+Detecting locale EN
+Found page "Home" [home]
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Started GET "/home" at 2013-08-12 21:12:07 -0700
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Detecting locale EN
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Found page "Home" [home]
+  Rendered snippet footer
+[0;39;49m  [main/feature 1 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 1 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 2 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+[0;39;49m  [main/feature 2 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+Completed 200 OK in 16.3ms
+
+
+[0;39;49m  [main/feature 3 heading] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [main/feature 3 description] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 8.9ms
+
+
+Started GET "/img/leftright-arrows.png" at 2013-08-12 21:12:07 -0700
+Detecting locale EN
+Page not found
+  Rendered snippet footer
+[0;39;49m  [/News & Events in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+[0;39;49m  [/Contact Us info in footer] The editable_{short|long}_text tags are deprecated. Use editable_text instead.[0m
+  Rendered liquid page template
+Completed 200 OK in 4.0ms
+
+
+* Reloaded "pages", "snippets" at 2013-08-12 21:12:07 -0700
+* Reloaded "pages", "snippets" at 2013-08-12 21:13:35 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-08-12 21:13:37 -0700
+Detecting locale EN
+Found page "Home" [home]
+* Reloaded "pages", "snippets" at 2013-08-12 21:13:38 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-08-12 21:13:48 -0700
+* Reloaded "pages", "snippets" at 2013-08-12 21:13:50 -0700
+Started GET "/home" at 2013-08-12 21:13:50 -0700
+Detecting locale EN
+Found page "Home" [home]
+Started GET "/home" at 2013-08-12 21:13:50 -0700
+Detecting locale EN
+Found page "Home" [home]
+Started GET "/home" at 2013-08-12 21:13:58 -0700
+Detecting locale EN
+Found page "Home" [home]
+* Reloaded "pages", "snippets" at 2013-08-12 21:14:16 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+* Reloaded "pages", "snippets" at 2013-08-12 21:14:18 -0700
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Started GET "/home" at 2013-08-12 21:14:19 -0700
+Detecting locale EN
+Found page "Home" [home]
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:5
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:5
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:5
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:5
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Started GET "/home" at 2013-08-12 21:18:23 -0700
+Detecting locale EN
+Found page "Home" [home]
+Started GET "/home" at 2013-08-12 21:18:26 -0700
+Detecting locale EN
+Found page "Home" [home]
+unable to get an API token: 
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+unable to get an API token: Connection refused - connect(2)
+[0;31;49m      local_path => is already taken
+[0m
+Invalid page template (./app/views/pages/home.liquid.haml): Invalid attribute list: "(href=hero_slide.call_to_action_link)".
+Invalid attribute list: "(href=hero_slide.call_to_action_link)".
+	./app/views/pages/home.liquid.haml:9
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:600:in `block in parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `loop'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:540:in `parse_tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:333:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Invalid attribute list: "(href=hero_slide.call_to_action_link)".
+Invalid attribute list: "(href=hero_slide.call_to_action_link)".
+	./app/views/pages/home.liquid.haml:9
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:600:in `block in parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `loop'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:540:in `parse_tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:333:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined local variable or method `hero_slide' for #<Object:0x007fccfd352718 @haml_buffer=nil>
+	./app/views/pages/home.liquid.haml:9:in `evaluate_source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `instance_eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `evaluate_source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:144:in `cached_evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:127:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/page.rb:312:in `source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:31:in `block (3 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:29:in `block (2 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `block in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:15:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+./app/views/pages/home.liquid.haml:11: syntax error, unexpected keyword_ensure, expecting ')'
+./app/views/pages/home.liquid.haml:13: syntax error, unexpected keyword_end, expecting '}'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `instance_eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `evaluate_source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:144:in `cached_evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:127:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/page.rb:312:in `source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:31:in `block (3 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:29:in `block (2 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `block in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:15:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:6
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Invalid attribute list: "(href: \#{hero_slide.call_to_action_link\"})".
+Invalid attribute list: "(href: \#{hero_slide.call_to_action_link\"})".
+	./app/views/pages/home.liquid.haml:9
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:600:in `block in parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `loop'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:540:in `parse_tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:333:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:24
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+[0;31;49m      local_path => is already taken
+[0m
+Invalid email or password. (401)
+unable to get an API token: Invalid email or password. (401)
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:2
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Illegal nesting: nesting within plain text is illegal.
+Illegal nesting: nesting within plain text is illegal.
+	./app/views/pages/home.liquid.haml:2
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:256:in `plain'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:236:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+[0;31;49m      local_path => is already taken
+[0m
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+undefined method `localize_fullpath' for nil:NilClass
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `block in read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:25:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:24:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:175:in `serve'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected ')'
+...hort_text "service 1 heading"%)}>Massage{% endeditable_short...
+...                               ^
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected '}'
+...age{% endeditable_short_text %}</a>\n        </h3>\n        ...
+...                               ^
+./app/views/pages/home.liquid.haml:73: unknown regexp option - h
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected tINTEGER, expecting '}'
+...short_text %}</a>\n        </h3>\n        <p>\n          {% ...
+...                               ^
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected $undefined
+...a>\n        </h3>\n        <p>\n          {% editable_long_t...
+...                               ^
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected $undefined, expecting '}'
+...        {% editable_long_text \"service 1 text\" %}\n       ...
+...                               ^
+./app/views/pages/home.liquid.haml:73: syntax error, unexpected ',', expecting '}'
+...dcomment %}\n{% endblock %}\n", -5, false);
+...                               ^
+./app/views/pages/home.liquid.haml:77: syntax error, unexpected keyword_end, expecting '}'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `instance_eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:209:in `evaluate_source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:144:in `cached_evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:127:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:24:in `evaluate'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:76:in `render'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/models/page.rb:312:in `source'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:31:in `block (3 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:29:in `block (2 levels) in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:28:in `block in fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:27:in `fetch_from_pages'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/content_assets_reader.rb:15:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+Invalid page template (./app/views/pages/home.liquid.haml): Invalid attribute list: "(href={{service1_link}})".
+Invalid attribute list: "(href={{service1_link}})".
+	./app/views/pages/home.liquid.haml:74
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:600:in `block in parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `loop'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:594:in `parse_new_attributes'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:540:in `parse_tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:333:in `tag'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:214:in `process_line'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/parser.rb:122:in `parse'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/haml-4.0.3/lib/haml/engine.rb:66:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/haml.rb:19:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/extensions/tilt/haml.rb:20:in `prepare'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt/template.rb:69:in `initialize'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/tilt-1.3.3/lib/tilt.rb:61:in `new'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:129:in `set_attributes_from_header'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:85:in `block (2 levels) in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter.rb:94:in `with_locale'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:84:in `block in fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:74:in `fetch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/file_system/pages_reader.rb:20:in `read'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:76:in `block (2 levels) in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `each'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:73:in `block in build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `tap'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:70:in `build_mounting_point'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_mounter-1.2.2/lib/locomotive/mounter/reader/runner.rb:29:in `run!'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:161:in `require_mounter'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon.rb:59:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/lib/locomotive/wagon/cli.rb:192:in `push'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/command.rb:27:in `run'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/invocation.rb:120:in `invoke_command'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor.rb:363:in `dispatch'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/thor-0.18.1/lib/thor/base.rb:439:in `start'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/gems/locomotivecms_wagon-1.2.2/bin/wagon:9:in `<top (required)>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `load'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/wagon:23:in `<main>'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `eval'
+	/Users/jasongonzales/.rvm/gems/ruby-1.9.3-p194/bin/ruby_noexec_wrapper:14:in `<main>'
+
+
+      template => Liquid Syntax error ('Unknown tag 'endcapture'' on 'home')
+      raw_template => Liquid Syntax error ('Unknown tag 'endcapture'' on 'home')
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m

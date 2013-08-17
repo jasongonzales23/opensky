@@ -6,27 +6,15 @@ listed: true
 {% extends 'index' %}
 {% block 'main' %}
 %section#feature_slider
-  %article.slide#showcasing( style="background: url({{'backgrounds/feature_1.png' | theme_image_url }}) repeat-x top center;")
+  {% for hero_slide in contents.hero_slides %}
+  {% capture hero_img %}{{hero_slide.image.url}}{% endcapture %}
+  %article.slide( style="background: url({{ hero_img }}) repeat-x top center;")
     .info
-      %h2 Some really nice headline
-      %a(href="features.html") SEE OUR SERVICES
-  %article.slide#ideas(style="background: url({{ 'backgrounds/feature_2.png' | theme_image_url }}) repeat-x top center;")
-    .info
-      %h2 Some really nice headline
-      %a(href="features.html") SEE OUR SERVICES
-  %article.slide#tour(style="background: url({{ 'backgrounds/feature_3.png' | theme_image_url}}) repeat-x top center;")
-    .info
-      %h2 Some really nice headline
-      %a(href="features.html") SEE OUR SERVICES
-  %article.slide#responsive(style="background: url({{ 'backgrounds/feature_4.png' | theme_image_url }}) repeat-x top center;")
-    .info
-      %h2 Some really nice headline
-      %a(href="features.html") SEE OUR SERVICES
-
+      %h2 {{ hero_slide.heading }}
+      %a(href="{{hero_slide.call_to_action_link}}") {{hero_slide.call_to_action}}
+  {% endfor %}
 #showcase
   .container
-    -#.section_header
-      -#%h3 
     .row.feature_wrapper
       <!-- Showcase Row -->
       .features_op1_row
@@ -39,7 +27,7 @@ listed: true
               %span.circle
                 %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "featire 1 heading" %}July Special{% endeditable_short_text %}
+            %h6 {% editable_short_text, "feature 1 heading" %}July Special{% endeditable_short_text %}
             %p
               {% editable_long_text "feature 1 description" %}
               Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
@@ -83,33 +71,35 @@ listed: true
       %h3 Our Services
     .row.feature
       .span6
-        %img(src="{{ 'service-1.jpg' | theme_image_url }}")
+        {% capture service1_img %}{% editable_file "Service 1 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {%if service1_img != '' %}{{ service1_img | image_tag }}{%else%}{{ 'service1.jpg' | theme_image_tag }}{% endif %}
       .span6.info
         %h3
-          -#%img(src="{{ 'features-ico1.png' | theme_image_url}}")
-          Massage
+          {% capture service1_link %}{%editable_short_text "service 1 link" %}{% endeditable_short_text %}{% endcapture %}
+          %a(href="{{service1_link}}")
+            {% editable_short_text "service 1 heading"%}Massage{% endeditable_short_text %}
         %p
+          {% editable_long_text "service 1 text" %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+          {% endeditable_long_text %}
     .row.feature.ss
       .span6.info
         %h3
-          -#%img(src="{{ 'features-ico2.png' | theme_image_url }}")
           Facials
         %p
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
       .span6
-        %img.pull-right(src="{{ 'service-2.jpg' | theme_image_url }}")
+        {% capture service2_img %}{% editable_file "Service 2 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {%if service2_img != '' %}{{ service2_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-2.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
     .row.feature.ss
       .span6
-        %img(src="{{ 'service-3.jpg' | theme_image_url }}")
+        {% capture service3_img %}{% editable_file "Service 3 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {%if service3_img != '' %}{{ service3_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-3.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
       .span6.info
         %h3
-          -#%img(src="{{ 'features-ico3.png' | theme_image_url }}")
           Waxing &amp; Tinting
         %p
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-
-
 {% comment %}
 <!-- Pricing Option -->
 #in_pricing

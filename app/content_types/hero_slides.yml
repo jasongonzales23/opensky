@@ -1,0 +1,56 @@
+# Public name of this content type
+name: Hero slides
+
+# TODO: explain
+slug: hero_slides
+
+# Explanation for the backoffice
+description: Upload image for the hero slideshow and add titles and all that fun stuff
+
+# Default field (e.g title)
+label_field_name: heading
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+# Describe each field. The name shoud always be an underscored string
+fields: 
+- image: # Name of the field
+    label: Image
+    type: file
+    required: true
+    hint: The image needs to measure 1500 x 465 pixels, try to keep the filesize small!
+    localized: false
+
+- heading: # Name of the field
+    label: Heading
+    type: string
+    required: false
+    hint: Make a short, snappy heading for the slide
+    localized: false
+
+- call_to_action: # Name of the field
+    label: Call to action
+    type: string
+    required: false
+    hint: Make a really short, snappy call to action for a button, something like "See our services"
+    localized: false
+
+- call_to_action_link: # Name of the field
+    label: Call to action link
+    type: string
+    required: false
+    hint: type the url of the page you want to link to
+    localized: false

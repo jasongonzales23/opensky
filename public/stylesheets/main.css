@@ -7500,7 +7500,7 @@ header {
 /* Custom styles for each slide */
 /* Slide 1 */
 /* line 85, ../../app/assets/stylesheets/_index.scss */
-.slide#showcasing .info {
+.slide .info {
   position: absolute;
   top: 160px;
   left: 13%;
@@ -7509,7 +7509,7 @@ header {
   z-index: 10; }
 
 /* line 93, ../../app/assets/stylesheets/_index.scss */
-.slide#showcasing .info h2 {
+.slide .info h2 {
   color: #820024;
   font-size: 45px;
   font-weight: normal;
@@ -7517,7 +7517,7 @@ header {
   line-height: 57px; }
 
 /* line 100, ../../app/assets/stylesheets/_index.scss */
-.slide#showcasing .info a {
+.slide .info a {
   color: #820024;
   font-weight: bold;
   background-color: #bfe7f1;
@@ -8517,7 +8517,7 @@ header {
 /*Service Option 2*/
 /* line 71, ../../app/assets/stylesheets/_services.scss */
 #service_2 {
-  margin: 40px 0 115px; }
+  margin: 140px 0 115px; }
 
 /* line 74, ../../app/assets/stylesheets/_services.scss */
 #service_2 .perk {
@@ -8526,83 +8526,80 @@ header {
 
 /* line 78, ../../app/assets/stylesheets/_services.scss */
 #service_2 .circle {
-  background: #1189D9;
+  background: #bfe7f1;
   text-align: center;
   border-radius: 100%;
   margin: 14px 0 0 0;
   width: 136px;
   height: 136px;
-  box-shadow: 1px 1px 2px 0px #E0E0E0; }
+  box-shadow: 1px 1px 2px 0px #E0E0E0;
+  overflow: hidden; }
 
-/* line 87, ../../app/assets/stylesheets/_services.scss */
+/* line 88, ../../app/assets/stylesheets/_services.scss */
 #service_2 .circle img {
-  margin-top: 42px; }
+  max-width: 200%; }
 
-/* line 90, ../../app/assets/stylesheets/_services.scss */
-#service_2 .circle1 img {
-  margin-top: 49px; }
-
-/* line 93, ../../app/assets/stylesheets/_services.scss */
+/* line 95, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper {
   float: right; }
 
-/* line 96, ../../app/assets/stylesheets/_services.scss */
+/* line 98, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper h5 {
   font-size: 20px;
   margin: 5px 0 10px 0; }
 
-/* line 100, ../../app/assets/stylesheets/_services.scss */
+/* line 102, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper p {
   font-size: 14px;
   line-height: 24px;
   color: #3F3F3F;
   margin-bottom: 0; }
 
-/* line 106, ../../app/assets/stylesheets/_services.scss */
+/* line 108, ../../app/assets/stylesheets/_services.scss */
 #service_2 .last {
   margin-bottom: 0; }
 
 /*Service Option 3*/
-/* line 111, ../../app/assets/stylesheets/_services.scss */
+/* line 113, ../../app/assets/stylesheets/_services.scss */
 #process {
   min-height: 350px; }
 
-/* line 114, ../../app/assets/stylesheets/_services.scss */
+/* line 116, ../../app/assets/stylesheets/_services.scss */
 #process .section_header h3 {
   margin: 0; }
 
-/* line 117, ../../app/assets/stylesheets/_services.scss */
+/* line 119, ../../app/assets/stylesheets/_services.scss */
 #process .description {
   position: relative; }
 
-/* line 120, ../../app/assets/stylesheets/_services.scss */
+/* line 122, ../../app/assets/stylesheets/_services.scss */
 #process .description .text {
   position: absolute;
   display: none; }
 
-/* line 124, ../../app/assets/stylesheets/_services.scss */
+/* line 126, ../../app/assets/stylesheets/_services.scss */
 #process .description .text.active {
   display: block; }
 
-/* line 127, ../../app/assets/stylesheets/_services.scss */
+/* line 129, ../../app/assets/stylesheets/_services.scss */
 #process .description h4 {
   font-size: 32px;
   line-height: 35px;
   font-weight: normal;
   margin-bottom: 20px; }
 
-/* line 133, ../../app/assets/stylesheets/_services.scss */
+/* line 135, ../../app/assets/stylesheets/_services.scss */
 #process .description p {
   font-size: 15px;
   color: #3F3F3F;
   line-height: 26px; }
 
-/* line 138, ../../app/assets/stylesheets/_services.scss */
+/* line 140, ../../app/assets/stylesheets/_services.scss */
 #process .areas {
   margin-left: 0;
   float: right; }
 
-/* line 142, ../../app/assets/stylesheets/_services.scss */
+/* line 144, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle {
   height: 210px;
   cursor: pointer;
@@ -8617,15 +8614,15 @@ header {
   -ms-transition: all .3s;
   transition: all .3s; }
 
-/* line 156, ../../app/assets/stylesheets/_services.scss */
+/* line 158, ../../app/assets/stylesheets/_services.scss */
 #process .areas .first {
   margin-left: 0; }
 
-/* line 159, ../../app/assets/stylesheets/_services.scss */
+/* line 161, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle img {
   margin-top: 56px; }
 
-/* line 162, ../../app/assets/stylesheets/_services.scss */
+/* line 164, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle span {
   font-weight: 700;
   font-size: 22px;
@@ -8633,7 +8630,7 @@ header {
   display: block;
   margin-top: 21px; }
 
-/* line 170, ../../app/assets/stylesheets/_services.scss */
+/* line 172, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle:hover,
 #process .areas .circle.active {
   background: #1189d9; }
@@ -8643,20 +8640,20 @@ header {
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 186, ../../app/assets/stylesheets/_services.scss */
+  /* line 188, ../../app/assets/stylesheets/_services.scss */
   #service_2 .description_wrapper {
     width: 77%; }
 
-  /* line 189, ../../app/assets/stylesheets/_services.scss */
+  /* line 191, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     text-align: center; }
 
-  /* line 192, ../../app/assets/stylesheets/_services.scss */
+  /* line 194, ../../app/assets/stylesheets/_services.scss */
   #team .people .bio_box .info {
     margin: 0;
     float: none; }
 
-  /* line 196, ../../app/assets/stylesheets/_services.scss */
+  /* line 198, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     float: none;
     display: inline-block;
@@ -8664,76 +8661,76 @@ header {
     margin-top: -54px; } }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  /* line 205, ../../app/assets/stylesheets/_services.scss */
+  /* line 207, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .img_box {
     text-align: center; }
 
-  /* line 208, ../../app/assets/stylesheets/_services.scss */
+  /* line 210, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature:hover .img_box {
     box-shadow: none; }
 
-  /* line 211, ../../app/assets/stylesheets/_services.scss */
+  /* line 213, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature {
     text-align: center;
     margin-bottom: 60px; }
 
-  /* line 215, ../../app/assets/stylesheets/_services.scss */
+  /* line 217, ../../app/assets/stylesheets/_services.scss */
   #service_2 .perk {
     text-align: center;
     margin-bottom: 70px; }
 
-  /* line 219, ../../app/assets/stylesheets/_services.scss */
+  /* line 221, ../../app/assets/stylesheets/_services.scss */
   #service_2 .circle {
     float: none;
     margin-bottom: 20px;
     display: inline-block; }
 
-  /* line 224, ../../app/assets/stylesheets/_services.scss */
+  /* line 226, ../../app/assets/stylesheets/_services.scss */
   #service_2 .description_wrapper h5 {
     margin-bottom: 15px; }
 
-  /* line 227, ../../app/assets/stylesheets/_services.scss */
+  /* line 229, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     margin-top: 193px;
     margin-bottom: 0px;
     text-align: center; }
 
-  /* line 232, ../../app/assets/stylesheets/_services.scss */
+  /* line 234, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle {
     float: none;
     display: inline-block;
     margin: 0; }
 
-  /* line 237, ../../app/assets/stylesheets/_services.scss */
+  /* line 239, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     margin-top: -23px; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 243, ../../app/assets/stylesheets/_services.scss */
+  /* line 245, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .img_box {
     width: 100%; }
 
-  /* line 246, ../../app/assets/stylesheets/_services.scss */
+  /* line 248, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .text p {
     text-align: left; }
 
-  /* line 249, ../../app/assets/stylesheets/_services.scss */
+  /* line 251, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     margin-top: 250px; }
 
-  /* line 252, ../../app/assets/stylesheets/_services.scss */
+  /* line 254, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle {
     width: 100px;
     height: 100px; }
 
-  /* line 256, ../../app/assets/stylesheets/_services.scss */
+  /* line 258, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     margin-top: 0; }
 
-  /* line 259, ../../app/assets/stylesheets/_services.scss */
+  /* line 261, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle img {
     margin-top: 22px; }
 
-  /* line 262, ../../app/assets/stylesheets/_services.scss */
+  /* line 264, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle span {
     display: none; } }
