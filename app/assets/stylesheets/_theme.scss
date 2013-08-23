@@ -78,6 +78,34 @@ header {
     background-color: $themecolorBlue;
   }
 
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    color: $themecolorRed;
+    background-color: $themecolorBlue;
+}
+
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+   color: darken($themecolorRed, 20%);
+}
+
+.navbar-inverse .nav li.dropdown > a:hover .caret,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #000;
+  border-bottom-color: #000;
+}
+
+.navbar-inverse .dropdown-menu {
+  background: #252528;
+}
+
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  background: #000;
+  color: #fff;
+}
+
 .navbar-inverse .nav > li:hover,
 .navbar-inverse .nav > li.active {
     color: #fff;

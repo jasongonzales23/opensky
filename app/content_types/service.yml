@@ -1,0 +1,65 @@
+# Public name of this content type
+name: Services
+
+# TODO: explain
+slug: services
+
+# Explanation for the backoffice
+description: A description of the content type for the editors
+
+# Default field (e.g title)
+label_field_name: title
+
+# Order of entries
+order_by: manually # default: manually, also available: created_at or any field slug
+
+# Order direction
+# order_direction: asc # default: asc, also available: desc
+
+# Display entries grouped by <field> in the backoffice
+# group_by: <your field>
+
+# Activate public 'create' API (e.g for a contact form)
+# public_submission_enabled: false
+
+# Emails to be notified on new entries using the public API
+# public_submission_accounts: ['john@acme.net']
+
+fields:
+- title:
+    label: Title
+    type: string
+    required: true
+    hint: This is the title of the service type that will appear as a heading for the description and pricing
+    localized: false
+
+- description:
+    label: Description
+    type: text
+    required: false
+    hint: A description of the service
+    localized: false
+    text_formatting: html
+
+- pricing:
+    label: Pricing
+    type: text
+    required: false
+    hint: Enter pricing info here
+    localized: false
+    text_formatting: html
+
+- service_category:
+    label: Service Category
+    type: select
+    select_options: ["massage", "facials", "waxing and tinting"]
+    required: true
+    hint: Pick which service page this will appear on, this is a required field
+    localized: false
+
+- service_image:
+    label: Service Image
+    type: file
+    required: false
+    hint: An image is optional
+    localized: false

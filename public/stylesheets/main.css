@@ -6936,37 +6936,65 @@ header {
   color: #820024;
   background-color: #bfe7f1; }
 
-/* line 82, ../../app/assets/stylesheets/_theme.scss */
+/* line 83, ../../app/assets/stylesheets/_theme.scss */
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  color: #820024;
+  background-color: #bfe7f1; }
+
+/* line 88, ../../app/assets/stylesheets/_theme.scss */
+.navbar-inverse .nav > li > a:focus, .navbar-inverse .nav > li > a:hover {
+  color: #1c0008; }
+
+/* line 95, ../../app/assets/stylesheets/_theme.scss */
+.navbar-inverse .nav li.dropdown > a:hover .caret,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #000;
+  border-bottom-color: #000; }
+
+/* line 100, ../../app/assets/stylesheets/_theme.scss */
+.navbar-inverse .dropdown-menu {
+  background: #252528; }
+
+/* line 104, ../../app/assets/stylesheets/_theme.scss */
+.dropdown-menu .active > a, .dropdown-menu .active > a:hover {
+  background: #000;
+  color: #fff; }
+
+/* line 110, ../../app/assets/stylesheets/_theme.scss */
 .navbar-inverse .nav > li:hover,
 .navbar-inverse .nav > li.active {
   color: #fff;
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 87, ../../app/assets/stylesheets/_theme.scss */
+/* line 115, ../../app/assets/stylesheets/_theme.scss */
 .navbar-inverse .dropdown-menu {
   background: #252528; }
 
-/* line 90, ../../app/assets/stylesheets/_theme.scss */
+/* line 118, ../../app/assets/stylesheets/_theme.scss */
 .navbar-inverse .nav > li > .dropdown-menu::after {
   border-bottom: 6px solid #252528; }
 
-/* line 93, ../../app/assets/stylesheets/_theme.scss */
+/* line 121, ../../app/assets/stylesheets/_theme.scss */
 .navbar-inverse .dropdown-menu li > a {
   color: #fff; }
 
-/* line 98, ../../app/assets/stylesheets/_theme.scss */
+/* line 126, ../../app/assets/stylesheets/_theme.scss */
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
   text-decoration: none; }
 
-/* line 102, ../../app/assets/stylesheets/_theme.scss */
+/* line 130, ../../app/assets/stylesheets/_theme.scss */
 .section_header {
   width: 100%;
   margin-bottom: 60px; }
 
-/* line 106, ../../app/assets/stylesheets/_theme.scss */
+/* line 134, ../../app/assets/stylesheets/_theme.scss */
 .section_header h3 {
   color: #646464;
   font-weight: 300;
@@ -6979,18 +7007,18 @@ header {
 
 /* Footer
 -------------------------------------------------- */
-/* line 119, ../../app/assets/stylesheets/_theme.scss */
+/* line 147, ../../app/assets/stylesheets/_theme.scss */
 #footer {
   min-height: 260px;
   margin-top: 140px;
   background-color: #252528;
   color: #fff;
   padding-top: 35px; }
-  /* line 125, ../../app/assets/stylesheets/_theme.scss */
+  /* line 153, ../../app/assets/stylesheets/_theme.scss */
   #footer .sections {
     margin-bottom: 20px; }
 
-/* line 129, ../../app/assets/stylesheets/_theme.scss */
+/* line 157, ../../app/assets/stylesheets/_theme.scss */
 #footer .footer_header {
   color: #c4c4c4;
   font-style: italic;
@@ -6998,46 +7026,46 @@ header {
   font-size: 25px; }
 
 /* recent posts */
-/* line 139, ../../app/assets/stylesheets/_theme.scss */
+/* line 167, ../../app/assets/stylesheets/_theme.scss */
 #footer .recent_posts {
   margin-left: 0px; }
 
-/* line 142, ../../app/assets/stylesheets/_theme.scss */
+/* line 170, ../../app/assets/stylesheets/_theme.scss */
 #footer .recent_posts .post {
   margin-bottom: 70px;
   width: 93%; }
 
-/* line 146, ../../app/assets/stylesheets/_theme.scss */
+/* line 174, ../../app/assets/stylesheets/_theme.scss */
 #footer .recent_posts .post img {
   float: left;
   margin-right: 20px; }
 
-/* line 150, ../../app/assets/stylesheets/_theme.scss */
+/* line 178, ../../app/assets/stylesheets/_theme.scss */
 #footer .recent_posts .post .date {
   font-weight: bold;
   font-style: italic; }
 
-/* line 154, ../../app/assets/stylesheets/_theme.scss */
+/* line 182, ../../app/assets/stylesheets/_theme.scss */
 #footer .recent_posts .post .title {
   display: block;
   color: #b5b5b6;
   font-size: 14px; }
 
 /* testimonials */
-/* line 161, ../../app/assets/stylesheets/_theme.scss */
+/* line 189, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .wrapper {
   margin: 0 auto;
   width: 82%; }
 
-/* line 165, ../../app/assets/stylesheets/_theme.scss */
+/* line 193, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .footer_header {
   margin-left: 25px; }
 
-/* line 168, ../../app/assets/stylesheets/_theme.scss */
+/* line 196, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .quote {
   color: #bfbfc0; }
 
-/* line 171, ../../app/assets/stylesheets/_theme.scss */
+/* line 199, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .quote span {
   font-size: 32px;
   font-style: italic;
@@ -7047,39 +7075,39 @@ header {
   float: left;
   margin-right: 8px; }
 
-/* line 180, ../../app/assets/stylesheets/_theme.scss */
+/* line 208, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .author {
   margin-top: 40px; }
 
-/* line 183, ../../app/assets/stylesheets/_theme.scss */
+/* line 211, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .author img {
   float: left;
   margin-right: 15px;
   position: relative;
   top: -6px; }
 
-/* line 189, ../../app/assets/stylesheets/_theme.scss */
+/* line 217, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .name {
   font-size: 13px;
   font-weight: bold; }
 
-/* line 193, ../../app/assets/stylesheets/_theme.scss */
+/* line 221, ../../app/assets/stylesheets/_theme.scss */
 #footer .testimonials .info {
   font-style: italic;
   color: #ccc; }
 
 /* contact */
-/* line 199, ../../app/assets/stylesheets/_theme.scss */
+/* line 227, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact {
   text-align: right;
   margin-left: 35px; }
 
-/* line 203, ../../app/assets/stylesheets/_theme.scss */
+/* line 231, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact .footer_header {
   text-align: left;
   margin-left: 35px; }
 
-/* line 208, ../../app/assets/stylesheets/_theme.scss */
+/* line 236, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"],
 #footer .contact textarea {
   border: none;
@@ -7092,29 +7120,29 @@ header {
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear; }
 
-/* line 220, ../../app/assets/stylesheets/_theme.scss */
+/* line 248, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:focus,
 #footer .contact textarea:focus {
   border: none;
   box-shadow: none;
   background-color: #000; }
 
-/* line 226, ../../app/assets/stylesheets/_theme.scss */
+/* line 254, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:-moz-placeholder,
 #footer .contact textarea:-moz-placeholder {
   color: #868687; }
 
-/* line 230, ../../app/assets/stylesheets/_theme.scss */
+/* line 258, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]::-webkit-input-placeholder,
 #footer .contact textarea::-webkit-input-placeholder {
   color: #868687; }
 
-/* line 234, ../../app/assets/stylesheets/_theme.scss */
+/* line 262, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:-ms-input-placeholder,
 #footer .contact textarea:-ms-input-placeholder {
   color: #868687; }
 
-/* line 237, ../../app/assets/stylesheets/_theme.scss */
+/* line 265, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="submit"] {
   background-color: #3e3e40;
   border: none;
@@ -7126,123 +7154,123 @@ header {
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear; }
 
-/* line 248, ../../app/assets/stylesheets/_theme.scss */
+/* line 276, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="submit"]:hover {
   background-color: #2190DB; }
 
-/* line 251, ../../app/assets/stylesheets/_theme.scss */
+/* line 279, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits {
   border-top: 1px solid #343437;
   padding: 10px 0px 60px 0px; }
 
-/* line 255, ../../app/assets/stylesheets/_theme.scss */
+/* line 283, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social {
   margin-top: 30px;
   text-align: center; }
 
-/* line 259, ../../app/assets/stylesheets/_theme.scss */
+/* line 287, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a {
   margin: 10px; }
 
-/* line 262, ../../app/assets/stylesheets/_theme.scss */
+/* line 290, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .copyright {
   color: #a6a6a7;
   font-style: italic;
   text-align: center;
   margin-top: 30px; }
 
-/* line 268, ../../app/assets/stylesheets/_theme.scss */
+/* line 296, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a {
   margin: 10px; }
 
-/* line 271, ../../app/assets/stylesheets/_theme.scss */
+/* line 299, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a span {
   display: inline-block;
   width: 33px;
   height: 33px; }
 
-/* line 277, ../../app/assets/stylesheets/_theme.scss */
+/* line 305, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico1,
 #footer .credits .social span.ico1h {
   background-position: 0px 0px; }
 
-/* line 281, ../../app/assets/stylesheets/_theme.scss */
+/* line 309, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico2,
 #footer .credits .social span.ico2h {
   background-position: -37px 0px; }
 
-/* line 285, ../../app/assets/stylesheets/_theme.scss */
+/* line 313, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico3,
 #footer .credits .social span.ico3h {
   background-position: -75px 0px; }
 
-/* line 289, ../../app/assets/stylesheets/_theme.scss */
+/* line 317, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico4,
 #footer .credits .social span.ico4h {
   background-position: -112px -1px; }
 
-/* line 293, ../../app/assets/stylesheets/_theme.scss */
+/* line 321, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico5,
 #footer .credits .social span.ico5h {
   background-position: -151px 0px; }
 
-/* line 297, ../../app/assets/stylesheets/_theme.scss */
+/* line 325, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico6,
 #footer .credits .social span.ico6h {
   background-position: -188px -1px; }
 
-/* line 301, ../../app/assets/stylesheets/_theme.scss */
+/* line 329, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico7,
 #footer .credits .social span.ico7h {
   background-position: -226px 0px; }
 
-/* line 304, ../../app/assets/stylesheets/_theme.scss */
+/* line 332, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a:hover span.socialicons {
   display: none; }
 
-/* line 307, ../../app/assets/stylesheets/_theme.scss */
+/* line 335, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a:hover span.socialicons_h {
   display: inline-block !important; }
 
-/* line 310, ../../app/assets/stylesheets/_theme.scss */
+/* line 338, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.socialicons_h {
   display: none; }
 
-/* line 313, ../../app/assets/stylesheets/_theme.scss */
+/* line 341, ../../app/assets/stylesheets/_theme.scss */
 .socialicons {
   background: url("../images/socialicons.png") no-repeat;
   width: 265px;
   height: 36px; }
 
-/* line 318, ../../app/assets/stylesheets/_theme.scss */
+/* line 346, ../../app/assets/stylesheets/_theme.scss */
 .socialicons_h {
   background: url("../images/socialicons_h.png") no-repeat;
   width: 265px;
   height: 36px; }
 
 /*Inner Footer*/
-/* line 325, ../../app/assets/stylesheets/_theme.scss */
+/* line 353, ../../app/assets/stylesheets/_theme.scss */
 #footer .info {
   margin-bottom: 10px;
   margin-left: 0; }
 
-/* line 329, ../../app/assets/stylesheets/_theme.scss */
+/* line 357, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .residence {
   margin-left: 0; }
 
-/* line 332, ../../app/assets/stylesheets/_theme.scss */
+/* line 360, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul {
   margin: 0;
   padding: 0; }
 
-/* line 336, ../../app/assets/stylesheets/_theme.scss */
+/* line 364, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul li {
   list-style: none;
   font-size: 16px;
   color: #777E83;
   line-height: 23px; }
 
-/* line 342, ../../app/assets/stylesheets/_theme.scss */
+/* line 370, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul a {
   color: #777E83;
   -webkit-transition: color .2s;
@@ -7250,22 +7278,22 @@ header {
   -ms-transition: color .2s;
   transition: color .2s; }
 
-/* line 349, ../../app/assets/stylesheets/_theme.scss */
+/* line 377, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul a:hover {
   color: #A9B4BB; }
 
-/* line 352, ../../app/assets/stylesheets/_theme.scss */
+/* line 380, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .touch {
   float: right; }
 
-/* line 355, ../../app/assets/stylesheets/_theme.scss */
+/* line 383, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .touch ul li {
   display: inline-block;
   margin-left: 30px; }
 
 /* Global
 -------------------------------------------------- */
-/* line 362, ../../app/assets/stylesheets/_theme.scss */
+/* line 390, ../../app/assets/stylesheets/_theme.scss */
 .page_header {
   background-color: #000;
   color: #fff;
@@ -7273,13 +7301,13 @@ header {
   display: inline-block;
   padding: 0px 18px; }
 
-/* line 369, ../../app/assets/stylesheets/_theme.scss */
+/* line 397, ../../app/assets/stylesheets/_theme.scss */
 .social_icon {
   background: url("../images/social_icons.png") no-repeat;
   width: 110px;
   height: 18px; }
 
-/* line 374, ../../app/assets/stylesheets/_theme.scss */
+/* line 402, ../../app/assets/stylesheets/_theme.scss */
 .contact_social {
   background: url("../images/contact_social.png") no-repeat;
   width: 180px;
@@ -7289,48 +7317,48 @@ header {
 -------------------------------------------------- */
 /* Large desktop */
 @media (min-width: 1200px) {
-  /* line 385, ../../app/assets/stylesheets/_theme.scss */
+  /* line 413, ../../app/assets/stylesheets/_theme.scss */
   #footer .sections .contact > * {
     /*margin-left: 80px;*/ } }
 @media (max-width: 979px) {
-  /* line 394, ../../app/assets/stylesheets/_theme.scss */
+  /* line 422, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-fixed-top,
   .navbar.home.navbar-fixed-top {
     margin-bottom: 0px; }
 
-  /* line 397, ../../app/assets/stylesheets/_theme.scss */
+  /* line 425, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-inverse .navbar-inner {
     background: #bfe7f1; }
 
-  /* line 401, ../../app/assets/stylesheets/_theme.scss */
+  /* line 429, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
     color: #fff;
     opacity: 0.7; }
 
-  /* line 406, ../../app/assets/stylesheets/_theme.scss */
+  /* line 434, ../../app/assets/stylesheets/_theme.scss */
   .navbar .btn,
   .navbar .btn-group {
     margin-top: 0px; }
 
-  /* line 408, ../../app/assets/stylesheets/_theme.scss */
+  /* line 436, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .btn-navbar {
     background: #6bc8df; }
 
-  /* line 411, ../../app/assets/stylesheets/_theme.scss */
+  /* line 439, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav > li:first-child {
     margin-top: 20px; }
 
-  /* line 414, ../../app/assets/stylesheets/_theme.scss */
+  /* line 442, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
     background: #6bc8df; }
 
-  /* line 417, ../../app/assets/stylesheets/_theme.scss */
+  /* line 445, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
     color: #820024; } }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 424, ../../app/assets/stylesheets/_theme.scss */
+  /* line 452, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-fixed-top,
   .navbar.home.navbar-fixed-top {
     margin-bottom: 0px;
@@ -7338,71 +7366,71 @@ header {
     top: 999; } }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  /* line 432, ../../app/assets/stylesheets/_theme.scss */
+  /* line 460, ../../app/assets/stylesheets/_theme.scss */
   footer {
     margin-right: -20px;
     margin-left: -20px; }
 
-  /* line 436, ../../app/assets/stylesheets/_theme.scss */
+  /* line 464, ../../app/assets/stylesheets/_theme.scss */
   #footer {
     margin-right: -20px;
     margin-left: -20px; }
 
-  /* line 440, ../../app/assets/stylesheets/_theme.scss */
+  /* line 468, ../../app/assets/stylesheets/_theme.scss */
   #footer .container {
     padding: 0px 20px; }
 
   /*Index Footer*/
-  /* line 444, ../../app/assets/stylesheets/_theme.scss */
+  /* line 472, ../../app/assets/stylesheets/_theme.scss */
   #footer .footer_header {
     margin-left: 0; }
 
-  /* line 447, ../../app/assets/stylesheets/_theme.scss */
+  /* line 475, ../../app/assets/stylesheets/_theme.scss */
   #footer .footer_header h3 {
     margin-left: 0; }
 
-  /* line 450, ../../app/assets/stylesheets/_theme.scss */
+  /* line 478, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials {
     overflow: hidden;
     margin-bottom: 40px; }
 
-  /* line 454, ../../app/assets/stylesheets/_theme.scss */
+  /* line 482, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials .footer_header {
     margin-left: 0; }
 
-  /* line 457, ../../app/assets/stylesheets/_theme.scss */
+  /* line 485, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials .wrapper {
     float: left;
     width: 100%; }
 
-  /* line 461, ../../app/assets/stylesheets/_theme.scss */
+  /* line 489, ../../app/assets/stylesheets/_theme.scss */
   #footer .contact {
     margin: 0; }
 
-  /* line 464, ../../app/assets/stylesheets/_theme.scss */
+  /* line 492, ../../app/assets/stylesheets/_theme.scss */
   #footer .contact .footer_header {
     margin-left: 0; }
 
-  /* line 467, ../../app/assets/stylesheets/_theme.scss */
+  /* line 495, ../../app/assets/stylesheets/_theme.scss */
   #footer .contact input[type="text"], #footer .contact textarea {
     float: left;
     width: 92%; }
 
   /*Inner Footer*/
-  /* line 472, ../../app/assets/stylesheets/_theme.scss */
+  /* line 500, ../../app/assets/stylesheets/_theme.scss */
   #footer .info .touch ul li {
     margin: 0 30px 0 0; }
 
-  /* line 475, ../../app/assets/stylesheets/_theme.scss */
+  /* line 503, ../../app/assets/stylesheets/_theme.scss */
   #footer .info .touch ul {
     margin: 15px 0 15px; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 481, ../../app/assets/stylesheets/_theme.scss */
+  /* line 509, ../../app/assets/stylesheets/_theme.scss */
   .brand {
     width: 230px; }
 
-  /* line 484, ../../app/assets/stylesheets/_theme.scss */
+  /* line 512, ../../app/assets/stylesheets/_theme.scss */
   .navbar .btn, .navbar .btn-group {
     margin-top: 0px; } }
 /* Icons
@@ -8449,37 +8477,41 @@ header {
   margin-right: 0px; }
 
 /* line 14, ../../app/assets/stylesheets/_services.scss */
+#service_1 .service_wrapper .row-leader {
+  clear: both; }
+
+/* line 17, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .last {
   margin-right: 0; }
 
-/* line 17, ../../app/assets/stylesheets/_services.scss */
+/* line 20, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .text {
   margin: 23px auto 0;
   width: 92%; }
 
-/* line 21, ../../app/assets/stylesheets/_services.scss */
+/* line 24, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .text h6 {
   color: #3F3F3F;
   margin: 0 0 14px 0;
   font-size: 20px; }
 
-/* line 26, ../../app/assets/stylesheets/_services.scss */
+/* line 29, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .text p {
   margin: 0;
   font-size: 14px;
   line-height: 22px; }
 
-/* line 31, ../../app/assets/stylesheets/_services.scss */
+/* line 34, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .img_box {
   position: relative;
   border-radius: 5px; }
 
-/* line 35, ../../app/assets/stylesheets/_services.scss */
+/* line 38, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .img_box img {
   border-radius: 6px;
   position: relative; }
 
-/* line 39, ../../app/assets/stylesheets/_services.scss */
+/* line 42, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .img_box span.circle {
   background: rgba(17, 137, 217, 0.8);
   width: 48px;
@@ -8491,7 +8523,7 @@ header {
   left: 43%;
   border-radius: 100%; }
 
-/* line 50, ../../app/assets/stylesheets/_services.scss */
+/* line 53, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature .img_box span.circle span.plus {
   display: inline-block;
   margin-top: 13px;
@@ -8499,15 +8531,15 @@ header {
   color: white;
   font-size: 32px; }
 
-/* line 57, ../../app/assets/stylesheets/_services.scss */
+/* line 60, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature:hover span.circle {
   display: block; }
 
-/* line 60, ../../app/assets/stylesheets/_services.scss */
+/* line 63, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature:hover .img_box {
   box-shadow: 0px 0px 1px 100px black inset; }
 
-/* line 63, ../../app/assets/stylesheets/_services.scss */
+/* line 66, ../../app/assets/stylesheets/_services.scss */
 #service_1 .service_wrapper .feature:hover img {
   box-shadow: 1px 1px 6px 0px #888;
   border-radius: 5px;
@@ -8515,16 +8547,16 @@ header {
   filter: alpha(opacity=90); }
 
 /*Service Option 2*/
-/* line 71, ../../app/assets/stylesheets/_services.scss */
+/* line 74, ../../app/assets/stylesheets/_services.scss */
 #service_2 {
   margin: 140px 0 115px; }
 
-/* line 74, ../../app/assets/stylesheets/_services.scss */
+/* line 77, ../../app/assets/stylesheets/_services.scss */
 #service_2 .perk {
   margin-bottom: 82px;
   margin-left: 0; }
 
-/* line 78, ../../app/assets/stylesheets/_services.scss */
+/* line 81, ../../app/assets/stylesheets/_services.scss */
 #service_2 .circle {
   background: #bfe7f1;
   text-align: center;
@@ -8535,71 +8567,71 @@ header {
   box-shadow: 1px 1px 2px 0px #E0E0E0;
   overflow: hidden; }
 
-/* line 88, ../../app/assets/stylesheets/_services.scss */
+/* line 91, ../../app/assets/stylesheets/_services.scss */
 #service_2 .circle img {
   max-width: 200%; }
 
-/* line 95, ../../app/assets/stylesheets/_services.scss */
+/* line 98, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper {
   float: right; }
 
-/* line 98, ../../app/assets/stylesheets/_services.scss */
+/* line 101, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper h5 {
   font-size: 20px;
   margin: 5px 0 10px 0; }
 
-/* line 102, ../../app/assets/stylesheets/_services.scss */
+/* line 105, ../../app/assets/stylesheets/_services.scss */
 #service_2 .description_wrapper p {
   font-size: 14px;
   line-height: 24px;
   color: #3F3F3F;
   margin-bottom: 0; }
 
-/* line 108, ../../app/assets/stylesheets/_services.scss */
+/* line 111, ../../app/assets/stylesheets/_services.scss */
 #service_2 .last {
   margin-bottom: 0; }
 
 /*Service Option 3*/
-/* line 113, ../../app/assets/stylesheets/_services.scss */
+/* line 116, ../../app/assets/stylesheets/_services.scss */
 #process {
   min-height: 350px; }
 
-/* line 116, ../../app/assets/stylesheets/_services.scss */
+/* line 119, ../../app/assets/stylesheets/_services.scss */
 #process .section_header h3 {
   margin: 0; }
 
-/* line 119, ../../app/assets/stylesheets/_services.scss */
+/* line 122, ../../app/assets/stylesheets/_services.scss */
 #process .description {
   position: relative; }
 
-/* line 122, ../../app/assets/stylesheets/_services.scss */
+/* line 125, ../../app/assets/stylesheets/_services.scss */
 #process .description .text {
   position: absolute;
   display: none; }
 
-/* line 126, ../../app/assets/stylesheets/_services.scss */
+/* line 129, ../../app/assets/stylesheets/_services.scss */
 #process .description .text.active {
   display: block; }
 
-/* line 129, ../../app/assets/stylesheets/_services.scss */
+/* line 132, ../../app/assets/stylesheets/_services.scss */
 #process .description h4 {
   font-size: 32px;
   line-height: 35px;
   font-weight: normal;
   margin-bottom: 20px; }
 
-/* line 135, ../../app/assets/stylesheets/_services.scss */
+/* line 138, ../../app/assets/stylesheets/_services.scss */
 #process .description p {
   font-size: 15px;
   color: #3F3F3F;
   line-height: 26px; }
 
-/* line 140, ../../app/assets/stylesheets/_services.scss */
+/* line 143, ../../app/assets/stylesheets/_services.scss */
 #process .areas {
   margin-left: 0;
   float: right; }
 
-/* line 144, ../../app/assets/stylesheets/_services.scss */
+/* line 147, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle {
   height: 210px;
   cursor: pointer;
@@ -8614,15 +8646,15 @@ header {
   -ms-transition: all .3s;
   transition: all .3s; }
 
-/* line 158, ../../app/assets/stylesheets/_services.scss */
+/* line 161, ../../app/assets/stylesheets/_services.scss */
 #process .areas .first {
   margin-left: 0; }
 
-/* line 161, ../../app/assets/stylesheets/_services.scss */
+/* line 164, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle img {
   margin-top: 56px; }
 
-/* line 164, ../../app/assets/stylesheets/_services.scss */
+/* line 167, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle span {
   font-weight: 700;
   font-size: 22px;
@@ -8630,7 +8662,7 @@ header {
   display: block;
   margin-top: 21px; }
 
-/* line 172, ../../app/assets/stylesheets/_services.scss */
+/* line 175, ../../app/assets/stylesheets/_services.scss */
 #process .areas .circle:hover,
 #process .areas .circle.active {
   background: #1189d9; }
@@ -8640,20 +8672,20 @@ header {
 /* Large desktop */
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 188, ../../app/assets/stylesheets/_services.scss */
+  /* line 191, ../../app/assets/stylesheets/_services.scss */
   #service_2 .description_wrapper {
     width: 77%; }
 
-  /* line 191, ../../app/assets/stylesheets/_services.scss */
+  /* line 194, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     text-align: center; }
 
-  /* line 194, ../../app/assets/stylesheets/_services.scss */
+  /* line 197, ../../app/assets/stylesheets/_services.scss */
   #team .people .bio_box .info {
     margin: 0;
     float: none; }
 
-  /* line 198, ../../app/assets/stylesheets/_services.scss */
+  /* line 201, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     float: none;
     display: inline-block;
@@ -8661,76 +8693,76 @@ header {
     margin-top: -54px; } }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  /* line 207, ../../app/assets/stylesheets/_services.scss */
+  /* line 210, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .img_box {
     text-align: center; }
 
-  /* line 210, ../../app/assets/stylesheets/_services.scss */
+  /* line 213, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature:hover .img_box {
     box-shadow: none; }
 
-  /* line 213, ../../app/assets/stylesheets/_services.scss */
+  /* line 216, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature {
     text-align: center;
     margin-bottom: 60px; }
 
-  /* line 217, ../../app/assets/stylesheets/_services.scss */
+  /* line 220, ../../app/assets/stylesheets/_services.scss */
   #service_2 .perk {
     text-align: center;
     margin-bottom: 70px; }
 
-  /* line 221, ../../app/assets/stylesheets/_services.scss */
+  /* line 224, ../../app/assets/stylesheets/_services.scss */
   #service_2 .circle {
     float: none;
     margin-bottom: 20px;
     display: inline-block; }
 
-  /* line 226, ../../app/assets/stylesheets/_services.scss */
+  /* line 229, ../../app/assets/stylesheets/_services.scss */
   #service_2 .description_wrapper h5 {
     margin-bottom: 15px; }
 
-  /* line 229, ../../app/assets/stylesheets/_services.scss */
+  /* line 232, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     margin-top: 193px;
     margin-bottom: 0px;
     text-align: center; }
 
-  /* line 234, ../../app/assets/stylesheets/_services.scss */
+  /* line 237, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle {
     float: none;
     display: inline-block;
     margin: 0; }
 
-  /* line 239, ../../app/assets/stylesheets/_services.scss */
+  /* line 242, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     margin-top: -23px; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 245, ../../app/assets/stylesheets/_services.scss */
+  /* line 248, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .img_box {
     width: 100%; }
 
-  /* line 248, ../../app/assets/stylesheets/_services.scss */
+  /* line 251, ../../app/assets/stylesheets/_services.scss */
   #service_1 .service_wrapper .feature .text p {
     text-align: left; }
 
-  /* line 251, ../../app/assets/stylesheets/_services.scss */
+  /* line 254, ../../app/assets/stylesheets/_services.scss */
   #process .areas {
     margin-top: 250px; }
 
-  /* line 254, ../../app/assets/stylesheets/_services.scss */
+  /* line 257, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle {
     width: 100px;
     height: 100px; }
 
-  /* line 258, ../../app/assets/stylesheets/_services.scss */
+  /* line 261, ../../app/assets/stylesheets/_services.scss */
   #process .areas .last_circle {
     margin-top: 0; }
 
-  /* line 261, ../../app/assets/stylesheets/_services.scss */
+  /* line 264, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle img {
     margin-top: 22px; }
 
-  /* line 264, ../../app/assets/stylesheets/_services.scss */
+  /* line 267, ../../app/assets/stylesheets/_services.scss */
   #process .areas .circle span {
     display: none; } }

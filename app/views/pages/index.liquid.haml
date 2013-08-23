@@ -20,7 +20,7 @@ published: true
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   {% inline_editor %}
-  %body.pull_top
+  %body
     .navbar.transparent.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
@@ -32,7 +32,7 @@ published: true
             {{ 'logo.png' | theme_image_tag }}
           .nav-collapse.collapse
             %ul.nav.pull-right
-              {% nav site, no_wrapper: true, active_class: 'active', class: 'nav pull-right' %}
+              {% nav site, depth: 2, bootstrap: true, no_wrapper: true, active_class: 'active', class: 'nav pull-right' %}
 
     {% block 'main' %}
     {% endblock %}

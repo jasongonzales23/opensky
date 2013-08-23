@@ -1,0 +1,39 @@
+---
+title: Massage
+listed: true
+published: true
+
+# position among sibling pages
+# position: 1
+
+# sets a redirection to the given url (301)
+# redirect_url: "<url to a page or to a remote url>"
+
+# content type that this page is templatizing
+# content_type: "<slug of one of the content types>"
+
+# editable_elements:
+#   'some_block/some_slug': "<text>"
+#   'some_block/some_slug': "<relative path to the file under the public/samples folder>"
+---
+{% extends index %}
+
+{% block main %}
+#service_1
+  .container
+    .section_header
+      %h3 Massage
+    .row.service_wrapper
+      {% for service in contents.services %}
+      {% capture iter %}{{ forloop.index }}{% endcapture %}
+      {% capture mod %}{{ iter | modulo:3 }}{% endcapture %}
+      {% capture spanclasses %}feature{%if mod == '1' %} row-leader{% endif %}{%endcapture %}
+      .span4{ class: '{{spanclasses}}' }
+        .img_box
+          {{ service.service_image.url | image_tag }}
+        .text
+          %h6 {{service.title}}
+          {{ service.description }}
+          {{ service.pricing }}
+      {% endfor %}
+{% endblock %}
