@@ -52,7 +52,7 @@ fields:
 - service_category:
     label: Service Category
     type: select
-    select_options: ["massage", "facials", "waxing and tinting"]
+    select_options: ["massage", "facials", "waxing and tinting", "spa packages"]
     required: true
     hint: Pick which service page this will appear on, this is a required field
     localized: false

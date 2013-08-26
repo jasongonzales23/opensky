@@ -3,17 +3,17 @@
     .row.sections
       .span4.recent_posts
         %h3.footer_header
-          News & Events
+          {% editable_short_text "footer 1 header" %}News &amp; Events{% endeditable_short_text %}
         .post
-          .date Summer Hours
+          .date {% editable_short_text "content to go under footer left header" %}Summer Hours{% endeditable_short_text %}
           %a.title(href = "blogpost.html")
-            {% editable_short_text "News & Events in footer" %}
+            {% editable_long_text "News & Events in footer" %}
             July 3: 10am-7pm <br>
             July 4: closed<br>
-            July 5: 10am-7pm<br>
+            July 5: closed<br>
             July 6: 10am-6pm<br>
             July 7: 12pm-6pm
-            {% endeditable_short_text %}
+            {% endeditable_long_text %}
         {% comment %}
         .post
           %a(href = "#")
@@ -23,7 +23,7 @@
             Randomised words which don't look embarrasing hidden.
         {% endcomment %}
       .span4.testimonials
-        %h3.footer_header Contact Us
+        %h3.footer_header {% editable_short_text "footer 2 header" %}Contact Us{%endeditable_short_text%}
         .wrapper
           .quote
             %p
@@ -38,15 +38,21 @@
               {%endeditable_long_text %}
             %span
           .author
-            %img(src = "{{ 'sheri-circle-sm.png' | theme_image_url }}")
-            .name Sheri Gunn
-            .info Good Lady
+            {% capture owner_img %}{% editable_file "small circular image of site owner "%}{%endeditable_file%}{% endcapture %}
+            {% if owner_img != '' %}
+            {{ owner_img | image_tag }}
+            {%else%}
+            {{ 'sheri-circle-sm.png' | theme_image_tag }}
+            {% endif %}
+            .name {% editable_short_text "name of the site owner"%}Sheri Gunn{% endeditable_short_text %}
+            .info {% editable_short_text "Short epithet"%}Good Lady{% endeditable_short_text %}
       .span4.contact
-        %h3.footer_header Join Our Email List
+        %h3.footer_header {% editable_short_text "heading for right footer content" %}Join Our Email List{% endeditable_short_text %}
         %form
-          %p Link to form will be here, coming soon!
+          %p.newsletter-link {% editable_short_text "words for link to your email signup form" %}Click here to join our email list{% endeditable_short_text %}
     .row.credits
       .span12
+        {% comment %}
         .row.social
           .span12
             %a.facebook(href = "#")
@@ -58,5 +64,6 @@
             %a.gplus(href="#")
               %span.socialicons.ico3
               %span.socialicons_h.ico3h
+        {% endcomment %}
         .row.copyright
           .span12 © {{ today | date: "%Y" }} Open Sky Day Spa. All rights reserved.

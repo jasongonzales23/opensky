@@ -1,5 +1,5 @@
 ---
-title: Massage
+title: Facials
 listed: true
 published: true
 
@@ -21,10 +21,10 @@ published: true
 #service_1
   .container
     .section_header
-      %h3 Massage
+      %h3 Facials
     .row.service_wrapper
       {% for service in contents.services %}
-      {% if service.service_category == 'massage' %}
+      {% if service.service_category == 'facials' %}
       {% capture iter %}{{ forloop.index }}{% endcapture %}
       {% capture mod %}{{ iter | modulo:3 }}{% endcapture %}
       {% capture spanclasses %}feature{%if mod == '1' %} row-leader{% endif %}{%endcapture %}

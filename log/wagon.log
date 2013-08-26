@@ -7316,3 +7316,8 @@ Illegal nesting: nesting within plain text is illegal.
 [0m
 [0;31;49m      local_path => is already taken
 [0m
+[0;31;49m      local_path => is already taken
+[0m
+[0;31;49m      local_path => is already taken
+[0m
+      error => Unknown tag 'endcapture'
