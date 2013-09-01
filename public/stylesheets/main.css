@@ -7099,15 +7099,14 @@ header {
 /* contact */
 /* line 227, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact {
-  text-align: right;
   margin-left: 35px; }
 
-/* line 231, ../../app/assets/stylesheets/_theme.scss */
+/* line 230, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact .footer_header {
   text-align: left;
   margin-left: 35px; }
 
-/* line 236, ../../app/assets/stylesheets/_theme.scss */
+/* line 235, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"],
 #footer .contact textarea {
   border: none;
@@ -7120,29 +7119,29 @@ header {
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear; }
 
-/* line 248, ../../app/assets/stylesheets/_theme.scss */
+/* line 247, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:focus,
 #footer .contact textarea:focus {
   border: none;
   box-shadow: none;
   background-color: #000; }
 
-/* line 254, ../../app/assets/stylesheets/_theme.scss */
+/* line 253, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:-moz-placeholder,
 #footer .contact textarea:-moz-placeholder {
   color: #868687; }
 
-/* line 258, ../../app/assets/stylesheets/_theme.scss */
+/* line 257, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]::-webkit-input-placeholder,
 #footer .contact textarea::-webkit-input-placeholder {
   color: #868687; }
 
-/* line 262, ../../app/assets/stylesheets/_theme.scss */
+/* line 261, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="text"]:-ms-input-placeholder,
 #footer .contact textarea:-ms-input-placeholder {
   color: #868687; }
 
-/* line 265, ../../app/assets/stylesheets/_theme.scss */
+/* line 264, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="submit"] {
   background-color: #3e3e40;
   border: none;
@@ -7154,123 +7153,127 @@ header {
   -webkit-transition: background-color .2s linear;
   -moz-transition: background-color .2s linear; }
 
-/* line 276, ../../app/assets/stylesheets/_theme.scss */
+/* line 275, ../../app/assets/stylesheets/_theme.scss */
 #footer .contact input[type="submit"]:hover {
   background-color: #2190DB; }
 
-/* line 279, ../../app/assets/stylesheets/_theme.scss */
+/* line 278, ../../app/assets/stylesheets/_theme.scss */
+#footer .newsletter-link {
+  margin-left: 35px; }
+
+/* line 281, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits {
   border-top: 1px solid #343437;
   padding: 10px 0px 60px 0px; }
 
-/* line 283, ../../app/assets/stylesheets/_theme.scss */
+/* line 285, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social {
   margin-top: 30px;
   text-align: center; }
 
-/* line 287, ../../app/assets/stylesheets/_theme.scss */
+/* line 289, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a {
   margin: 10px; }
 
-/* line 290, ../../app/assets/stylesheets/_theme.scss */
+/* line 292, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .copyright {
   color: #a6a6a7;
   font-style: italic;
   text-align: center;
   margin-top: 30px; }
 
-/* line 296, ../../app/assets/stylesheets/_theme.scss */
+/* line 298, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a {
   margin: 10px; }
 
-/* line 299, ../../app/assets/stylesheets/_theme.scss */
+/* line 301, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a span {
   display: inline-block;
   width: 33px;
   height: 33px; }
 
-/* line 305, ../../app/assets/stylesheets/_theme.scss */
+/* line 307, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico1,
 #footer .credits .social span.ico1h {
   background-position: 0px 0px; }
 
-/* line 309, ../../app/assets/stylesheets/_theme.scss */
+/* line 311, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico2,
 #footer .credits .social span.ico2h {
   background-position: -37px 0px; }
 
-/* line 313, ../../app/assets/stylesheets/_theme.scss */
+/* line 315, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico3,
 #footer .credits .social span.ico3h {
   background-position: -75px 0px; }
 
-/* line 317, ../../app/assets/stylesheets/_theme.scss */
+/* line 319, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico4,
 #footer .credits .social span.ico4h {
   background-position: -112px -1px; }
 
-/* line 321, ../../app/assets/stylesheets/_theme.scss */
+/* line 323, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico5,
 #footer .credits .social span.ico5h {
   background-position: -151px 0px; }
 
-/* line 325, ../../app/assets/stylesheets/_theme.scss */
+/* line 327, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico6,
 #footer .credits .social span.ico6h {
   background-position: -188px -1px; }
 
-/* line 329, ../../app/assets/stylesheets/_theme.scss */
+/* line 331, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.ico7,
 #footer .credits .social span.ico7h {
   background-position: -226px 0px; }
 
-/* line 332, ../../app/assets/stylesheets/_theme.scss */
+/* line 334, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a:hover span.socialicons {
   display: none; }
 
-/* line 335, ../../app/assets/stylesheets/_theme.scss */
+/* line 337, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social a:hover span.socialicons_h {
   display: inline-block !important; }
 
-/* line 338, ../../app/assets/stylesheets/_theme.scss */
+/* line 340, ../../app/assets/stylesheets/_theme.scss */
 #footer .credits .social span.socialicons_h {
   display: none; }
 
-/* line 341, ../../app/assets/stylesheets/_theme.scss */
+/* line 343, ../../app/assets/stylesheets/_theme.scss */
 .socialicons {
   background: url("../images/socialicons.png") no-repeat;
   width: 265px;
   height: 36px; }
 
-/* line 346, ../../app/assets/stylesheets/_theme.scss */
+/* line 348, ../../app/assets/stylesheets/_theme.scss */
 .socialicons_h {
   background: url("../images/socialicons_h.png") no-repeat;
   width: 265px;
   height: 36px; }
 
 /*Inner Footer*/
-/* line 353, ../../app/assets/stylesheets/_theme.scss */
+/* line 355, ../../app/assets/stylesheets/_theme.scss */
 #footer .info {
   margin-bottom: 10px;
   margin-left: 0; }
 
-/* line 357, ../../app/assets/stylesheets/_theme.scss */
+/* line 359, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .residence {
   margin-left: 0; }
 
-/* line 360, ../../app/assets/stylesheets/_theme.scss */
+/* line 362, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul {
   margin: 0;
   padding: 0; }
 
-/* line 364, ../../app/assets/stylesheets/_theme.scss */
+/* line 366, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul li {
   list-style: none;
   font-size: 16px;
   color: #777E83;
   line-height: 23px; }
 
-/* line 370, ../../app/assets/stylesheets/_theme.scss */
+/* line 372, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul a {
   color: #777E83;
   -webkit-transition: color .2s;
@@ -7278,22 +7281,22 @@ header {
   -ms-transition: color .2s;
   transition: color .2s; }
 
-/* line 377, ../../app/assets/stylesheets/_theme.scss */
+/* line 379, ../../app/assets/stylesheets/_theme.scss */
 #footer .info ul a:hover {
   color: #A9B4BB; }
 
-/* line 380, ../../app/assets/stylesheets/_theme.scss */
+/* line 382, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .touch {
   float: right; }
 
-/* line 383, ../../app/assets/stylesheets/_theme.scss */
+/* line 385, ../../app/assets/stylesheets/_theme.scss */
 #footer .info .touch ul li {
   display: inline-block;
   margin-left: 30px; }
 
 /* Global
 -------------------------------------------------- */
-/* line 390, ../../app/assets/stylesheets/_theme.scss */
+/* line 392, ../../app/assets/stylesheets/_theme.scss */
 .page_header {
   background-color: #000;
   color: #fff;
@@ -7301,13 +7304,13 @@ header {
   display: inline-block;
   padding: 0px 18px; }
 
-/* line 397, ../../app/assets/stylesheets/_theme.scss */
+/* line 399, ../../app/assets/stylesheets/_theme.scss */
 .social_icon {
   background: url("../images/social_icons.png") no-repeat;
   width: 110px;
   height: 18px; }
 
-/* line 402, ../../app/assets/stylesheets/_theme.scss */
+/* line 404, ../../app/assets/stylesheets/_theme.scss */
 .contact_social {
   background: url("../images/contact_social.png") no-repeat;
   width: 180px;
@@ -7317,120 +7320,120 @@ header {
 -------------------------------------------------- */
 /* Large desktop */
 @media (min-width: 1200px) {
-  /* line 413, ../../app/assets/stylesheets/_theme.scss */
+  /* line 415, ../../app/assets/stylesheets/_theme.scss */
   #footer .sections .contact > * {
-    /*margin-left: 80px;*/ } }
+    margin-left: 80px; } }
 @media (max-width: 979px) {
-  /* line 422, ../../app/assets/stylesheets/_theme.scss */
+  /* line 424, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-fixed-top,
   .navbar.home.navbar-fixed-top {
     margin-bottom: 0px; }
 
-  /* line 425, ../../app/assets/stylesheets/_theme.scss */
+  /* line 427, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-inverse .navbar-inner {
     background: #bfe7f1; }
 
-  /* line 429, ../../app/assets/stylesheets/_theme.scss */
+  /* line 431, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav-collapse .nav > li > a,
   .navbar-inverse .nav-collapse .dropdown-menu a {
     color: #fff;
     opacity: 0.7; }
 
-  /* line 434, ../../app/assets/stylesheets/_theme.scss */
+  /* line 436, ../../app/assets/stylesheets/_theme.scss */
   .navbar .btn,
   .navbar .btn-group {
     margin-top: 0px; }
 
-  /* line 436, ../../app/assets/stylesheets/_theme.scss */
+  /* line 438, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .btn-navbar {
     background: #6bc8df; }
 
-  /* line 439, ../../app/assets/stylesheets/_theme.scss */
+  /* line 441, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav > li:first-child {
     margin-top: 20px; }
 
-  /* line 442, ../../app/assets/stylesheets/_theme.scss */
+  /* line 444, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
     background: #6bc8df; }
 
-  /* line 445, ../../app/assets/stylesheets/_theme.scss */
+  /* line 447, ../../app/assets/stylesheets/_theme.scss */
   .navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
     color: #820024; } }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 452, ../../app/assets/stylesheets/_theme.scss */
+  /* line 454, ../../app/assets/stylesheets/_theme.scss */
   .navbar.transparent.navbar-fixed-top,
   .navbar.home.navbar-fixed-top {
     margin-bottom: 0px;
     position: relative;
-    top: 999; } }
+    top: 0; } }
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  /* line 460, ../../app/assets/stylesheets/_theme.scss */
+  /* line 462, ../../app/assets/stylesheets/_theme.scss */
   footer {
     margin-right: -20px;
     margin-left: -20px; }
 
-  /* line 464, ../../app/assets/stylesheets/_theme.scss */
+  /* line 466, ../../app/assets/stylesheets/_theme.scss */
   #footer {
     margin-right: -20px;
     margin-left: -20px; }
 
-  /* line 468, ../../app/assets/stylesheets/_theme.scss */
+  /* line 470, ../../app/assets/stylesheets/_theme.scss */
   #footer .container {
     padding: 0px 20px; }
 
   /*Index Footer*/
-  /* line 472, ../../app/assets/stylesheets/_theme.scss */
+  /* line 474, ../../app/assets/stylesheets/_theme.scss */
   #footer .footer_header {
     margin-left: 0; }
 
-  /* line 475, ../../app/assets/stylesheets/_theme.scss */
+  /* line 477, ../../app/assets/stylesheets/_theme.scss */
   #footer .footer_header h3 {
     margin-left: 0; }
 
-  /* line 478, ../../app/assets/stylesheets/_theme.scss */
+  /* line 480, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials {
     overflow: hidden;
     margin-bottom: 40px; }
 
-  /* line 482, ../../app/assets/stylesheets/_theme.scss */
+  /* line 484, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials .footer_header {
     margin-left: 0; }
 
-  /* line 485, ../../app/assets/stylesheets/_theme.scss */
+  /* line 487, ../../app/assets/stylesheets/_theme.scss */
   #footer .testimonials .wrapper {
     float: left;
     width: 100%; }
 
-  /* line 489, ../../app/assets/stylesheets/_theme.scss */
+  /* line 491, ../../app/assets/stylesheets/_theme.scss */
   #footer .contact {
     margin: 0; }
 
-  /* line 492, ../../app/assets/stylesheets/_theme.scss */
-  #footer .contact .footer_header {
+  /* line 494, ../../app/assets/stylesheets/_theme.scss */
+  #footer .contact .footer_header, #footer .newsletter-link {
     margin-left: 0; }
 
-  /* line 495, ../../app/assets/stylesheets/_theme.scss */
+  /* line 497, ../../app/assets/stylesheets/_theme.scss */
   #footer .contact input[type="text"], #footer .contact textarea {
     float: left;
     width: 92%; }
 
   /*Inner Footer*/
-  /* line 500, ../../app/assets/stylesheets/_theme.scss */
+  /* line 502, ../../app/assets/stylesheets/_theme.scss */
   #footer .info .touch ul li {
     margin: 0 30px 0 0; }
 
-  /* line 503, ../../app/assets/stylesheets/_theme.scss */
+  /* line 505, ../../app/assets/stylesheets/_theme.scss */
   #footer .info .touch ul {
     margin: 15px 0 15px; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 509, ../../app/assets/stylesheets/_theme.scss */
+  /* line 511, ../../app/assets/stylesheets/_theme.scss */
   .brand {
     width: 230px; }
 
-  /* line 512, ../../app/assets/stylesheets/_theme.scss */
+  /* line 514, ../../app/assets/stylesheets/_theme.scss */
   .navbar .btn, .navbar .btn-group {
     margin-top: 0px; } }
 /* Icons
@@ -7442,6 +7445,7 @@ header {
   height: 466px;
   background: #262626;
   z-index: 1;
+  margin-top: -107px;
   margin-bottom: 40px; }
 
 /* line 10, ../../app/assets/stylesheets/_index.scss */
@@ -8198,13 +8202,13 @@ header {
     box-shadow: none; } }
 /* line 1, ../../app/assets/stylesheets/_contact.scss */
 #contact {
-  margin-top: 70px; }
+  margin-top: 0px; }
 
-/* line 4, ../../app/assets/stylesheets/_contact.scss */
+/* line 5, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact {
   margin: 40px 0 100px 0; }
 
-/* line 7, ../../app/assets/stylesheets/_contact.scss */
+/* line 8, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact p {
   color: #939394;
   font-size: 19px;
@@ -8212,19 +8216,19 @@ header {
   font-style: italic;
   line-height: 24px; }
 
-/* line 14, ../../app/assets/stylesheets/_contact.scss */
+/* line 15, ../../app/assets/stylesheets/_contact.scss */
 #contact .form {
   margin: 0; }
 
-/* line 17, ../../app/assets/stylesheets/_contact.scss */
+/* line 18, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact form {
   margin: 0; }
 
-/* line 20, ../../app/assets/stylesheets/_contact.scss */
+/* line 21, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box {
   margin: 0; }
 
-/* line 23, ../../app/assets/stylesheets/_contact.scss */
+/* line 24, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box input[type="text"] {
   padding-left: 39px;
   margin-bottom: 10px;
@@ -8233,23 +8237,23 @@ header {
   border-radius: 3px;
   width: 89%; }
 
-/* line 31, ../../app/assets/stylesheets/_contact.scss */
+/* line 32, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box input.name {
   background: url("../images/formname.png") white no-repeat 5px; }
 
-/* line 34, ../../app/assets/stylesheets/_contact.scss */
+/* line 35, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box input.mail {
   background: url("../images/formmail.png") white no-repeat 5px; }
 
-/* line 37, ../../app/assets/stylesheets/_contact.scss */
+/* line 38, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box input.phone {
   background: url("../images/formphone.png") white no-repeat 5px; }
 
-/* line 40, ../../app/assets/stylesheets/_contact.scss */
+/* line 41, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box_r {
   float: right; }
 
-/* line 43, ../../app/assets/stylesheets/_contact.scss */
+/* line 44, ../../app/assets/stylesheets/_contact.scss */
 #contact .form .box textarea {
   padding: 11px;
   width: 94%;
@@ -8257,24 +8261,24 @@ header {
   border-radius: 3px;
   height: 113px; }
 
-/* line 50, ../../app/assets/stylesheets/_contact.scss */
+/* line 51, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit {
   margin: 0; }
 
-/* line 53, ../../app/assets/stylesheets/_contact.scss */
+/* line 54, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit .box {
   margin: 0; }
 
-/* line 56, ../../app/assets/stylesheets/_contact.scss */
+/* line 57, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit label.checkbox {
   color: #394350;
-  font-style: 14px; }
+  font-size: 14px; }
 
-/* line 60, ../../app/assets/stylesheets/_contact.scss */
+/* line 61, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit .right {
   float: right; }
 
-/* line 63, ../../app/assets/stylesheets/_contact.scss */
+/* line 64, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit .right input[type="submit"] {
   float: right;
   text-transform: uppercase;
@@ -8289,40 +8293,50 @@ header {
   -o-transition: background linear .2s, box-shadow linear .2s;
   transition: background linear .2s, box-shadow linear .2s; }
 
-/* line 77, ../../app/assets/stylesheets/_contact.scss */
+/* line 78, ../../app/assets/stylesheets/_contact.scss */
 #contact .contact .submit .right input[type="submit"]:hover {
   background: #252528; }
 
-/* line 80, ../../app/assets/stylesheets/_contact.scss */
+/* line 81, ../../app/assets/stylesheets/_contact.scss */
 #contact .map {
-  margin: 0; }
+  margin: 0;
+  margin-top: 3px;
+  margin-bottom: -140px; }
 
-/* line 83, ../../app/assets/stylesheets/_contact.scss */
+/* line 87, ../../app/assets/stylesheets/_contact.scss */
 #contact .map iframe {
   display: block; }
 
-/* line 86, ../../app/assets/stylesheets/_contact.scss */
+/* line 91, ../../app/assets/stylesheets/_contact.scss */
+#contact #map-canvas {
+  height: 600px; }
+  /* line 93, ../../app/assets/stylesheets/_contact.scss */
+  #contact #map-canvas img {
+    max-width: inherit; }
+
+/* line 98, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp {
   position: absolute;
   margin: 0;
   box-shadow: 0 0 7px 0 rgba(26, 26, 26, 0.4);
   padding: 33px 0 33px;
   background: white;
-  top: 41%;
-  border-radius: 4px; }
+  top: 18%;
+  border-radius: 4px;
+  z-index: 9999; }
 
-/* line 95, ../../app/assets/stylesheets/_contact.scss */
+/* line 108, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp .box_cont {
   margin: 0 auto;
   width: 76%; }
 
-/* line 99, ../../app/assets/stylesheets/_contact.scss */
+/* line 112, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp .head {
   width: 100%;
   margin-bottom: 17px;
   overflow: hidden; }
 
-/* line 104, ../../app/assets/stylesheets/_contact.scss */
+/* line 117, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp .head h6 {
   font-size: 24px;
   margin: 0;
@@ -8332,39 +8346,39 @@ header {
   border-bottom: 1px solid;
   font-weight: normal; }
 
-/* line 113, ../../app/assets/stylesheets/_contact.scss */
+/* line 126, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-/* line 118, ../../app/assets/stylesheets/_contact.scss */
+/* line 131, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li {
   color: #777777;
   font-size: 14px; }
 
-/* line 122, ../../app/assets/stylesheets/_contact.scss */
+/* line 135, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icon {
   margin-top: 3px; }
 
-/* line 125, ../../app/assets/stylesheets/_contact.scss */
+/* line 138, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icon span.ico1 {
   float: left;
   height: 20px; }
 
-/* line 129, ../../app/assets/stylesheets/_contact.scss */
+/* line 142, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icon span.ico2 {
   float: left;
   height: 20px;
   background-position: 0px -23px; }
 
-/* line 134, ../../app/assets/stylesheets/_contact.scss */
+/* line 147, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icon .text {
   font-size: 15px;
   color: #777777;
   margin-left: 6px; }
 
-/* line 139, ../../app/assets/stylesheets/_contact.scss */
+/* line 152, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icon a:hover {
   color: #187CCC;
   -webkit-transition: all .2s;
@@ -8372,21 +8386,21 @@ header {
   -ms-transition: all .2s;
   transition: all .2s; }
 
-/* line 146, ../../app/assets/stylesheets/_contact.scss */
+/* line 159, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp ul.street li.icontop {
   margin-top: 13px; }
 
-/* line 149, ../../app/assets/stylesheets/_contact.scss */
+/* line 162, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp .headbottom {
   margin-top: 42px; }
 
-/* line 152, ../../app/assets/stylesheets/_contact.scss */
+/* line 165, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp p {
   color: #777777;
   font-size: 14px;
   margin-bottom: 32px; }
 
-/* line 157, ../../app/assets/stylesheets/_contact.scss */
+/* line 170, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp a.btn {
   text-transform: uppercase;
   color: #fff;
@@ -8406,11 +8420,11 @@ header {
   -o-transition: background linear .2s, box-shadow linear .2s;
   transition: background linear .2s, box-shadow linear .2s; }
 
-/* line 176, ../../app/assets/stylesheets/_contact.scss */
+/* line 189, ../../app/assets/stylesheets/_contact.scss */
 #contact .map .box_wrapp a.btn:hover {
   background: #252528; }
 
-/* line 179, ../../app/assets/stylesheets/_contact.scss */
+/* line 192, ../../app/assets/stylesheets/_contact.scss */
 .contacticos {
   background: url("../images/contact_icos.png") no-repeat;
   width: 24px;
@@ -8422,15 +8436,15 @@ header {
 /* Portrait tablet to landscape and desktop */
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-  /* line 204, ../../app/assets/stylesheets/_contact.scss */
+  /* line 217, ../../app/assets/stylesheets/_contact.scss */
   #contact .contact .submit .box {
     margin: 10px 0 24px; }
 
-  /* line 207, ../../app/assets/stylesheets/_contact.scss */
+  /* line 220, ../../app/assets/stylesheets/_contact.scss */
   #contact .form .box input[type="text"] {
     width: 87%; }
 
-  /* line 210, ../../app/assets/stylesheets/_contact.scss */
+  /* line 223, ../../app/assets/stylesheets/_contact.scss */
   #contact .contact .submit .right input[type="submit"] {
     margin: 0 auto;
     float: none;
@@ -8438,26 +8452,26 @@ header {
     display: block;
     padding: 7px; }
 
-  /* line 217, ../../app/assets/stylesheets/_contact.scss */
+  /* line 230, ../../app/assets/stylesheets/_contact.scss */
   #contact .map .box_wrapp {
     width: 90%;
     position: relative;
     margin: 0 auto 80px; }
 
-  /* line 224, ../../app/assets/stylesheets/_contact.scss */
+  /* line 237, ../../app/assets/stylesheets/_contact.scss */
   #contact .map iframe {
     display: none; }
 
-  /* line 227, ../../app/assets/stylesheets/_contact.scss */
+  /* line 240, ../../app/assets/stylesheets/_contact.scss */
   #contact .map .box_wrapp a.btn {
     width: 65%; } }
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  /* line 233, ../../app/assets/stylesheets/_contact.scss */
+  /* line 246, ../../app/assets/stylesheets/_contact.scss */
   #contact .contact .submit .right input[type="submit"] {
     width: 60%; }
 
-  /* line 236, ../../app/assets/stylesheets/_contact.scss */
+  /* line 249, ../../app/assets/stylesheets/_contact.scss */
   #contact .map .box_wrapp {
     width: 100%; } }
 /*Service Option 1*/

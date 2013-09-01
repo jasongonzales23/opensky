@@ -1,0 +1,69 @@
+---
+title: Contact
+published: true
+listed: true
+---
+{% extends 'index' %}
+{% block 'main' %}
+#contact
+  {% comment %}
+  .container
+    .section_header
+      %h3 Get in touch
+    .row.contact
+      %p I’d love to hear from you. Interested in working together? Fill out the form below with some info about your needs and I will get back to you as soon as I can.
+      %form{:action => "{{ contents.contact_messages.public_submission_url }}", :method => "POST"}
+        {% csrf_param %}
+        %input{:name => "success_callback", :type => "hidden", :value => "/"}
+        %input{:name => "error_callback", :type => "hidden", :value => "/contact"}
+        {% if contact_message.errors %}
+        %p The following errors occured:
+        %ul
+          {% for error in contact_message.errors %}
+          %li
+            {{error[0] | capitalize}} -  {{error[1]}}
+          {% endfor %}
+        {% endif %}
+        .row.form
+          .span6.box
+            %input.name{:name => "content[name]", :placeholder => "Name", :type => "text", :value => "{{contact_message.name}}"}
+            %input.mail{:name => "content[email]", :placeholder => "Email", :type => "text", :value => "{{contact_message.email}}"}
+            %input.phone{:name => "content[phone]", :placeholder => "Phone", :type => "text", :value => "{{contact_message.phone}}"}
+          .span6.box.box_r
+            %textarea{:name => "content[message]", :placeholder => "Type a message here..."}
+              {{ contact_message.message }}
+        .row.submit
+          .span5.box
+            %label.checkbox
+              %input{:type => "checkbox"}
+              Sign up for newsletter
+          .span3.right
+            %input{:type => "submit", :value => "Send your message"}
+  {% endcomment %}
+  .row.map
+    .container
+      .span5.box_wrapp
+        .box_cont
+          .head
+            %h6 {% editable_short_text 'contact heading' %}Contact{% endeditable_short_text %}
+          %ul.street
+            {% editable_long_text 'street address', hint: 'needs to be list items to look correct' %}
+            %li Open Sky Day Spa is located at:
+            %li 1334 West Fifth Avenue
+            %li Columbus, Ohio 43212
+            {% endeditable_long_text %}
+            %li.icon.icontop
+              %span.contacticos.ico1
+              %span.text {% editable_short_text 'phone number'%}614 486 4520{% endeditable_short_text %}
+            %li.icon
+              %span.contacticos.ico2
+              {% capture 'email'%}{% editable_short_text 'email address' %}appointments@openskydayspa.com{% endeditable_short_text %}{% endcapture %}
+              %a.text{:href => "mailto:{{email}}"} {{email}}
+          {% comment %}
+          .head.headbottom
+            %h6 Work with us
+          %p We’ve prepared a simple project planner to get to know you and your project better.
+          %a.btn{:href => "#"} Let's get started
+          {% endcomment %}
+    #map-canvas
+{% endblock %}

@@ -225,7 +225,6 @@ header {
 
 /* contact */
 #footer .contact {
-	text-align: right;
 	margin-left: 35px;
 }
 #footer .contact .footer_header {
@@ -275,6 +274,9 @@ header {
 }
 #footer .contact input[type="submit"]:hover {
 	background-color:#2190DB;
+}
+#footer .newsletter-link {
+  margin-left: 35px;
 }
 #footer .credits {
 	border-top: 1px solid #343437;
@@ -411,7 +413,7 @@ header {
 /* Large desktop */
 @media (min-width: 1200px) {
 	#footer .sections .contact > *{
-		/*margin-left: 80px;*/
+		margin-left: 80px;
 	}
 }
 @media (min-width: 980px) {
@@ -452,7 +454,7 @@ header {
 	.navbar.home.navbar-fixed-top{
 		margin-bottom: 0px;
 		position: relative;
-		top: 999;
+		top: 0;
 	}
 }
 /* Landscape phone to portrait tablet */
@@ -489,7 +491,7 @@ header {
 	#footer .contact{
 		margin: 0;
 	}
-	#footer .contact .footer_header{
+	#footer .contact .footer_header, #footer .newsletter-link{
 		margin-left: 0;
 	}
 	#footer .contact input[type="text"], #footer .contact textarea{

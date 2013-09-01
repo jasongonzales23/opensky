@@ -1,5 +1,6 @@
 #contact {
-	margin-top: 70px;
+	margin-top: 0px;
+
 }
 #contact .contact{
 	margin: 40px 0 100px 0;
@@ -55,7 +56,7 @@
 }
 #contact .contact .submit label.checkbox{
 	color: #394350;
-	font-style: 14px;
+	font-size: 14px;
 }
 #contact .contact .submit .right{
 	float: right;
@@ -79,18 +80,30 @@
 }
 #contact .map{
 	margin: 0;
+  margin-top: 3px;
+  margin-bottom: -140px;
 }
+
 #contact .map iframe{
 	display: block;
 }
+
+#contact #map-canvas {
+  height: 600px;
+  img {
+    max-width: inherit;
+  }
+}
+
 #contact .map .box_wrapp{
 	position: absolute;
 	margin: 0;
 	box-shadow: 0 0 7px 0 rgba(26, 26, 26, 0.4);
 	padding: 33px 0 33px;
 	background: white;
-	top: 41%;
+	top: 18%;
 	border-radius: 4px;
+  z-index: 9999;
 }
 #contact .map .box_wrapp .box_cont{
 	margin: 0 auto;

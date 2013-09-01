@@ -21,7 +21,11 @@ listed: true
         <!-- Showcase -->
         .span4.feature.first
           .img_box
-            {% capture feature1_link %}{% editable_short_text "feature 1 link, is optional" %}{% endeditable_short_text %}{% endcapture %}
+            
+            {% assign site_links = contents.site_links.first %}
+            {% editable_control 'pages', options: site_links %}
+            {% endeditable_control %}
+            {% capture feature1_link %}{% editable_text "feature 1 link, is optional, format: raw" %}{% endeditable_text %}{% endcapture %}
             %a(href="{{feature1_link}}")
               {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
               {% if feature_1 != '' %}{{ feature_1 | image_tag }}{% else %}{{ 'feature_1.jpg' | theme_image_tag }}{% endif %}
@@ -102,7 +106,7 @@ listed: true
     .row.feature.ss
       .span6
         {% capture service3_img %}{% editable_file "Service 3 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
-        {%if service3_img != '' %}{{ service3_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-3.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
+        {%if service3_img != '' %}{{ service3_img | image_tag: 'class}}{%else%}{{ 'service-3.jpg' | theme_image_tag}}{% endif %}
       .span6.info
         %h3
           {% capture service3_link %}{%editable_short_text "service 3 link" %}/services/waxing-and-tinting{% endeditable_short_text %}{% endcapture %}
@@ -112,6 +116,19 @@ listed: true
           {% editable_long_text "service 3 text" %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
           {% endeditable_long_text %}
+    .row.feature.ss
+      .span6.info
+        %h3
+          {% capture service4_link %}{%editable_short_text "service 4 link" %}/services/spa-packages{% endeditable_short_text %}{% endcapture %}
+          %a(href="{{service4_link}}")
+            {% editable_short_text "service 4 heading"%}Spa Packages{% endeditable_short_text %}
+        %p
+          {% editable_long_text "service 4 text" %}
+          There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+          {% endeditable_long_text %}
+      .span6
+        {% capture service4_img %}{% editable_file "Service 4 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {%if service4_img != '' %}{{ service4_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-3.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
 {% comment %}
 <!-- Pricing Option -->
 #in_pricing
