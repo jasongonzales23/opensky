@@ -21,113 +21,116 @@ listed: true
         <!-- Showcase -->
         .span4.feature.first
           .img_box
-            
-            {% assign site_links = contents.site_links.first %}
-            {% editable_control 'pages', options: site_links %}
-            {% endeditable_control %}
-            {% capture feature1_link %}{% editable_text "feature 1 link, is optional, format: raw" %}{% endeditable_text %}{% endcapture %}
-            %a(href="{{feature1_link}}")
-              {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+            {% capture feature1_link %}{% editable_text "feature 1 link, is optional", format: raw, priority: 35 %}{% endeditable_text %}{% endcapture %}
+            {% capture feature1_link_title %}{% editable_text "feature 1 link title, is optional", format: raw, priority: 34 %}{% endeditable_text %}{% endcapture %}
+            %a(href="{{feature1_link}}" title="{{feature1_link}}")
+              {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164', priority: 33 %}{% endeditable_file %}{% endcapture %}
               {% if feature_1 != '' %}{{ feature_1 | image_tag }}{% else %}{{ 'feature_1.jpg' | theme_image_tag }}{% endif %}
               %span.circle
                 %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "feature 1 heading" %}July Special{% endeditable_short_text %}
+            %h6 {% editable_text, "feature 1 heading", priority: 32, format:raw %}July Special{% endeditable_text %}
             %p
-              {% editable_long_text "feature 1 description" %}
+              {% editable_text "feature 1 description", priority: 31 %}
               Receive a 60 minute massage or a deep cleaning facial for $55. All facials include steam towel treatments, a skin care consultation, and a facial massage. Be sure to mention the special at the time you make the appointment.
-              {% endeditable_long_text %}
+              {% endeditable_text %}
         <!-- Showcase -->
         .span4.feature
           .img_box
-            {% capture feature2_link %}{% editable_short_text "feature 2 link, is optional" %}{% endeditable_short_text %}{% endcapture %}
-            %a(href="{{feature2_link}}")
-              {% capture feature_2 %}{% editable_file 'feature 2 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+            {% capture feature2_link %}{% editable_text "feature 2 link, is optional", format: raw, priority: 30 %}{% endeditable_text %}{% endcapture %}
+            {% capture feature2_link_title %}{% editable_text "feature 2 link title, is optional", priority: 29, format: raw %}{% endeditable_text %}{% endcapture %}
+            %a(href="{{feature2_link}}" title="{{feature2_link}}")
+              {% capture feature_2 %}{% editable_file 'feature 2 image, must be 285 x 164', priority: 28  %}{% endeditable_file %}{% endcapture %}
               {% if feature_2 != '' %}{{ feature_2 | image_tag }}{% else %}{{ 'feature_2.jpg' | theme_image_tag }}{% endif %}
               %span.circle
                 %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "feature 2 heading" %}Location, Hours and Contact{% endeditable_short_text %}
+            %h6 {% editable_text, "feature 2 heading",format: raw, priority: 27  %}Location, Hours and Contact{% endeditable_text %}
             %p
-              {% editable_long_text "feature 2 description" %}
+              {% editable_text "feature 2 description", priority: 26 %}
               M: 10am - 7pm<br>
               T - F: 10am - 7pm<br>
               Sat - Sun: 10am - 6pm<br>
               Other Times By Appointment Only<br>
               ph: 614-555-1212
-              {% endeditable_long_text %}
+              {% endeditable_text %}
         <!-- Showcase -->
         .span4.feature.last
           .img_box
-            {% capture feature3_link %}{% editable_short_text "feature 3 link, is optional" %}{% endeditable_short_text %}{% endcapture %}
-            %a(href="{{feature3_link}}")
-              {% capture feature_3 %}{% editable_file 'feature 3 image, must be 285 x 164' %}{% endeditable_file %}{% endcapture %}
+            {% capture feature3_link %}{% editable_text "feature 3 link, is optional", priority: 25  %}{% endeditable_text %}{% endcapture %}
+            {% capture feature3_link_title %}{% editable_text "feature 3 link title, is optional", priority: 24 , format: raw %}{% endeditable_text %}{% endcapture %}
+            %a(href="{{feature3_link}}" title="{{feature3_link}}")
+              {% capture feature_3 %}{% editable_file 'feature 3 image, must be 285 x 164', priority: 23  %}{% endeditable_file %}{% endcapture %}
               {% if feature_3 != '' %}{{ feature_3 | image_tag }}{% else %}{{ 'feature_3.jpg' | theme_image_tag }}{% endif %}
               %span.circle
                 %span.plus &#43;
           .text
-            %h6 {% editable_short_text, "feature 3 heading" %}Gift Certificates{% endeditable_short_text %}
+            %h6 {% editable_text, "feature 3 heading",format: raw, priority: 22  %}Gift Certificates{% endeditable_text %}
             %p
-              {% editable_long_text "feature 3 description" %}
+              {% editable_text "feature 3 description", priority: 21  %}
               A gift certificate is a great gift and a great way to show someone how much you care about them!
-              {% endeditable_long_text %}
+              {% endeditable_text %}
 #features
   <!-- SERVICES -->
   .container
     .section_header
-      %h3 
-        {% editable_short_text 'Service Heading' %}Our Services{% endeditable_short_text %}
+      %h3
+        {% editable_text 'Services Section Heading',format: raw, priority: 20, format: raw  %}Our Services{% endeditable_text %}
     .row.feature
       .span6
-        {% capture service1_img %}{% editable_file "Service 1 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {% capture service1_img %}{% editable_file "Service 1 image", hint: "must measure 425 x 225 px", priority: 18 %}{%endeditable_file%}{%endcapture%}
         {%if service1_img != '' %}{{ service1_img | image_tag }}{%else%}{{ 'service1.jpg' | theme_image_tag }}{% endif %}
       .span6.info
         %h3
-          {% capture service1_link %}{%editable_short_text "service 1 link" %}/services/massage{% endeditable_short_text %}{% endcapture %}
-          %a(href="{{service1_link}}")
-            {% editable_short_text "service 1 heading"%}Massage{% endeditable_short_text %}
+          {% capture service1_link %}{%editable_text "service 1 link", format: raw, priority: 17  %}/services/massage{% endeditable_text %}{% endcapture %}
+          {% capture service1_link_title %}{% editable_text "service 1 link title, is optional", format: raw, priority: 16  %}{% endeditable_text %}{% endcapture %}
+          %a(href="{{service1_link}}" title="{{service1_link_title}}")
+            {% editable_text "service 1 heading",format: raw, priority: 19 %}Massage{% endeditable_text %}
         %p
-          {% editable_long_text "service 1 text" %}
+          {% editable_text "service 1 text", priority: 15  %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-          {% endeditable_long_text %}
+          {% endeditable_text %}
     .row.feature.ss
       .span6.info
         %h3
-          {% capture service2_link %}{%editable_short_text "service 2 link" %}/services/facials{% endeditable_short_text %}{% endcapture %}
-          %a(href="{{service2_link}}")
-            {% editable_short_text "service 2 heading"%}Facials{% endeditable_short_text %}
+          {% capture service2_link %}{%editable_text "service 2 link", format:raw, priority: 13  %}/services/facials{% endeditable_text %}{% endcapture %}
+          {% capture service2_link_title %}{% editable_text "service 2 link title, is optional", format: raw , priority: 12 %}{% endeditable_text %}{% endcapture %}
+          %a(href="{{service2_link}}" title="{{service2_link_title}}")
+            {% editable_text "service 2 heading",format: raw, priority: 14 %}Facials{% endeditable_text %}
         %p
-          {% editable_long_text "service 2 text" %}
+          {% editable_text "service 2 text", priority: 11 %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-          {% endeditable_long_text %}
+          {% endeditable_text %}
       .span6
-        {% capture service2_img %}{% editable_file "Service 2 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {% capture service2_img %}{% editable_file "Service 2 image", hint: "must measure 425 x 225 px", priority: 10 %}{%endeditable_file%}{%endcapture%}
         {%if service2_img != '' %}{{ service2_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-2.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
     .row.feature.ss
       .span6
-        {% capture service3_img %}{% editable_file "Service 3 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {% capture service3_img %}{% editable_file "Service 3 image", hint: "must measure 425 x 225 px", priority: 8 %}{%endeditable_file%}{%endcapture%}
         {%if service3_img != '' %}{{ service3_img | image_tag: 'class}}{%else%}{{ 'service-3.jpg' | theme_image_tag}}{% endif %}
       .span6.info
         %h3
-          {% capture service3_link %}{%editable_short_text "service 3 link" %}/services/waxing-and-tinting{% endeditable_short_text %}{% endcapture %}
-          %a(href="{{service3_link}}")
-            {% editable_short_text "service 3 heading"%}Waxing &amp; Tinting{% endeditable_short_text %}
+          {% capture service3_link %}{%editable_text "service 3 link", format:raw, priority: 7  %}/services/waxing-and-tinting{% endeditable_text %}{% endcapture %}
+          {% capture service3_link_title %}{% editable_text "service 3 link title, is optional", priority: 6 , format: raw %}{% endeditable_text %}{% endcapture %}
+          %a(href="{{service3_link}}" title="{{service3_link_title}}")
+            {% editable_text "service 3 heading",format: raw, priority: 9 %}Waxing &amp; Tinting{% endeditable_text %}
         %p
-          {% editable_long_text "service 3 text" %}
+          {% editable_text "service 3 text", priority: 5 %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-          {% endeditable_long_text %}
+          {% endeditable_text %}
     .row.feature.ss
       .span6.info
         %h3
-          {% capture service4_link %}{%editable_short_text "service 4 link" %}/services/spa-packages{% endeditable_short_text %}{% endcapture %}
-          %a(href="{{service4_link}}")
-            {% editable_short_text "service 4 heading"%}Spa Packages{% endeditable_short_text %}
+          {% capture service4_link %}{%editable_text "service 4 link", format:raw , priority: 3 %}/services/spa-packages{% endeditable_text %}{% endcapture %}
+          {% capture service4_link_title %}{% editable_text "service 4 link title, is optional", priority: 2, format: raw %}{% endeditable_text %}{% endcapture %}
+          %a(href="{{service4_link}}" title="{{service4_link_title}}")
+            {% editable_text "service 4 heading",format: raw, priority: 4 %}Spa Packages{% endeditable_text %}
         %p
-          {% editable_long_text "service 4 text" %}
+          {% editable_text "service 4 text" , priority: 1 %}
           There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
-          {% endeditable_long_text %}
+          {% endeditable_text %}
       .span6
-        {% capture service4_img %}{% editable_file "Service 4 image", hint: "must measure 425 x 225 px"%}{%endeditable_file%}{%endcapture%}
+        {% capture service4_img %}{% editable_file "Service 4 image", hint: "must measure 425 x 225 px", priority: 0%}{%endeditable_file%}{%endcapture%}
         {%if service4_img != '' %}{{ service4_img | image_tag: 'class:pull-right'  }}{%else%}{{ 'service-3.jpg' | theme_image_tag: 'class:pull-right' }}{% endif %}
 {% comment %}
 <!-- Pricing Option -->

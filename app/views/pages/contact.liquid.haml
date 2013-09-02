@@ -45,19 +45,19 @@ listed: true
       .span5.box_wrapp
         .box_cont
           .head
-            %h6 {% editable_short_text 'contact heading' %}Contact{% endeditable_short_text %}
+            %h6 {% editable_text 'contact heading', format: raw %}Contact{% endeditable_text %}
           %ul.street
-            {% editable_long_text 'street address', hint: 'needs to be list items to look correct' %}
+            {% editable_text 'street address', hint: 'needs to be list items to look correct' %}
             %li Open Sky Day Spa is located at:
             %li 1334 West Fifth Avenue
             %li Columbus, Ohio 43212
-            {% endeditable_long_text %}
+            {% endeditable_text %}
             %li.icon.icontop
               %span.contacticos.ico1
-              %span.text {% editable_short_text 'phone number'%}614 486 4520{% endeditable_short_text %}
+              %span.text {% editable_text 'phone number', format: raw%}614 486 4520{% endeditable_text %}
             %li.icon
               %span.contacticos.ico2
-              {% capture 'email'%}{% editable_short_text 'email address' %}appointments@openskydayspa.com{% endeditable_short_text %}{% endcapture %}
+              {% capture 'email'%}{% editable_text 'email address', format: raw %}appointments@openskydayspa.com{% endeditable_text %}{% endcapture %}
               %a.text{:href => "mailto:{{email}}"} {{email}}
           {% comment %}
           .head.headbottom

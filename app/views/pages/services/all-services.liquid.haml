@@ -8,41 +8,41 @@ listed: true
 #service_2
   .container
     .section_header
-      %h3 {% editable_short_text 'Services page heading' %}Our Services{% endeditable_short_text %}
+      %h3 {% editable_text 'Services page heading' , format: raw%}Our Services{% endeditable_text %}
     .row.perk
       .span2.circle.circle1
         %img{:alt => "", :src => "{% editable_file 'service 1 image', hint:'image needs to be at least 172 x 172 px, it will be resized and given a circular frame' %}{% endeditable_file %}"}
       .span10.description_wrapper
-        %h5 {% editable_short_text "service 1 heading" %}Massage{% endeditable_short_text %}
-        {% editable_long_text "service 1 long description" %}
+        %h5 {% editable_text "service 1 heading" , format: raw%}Massage{% endeditable_text %}
+        {% editable_text "service 1 long description" %}
         %p
           There are many variations of passages of Lorem Ipsum available, injected generators on the embarrassing hidden in the middle all the dictionary of randomised words which don't look even slightly distracted by these distribution of letters, as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors there many variation of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are anything embarrassing hidden in the middle of text.
-        {% endeditable_long_text %}
+        {% endeditable_text %}
     .row.perk
       .span2.circle
         %img{:alt => "", :src => "{% editable_file 'service 2 image' , hint:'image needs to be at least 172 x 172 px, it will be resized and given a circular frame'%}{% endeditable_file %}"}
       .span10.description_wrapper
-        %h5 {% editable_short_text "service 2 heading" %}Facials{% endeditable_short_text %}
-        {% editable_long_text "service 2 long description" %}
+        %h5 {% editable_text "service 2 heading" , format: raw%}Facials{% endeditable_text %}
+        {% editable_text "service 2 long description" %}
         %p
           There are many variations of passages of Lorem Ipsum available, injected generators on the embarrassing hidden in the middle all the dictionary of randomised words which don't look even slightly distracted by these distribution of letters, as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors there many variation of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are anything embarrassing hidden in the middle of text.
-        {% endeditable_long_text %}
+        {% endeditable_text %}
     .row.perk
       .span2.circle
         %img{:alt => "", :src => "{% editable_file 'service 3 image' , hint:'image needs to be at least 172 x 172 px, it will be resized and given a circular frame'%}{% endeditable_file %}"}
       .span10.description_wrapper
-        %h5 {% editable_short_text "service 3 heading" %}Facials{% endeditable_short_text %}
-        {% editable_long_text "service 3 long description" %}
+        %h5 {% editable_text "service 3 heading" , format: raw%}Facials{% endeditable_text %}
+        {% editable_text "service 3 long description" %}
         %p
           There are many variations of passages of Lorem Ipsum available, injected generators on the embarrassing hidden in the middle all the dictionary of randomised words which don't look even slightly distracted by these distribution of letters, as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors there many variation of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are anything embarrassing hidden in the middle of text.
-        {% endeditable_long_text %}
+        {% endeditable_text %}
     .row.perk.last
       .span2.circle
         %img{:alt => "", :src => "{% editable_file 'service 4 image', hint:'image needs to be at least 172 x 172 px, it will be resized and given a circular frame' %}{% endeditable_file %}"}
       .span10.description_wrapper
-        %h5 {% editable_short_text "service 4 heading" %}Tinting & Waxing{% endeditable_short_text %}
-        {% editable_long_text "service 4 long description" %}
+        %h5 {% editable_text "service 4 heading" , format: raw%}Tinting & Waxing{% endeditable_text %}
+        {% editable_text "service 4 long description" %}
         %p
           There are many variations of passages of Lorem Ipsum available, injected generators on the embarrassing hidden in the middle all the dictionary of randomised words which don't look even slightly distracted by these distribution of letters, as opposed to using Content here, content here making it look like readable English. Many desktop publishing packages and web page editors there many variation of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour or randomised words which don't look even slightly believable. If you are anything embarrassing hidden in the middle of text.
-        {% endeditable_long_text %}
+        {% endeditable_text %}
 {% endblock %}
