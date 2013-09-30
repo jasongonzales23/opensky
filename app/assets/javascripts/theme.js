@@ -18,6 +18,21 @@ $(function () {
     staticHeader.initialize();
 
     portfolioItem.initialize();
+
+  $('.newsletter-link').on('click', function() {
+    newWindow = window.open('http://visitor.constantcontact.com/d.jsp?m=1101135603319&p=oi',
+			    'mailWindow', 'toolbar,location,menubar,scrollbars,resizable,width=628,height=333');
+  });
+
+  $('a[title="gcWindow"]').on('click', function(evt) {
+    options= 'toolbar,location,menubar,scrollbars,resizable,width=800,height=600';
+    evt.preventDefault();
+    open_stuff(this, options)
+  });
+
+  if ( $('#map-canvas').length > 0 ) {
+    google.maps.event.addDomListener(window, 'load', initialize);
+  }
 });
 
 var portfolioItem = {
@@ -61,10 +76,6 @@ var servicesCircle = {
     }
 }
 
-$('.newsletter-link').on('click', function() {
-  newWindow = window.open('http://visitor.constantcontact.com/d.jsp?m=1101135603319&p=oi',
-                          'mailWindow', 'toolbar,location,menubar,scrollbars,resizable,width=628,height=333');
-});
 
 function openit_gc() {
   newWindow = window.open('https://www.securedata-trans8.com/ap/ap_ui_v2/includes/gift_certificates_v2.php?name_link=openskybodyworksltd',
@@ -75,17 +86,9 @@ var defaultOptions = 'toolbar,location,menubar,scrollbars,resizable,width=800,he
 
 function open_stuff(e, options){
   options = options || defaultOptions;
-  var target = e.target;
-  newWindow = window.open(target.href, target.title, options);
+  newWindow = window.open(e.href, e.title, options);
   return false;
 }
-
-$('a[title="gcWindow"]').on('click', function(evt) {
-  options= 'toolbar,location,menubar,scrollbars,resizable,width=800,height=600';
-
-  evt.preventDefault();
-  open_stuff(evt, options)
-});
 
 
 function initialize() {
@@ -119,5 +122,4 @@ function initialize() {
         });
 
       }
-google.maps.event.addDomListener(window, 'load', initialize);
 

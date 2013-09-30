@@ -27,30 +27,33 @@ order_by: manually # default: manually, also available: created_at or any field 
 
 # Describe each field. The name shoud always be an underscored string
 fields: 
+- heading: # Name of the field
+    label: Heading
+    type: string
+    required: true
+    hint: Make a short, snappy heading for the slide
+    localized: false
 - image: # Name of the field
     label: Image
     type: file
     required: true
     hint: The image needs to measure 1500 x 465 pixels, try to keep the filesize small!
     localized: false
-
-- heading: # Name of the field
-    label: Heading
-    type: string
-    required: false
-    hint: Make a short, snappy heading for the slide
-    localized: false
-
 - call_to_action: # Name of the field
     label: Call to action
     type: string
-    required: false
+    required: true
     hint: Make a really short, snappy call to action for a button, something like "See our services"
     localized: false
-
 - call_to_action_link: # Name of the field
     label: Call to action link
     type: string
-    required: false
+    required: true
     hint: type the url of the page you want to link to
+    localized: false
+- call_to_action_link_title: # Name of the field
+    label: Call to action link title
+    type: string
+    required: false
+    hint: type the title of the link, optional, used mainly to target for cool javascript tricks like opening in a new window
     localized: false

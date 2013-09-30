@@ -24,15 +24,21 @@ textarea {
 /* Navbar
 -------------------------------------------------- */
 body.pull_top {
-    padding-top: 0px !important;
+  padding-top: 0px !important;
 }
 header {
-    background: rgba(0,0,0,.6) !important;
+  background: rgba(0,0,0,.6) !important;
 }
 .navbar.navbar-static-top {
     margin-bottom: 35px;
 }
+
+.navbar-inner {
+  background: $themecolorBlue;
+}
+
 .navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgb(191, 231, 241);
     background: rgba(191, 231, 241, 0.5);
     border-bottom: 1px solid #585858;
     border-bottom: 1px solid rgb(88, 88, 88);
@@ -46,7 +52,8 @@ header {
 }
 .navbar.navbar-inverse .navbar-inner {
     padding: 10px 0px 10px 0px;
-    background: #252528;
+    background: rgb(191, 231, 241);
+    background: rgba(191, 231, 241, 0.5);
 }
 .navbar.navbar-inverse .navbar-inner.sticky {
     background: rgba(191, 231, 241, 0.8);
@@ -427,6 +434,10 @@ header {
 	.navbar.transparent.navbar-inverse .navbar-inner {
 		background: $themecolorBlue;
 	}
+  .navbar-inner {
+    background: $themecolorBlue;
+  }
+
 	.navbar-inverse .nav-collapse .nav > li > a,
 	.navbar-inverse .nav-collapse .dropdown-menu a {
 		color: #fff;
