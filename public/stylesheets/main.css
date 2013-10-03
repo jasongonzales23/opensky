@@ -8950,7 +8950,7 @@ header {
 	-moz-transition: all .1s linear;
 	-ms-transition: all .1s linear;
 	-o-transition: all .1s linear;
-	transition: all .1s linear;
+	transition: all .1s linear;	
 }*/
 /* line 139, ../../app/assets/stylesheets/_blog.scss */
 #blog .post_row .post:hover a.plus_wrapper {
@@ -9024,11 +9024,11 @@ header {
     width: 100%; }
 
   /*#blog .post_row .post:hover a.plus_wrapper{
-	display: inline-block;
-	background: #1189D9;
+  	display: inline-block;
+  	background: #1189D9;
   }
   #blog .post_row .post:hover a.plus_wrapper span{
-	color: #fff;
+  	color: #fff;
   }*/
   /* line 219, ../../app/assets/stylesheets/_blog.scss */
   #blog .pagination {

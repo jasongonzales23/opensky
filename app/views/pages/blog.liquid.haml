@@ -1,0 +1,47 @@
+---
+title: Blog
+published: true
+listed: true
+---
+{% extends 'index' %}
+{% block 'main' %}
+#blog
+  .container
+    .section_header
+      %h3 Blog
+    .row.post_row
+      {% for post in contents.posts %}
+      {% capture iter %}{{ forloop.index }}{% endcapture %}
+      {% capture mod %}{{ iter | modulo:3 }}{% endcapture %}
+      {% capture spanclasses %}{%if mod == '0' %} last{% elsif mod == '1' %} row-leader{% endif %}{%endcapture %}
+      .span4.post-container{ class: '{{spanclasses}}' }
+        .post
+          .img
+            %a{:href => "/posts/{{post._slug}}"}
+              {{ post.image.url | image_tag }}
+          .text
+            %h5
+              %a{:href => "/posts/{{post._slug}}"} {{ post.title }}
+            %span.date {{ post.publish_date }}
+            %p {{ post.post_short_description }}
+            %p
+          %a.plus_wrapper{:href => "/posts/{{post._slug}}"}
+            %span +
+      {% endfor %}
+  {% comment %}
+  .pagination
+    %ul
+      %li
+        %a{:href => "#"} Prev
+      %li
+        %a{:href => "#"} 1
+      %li
+        %a{:href => "#"} 2
+      %li
+        %a{:href => "#"} 3
+      %li
+        %a{:href => "#"} 4
+      %li
+        %a{:href => "#"} Next
+  {% endcomment %}
+{% endblock %}

@@ -23,7 +23,7 @@ listed: true
           .img_box
             {% capture feature1_link %}{% editable_text "feature 1 link, is optional", format: raw, priority: 35 %}{% endeditable_text %}{% endcapture %}
             {% capture feature1_link_title %}{% editable_text "feature 1 link title, is optional", format: raw, priority: 34 %}{% endeditable_text %}{% endcapture %}
-	    %a(href="{{feature1_link}}" title="{{feature1_link_title}}")
+            %a(href="{{feature1_link}}" title="{{feature1_link_title}}")
               {% capture feature_1 %}{% editable_file 'feature 1 image, must be 285 x 164', priority: 33 %}{% endeditable_file %}{% endcapture %}
               {% if feature_1 != '' %}{{ feature_1 | image_tag }}{% else %}{{ 'feature_1.jpg' | theme_image_tag }}{% endif %}
               %span.circle
@@ -39,7 +39,7 @@ listed: true
           .img_box
             {% capture feature2_link %}{% editable_text "feature 2 link, is optional", format: raw, priority: 30 %}{% endeditable_text %}{% endcapture %}
             {% capture feature2_link_title %}{% editable_text "feature 2 link title, is optional", priority: 29, format: raw %}{% endeditable_text %}{% endcapture %}
-	    %a(href="{{feature2_link}}" title="{{feature2_link_title}}")
+            %a(href="{{feature2_link}}" title="{{feature2_link_title}}")
               {% capture feature_2 %}{% editable_file 'feature 2 image, must be 285 x 164', priority: 28  %}{% endeditable_file %}{% endcapture %}
               {% if feature_2 != '' %}{{ feature_2 | image_tag }}{% else %}{{ 'feature_2.jpg' | theme_image_tag }}{% endif %}
               %span.circle
@@ -57,9 +57,9 @@ listed: true
         <!-- Showcase -->
         .span4.feature.last
           .img_box
-	    {% capture feature3_link %}{% editable_text "feature 3 link, is optional", priority: 25, format: raw  %}{% endeditable_text %}{% endcapture %}
+            {% capture feature3_link %}{% editable_text "feature 3 link, is optional", priority: 25, format: raw  %}{% endeditable_text %}{% endcapture %}
             {% capture feature3_link_title %}{% editable_text "feature 3 link title, is optional", priority: 24 , format: raw %}{% endeditable_text %}{% endcapture %}
-	    %a(href="{{feature3_link}}" title="{{feature3_link_title}}")
+            %a(href="{{feature3_link}}" title="{{feature3_link_title}}")
               {% capture feature_3 %}{% editable_file 'feature 3 image, must be 285 x 164', priority: 23  %}{% endeditable_file %}{% endcapture %}
               {% if feature_3 != '' %}{{ feature_3 | image_tag }}{% else %}{{ 'feature_3.jpg' | theme_image_tag }}{% endif %}
               %span.circle

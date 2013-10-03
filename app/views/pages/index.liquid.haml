@@ -42,16 +42,16 @@ published: true
         .row.sections
           .span4.recent_posts
             %h3.footer_header
-	      {% editable_text "footer left heading", fixed:true, format: raw, priority: 8  %}News &amp; Events{% endeditable_text %}
+              {% editable_text "footer left heading", fixed:true, format: raw, priority: 8  %}News &amp; Events{% endeditable_text %}
             .post
-	      {% editable_text "footer left content", fixed:true, priority: 7 %}
-	      Summer Hours
-	      July 3: 10am-7pm <br>
-	      July 4: closed<br>
-	      July 5: closed<br>
-	      July 6: 10am-6pm<br>
-	      July 7: 12pm-6pm
-	      {% endeditable_text %}
+              {% editable_text "footer left content", fixed:true, priority: 7 %}
+              Summer Hours
+              July 3: 10am-7pm <br>
+              July 4: closed<br>
+              July 5: closed<br>
+              July 6: 10am-6pm<br>
+              July 7: 12pm-6pm
+              {% endeditable_text %}
             {% comment %}
             .post
               %a(href = "#")
@@ -61,33 +61,33 @@ published: true
                 Randomised words which don't look embarrasing hidden.
             {% endcomment %}
           .span4.testimonials
-	    %h3.footer_header {% editable_text "footer center heading", fixed:true, format: raw, priority: 6  %}Contact Us{%endeditable_text%}
+            %h3.footer_header {% editable_text "footer center heading", fixed:true, format: raw, priority: 6  %}Contact Us{%endeditable_text%}
             .wrapper
               .quote
-		{% editable_text "footer center content", fixed: true, priority: 5  %}
-		<p>
-		Open Sky Day Spa<br>
-		1334 West Fifth Avenue<br>
-		Columbus, Ohio 43212<br>
-		614.486.4520<br>
-		</p>
-		<p>
-		appointments@openskydayspa.com
-		</p>
-		{% endeditable_text %}
+                {% editable_text "footer center content", fixed: true, priority: 5  %}
+                <p>
+                Open Sky Day Spa<br>
+                1334 West Fifth Avenue<br>
+                Columbus, Ohio 43212<br>
+                614.486.4520<br>
+                </p>
+                <p>
+                appointments@openskydayspa.com
+                </p>
+                {% endeditable_text %}
                 %span
               .author
-		{% capture owner_img %}{% editable_file "small circular image of site owner ", fixed:true , priority: 4 %}{%endeditable_file%}{% endcapture %}
+                {% capture owner_img %}{% editable_file "small circular image of site owner ", fixed:true , priority: 4 %}{%endeditable_file%}{% endcapture %}
                 {% if owner_img != '' %}
                 {{ owner_img | image_tag }}
                 {%else%}
                 {{ 'sheri-circle-sm.png' | theme_image_tag }}
                 {% endif %}
-		.name {% editable_text "name of the site owner", fixed:true, format: raw, priority: 3 %}Sheri Gunn{% endeditable_text %}
-		.info {% editable_text "Short epithet", fixed:true, format:raw, priority: 2  %}Good Lady{% endeditable_text %}
+                .name {% editable_text "name of the site owner", fixed:true, format: raw, priority: 3 %}Sheri Gunn{% endeditable_text %}
+                .info {% editable_text "Short epithet", fixed:true, format:raw, priority: 2  %}Good Lady{% endeditable_text %}
           .span4.contact
-	    %h3.footer_header {% editable_text "footer right heading", fixed:true, format: raw , priority: 1 %}Join Our Email List{% endeditable_text %}
-	    %p.newsletter-link {% editable_text "text for link to your email signup form", fixed:true, format: raw, priority: 0 %}Click here to join our email list{% endeditable_text %}
+            %h3.footer_header {% editable_text "footer right heading", fixed:true, format: raw , priority: 1 %}Join Our Email List{% endeditable_text %}
+            %p.newsletter-link {% editable_text "text for link to your email signup form", fixed:true, format: raw, priority: 0 %}Click here to join our email list{% endeditable_text %}
         .row.credits
           .span12
             {% comment %}

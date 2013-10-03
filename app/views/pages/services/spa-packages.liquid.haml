@@ -27,7 +27,7 @@ published: true
       {% if service.service_category == 'spa packages' %}
       {% capture iter %}{{ forloop.index }}{% endcapture %}
       {% capture mod %}{{ iter | modulo:3 }}{% endcapture %}
-      {% capture spanclasses %}feature{%if mod == '0' %} row-leader{% endif %}{%endcapture %}
+      {% capture spanclasses %}feature{%if mod == '1' %} row-leader{% endif %}{%endcapture %}
       .span4{ class: '{{spanclasses}}' }
         .img_box
           {{ service.service_image.url | image_tag }}

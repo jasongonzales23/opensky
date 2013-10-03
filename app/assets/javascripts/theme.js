@@ -21,7 +21,7 @@ $(function () {
 
   $('.newsletter-link').on('click', function() {
     newWindow = window.open('http://visitor.constantcontact.com/d.jsp?m=1101135603319&p=oi',
-			    'mailWindow', 'toolbar,location,menubar,scrollbars,resizable,width=628,height=333');
+                            'mailWindow', 'toolbar,location,menubar,scrollbars,resizable,width=628,height=333');
   });
 
   $('a[title="gcWindow"]').on('click', function(evt) {
