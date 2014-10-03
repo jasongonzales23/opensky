@@ -93,8 +93,8 @@ function open_stuff(e, options){
 
 function initialize() {
         var geocoder = new google.maps.Geocoder();
-        var myLatlng = new google.maps.LatLng(39.9886, -83.04216);
-        var address = '1334 W 5th Ave, Columbus, OH 43212';
+        var myLatlng = new google.maps.LatLng(39.974865, -83.033604);
+        var address = '1124 Goodale Blvd, Columbus, OH 43212';
         var mapOptions = {
           center: myLatlng,
           zoom: 15,
