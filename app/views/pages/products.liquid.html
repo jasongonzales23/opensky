@@ -1,0 +1,25 @@
+{% extends index %}
+{% block main %}
+<div id='service_1'>
+  <div class='container'>
+    <div class='section_header'>
+      <h3>SkyLab Products</h3>
+    </div>
+    <div class='row service_wrapper'>
+      {% for product in contents.products %}
+      {% capture row_classes %}{% cycle 'row-leader', 'middle', 'row-end' %}{% endcapture %}
+      <div class='feature span4 {{row_classes}}'>
+        <div class='img_box'>
+          {{ product.product_image.url | image_tag }}
+        </div>
+        <div class='text'>
+          <h6>{{product.title}}</h6>
+          {{ product.description }}
+          {{ product.pricing }}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
